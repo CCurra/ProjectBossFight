@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\BossFight.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{83FA082B-6280-463F-A0D2-E285D32955C9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BossFight.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\BossFightEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{9B6F77DD-46D1-4209-9758-808922D3A63B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\BossFight">
+			<UniqueIdentifier>{38E055D0-82E5-4AD8-BD8E-A8C551CB7D00}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BossFight\BossFight.Build.cs">
+			<Filter>Source\BossFight</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\BossFight\BossFight.cpp">
+			<Filter>Source\BossFight</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BossFight\BossFight.h">
+			<Filter>Source\BossFight</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BossFight\BossFightCharacter.cpp">
+			<Filter>Source\BossFight</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BossFight\BossFightCharacter.h">
+			<Filter>Source\BossFight</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BossFight\BossFightGameMode.cpp">
+			<Filter>Source\BossFight</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BossFight\BossFightGameMode.h">
+			<Filter>Source\BossFight</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
