@@ -1,9 +1,9 @@
-﻿Log file open, 09/12/17 14:43:59
+﻿Log file open, 09/12/17 16:25:53
 LogInit:Display: Running engine for game: BossFight
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1251969084) SRandInit(1251969084).
-LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.098608
+LogInit:Display: RandInit(566153671) SRandInit(566153671).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 20.768862
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -20,8 +20,8 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogInit: Build: ++UE4+Release-4.16-CL-3466753
-LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
 LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
 LogInit: Net CL: 3452394
 LogDevObjectVersion: Number of dev versions registered: 16
@@ -41,7 +41,7 @@ LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
 LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
 LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
 LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
-LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
@@ -50,184 +50,958 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.12-19.43.59:892][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.12-19.43.59:892][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.12-19.43.59:917][  0]LogInit: Computer: T250-3
-[2017.09.12-19.43.59:917][  0]LogInit: User: student
-[2017.09.12-19.43.59:917][  0]LogInit: CPU Page size=4096, Cores=6
-[2017.09.12-19.43.59:917][  0]LogInit: High frequency timer resolution =3.312666 MHz
-[2017.09.12-19.43.59:918][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.09.12-19.43.59:918][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.12-19.43.59:918][  0]LogMemory: Process Physical Memory: 276.69 MB used, 276.69 MB peak
-[2017.09.12-19.43.59:918][  0]LogMemory: Process Virtual Memory: 271.09 MB used, 271.09 MB peak
-[2017.09.12-19.43.59:918][  0]LogMemory: Physical Memory: 7842.97 MB used,  24815.04 MB free, 32658.01 MB total
-[2017.09.12-19.43.59:918][  0]LogMemory: Virtual Memory: 631.18 MB used,  24815.04 MB free, 8388608.00 MB total
-[2017.09.12-19.44.00:031][  0]LogInit: Using OS detected language (en-US).
-[2017.09.12-19.44.00:031][  0]LogInit: Using OS detected locale (en-US).
-[2017.09.12-19.44.00:035][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.09.12-19.44.01:144][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.12-19.44.01:172][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.09.12-19.44.01:172][  0]LogD3D11RHI:       8085/0/16073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.09.12-19.44.01:172][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.12-19.44.01:176][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.12-19.44.01:176][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.12-19.44.01:176][  0]LogWindows: EnumDisplayDevices:
-[2017.09.12-19.44.01:176][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.09.12-19.44.01:177][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.09.12-19.44.01:177][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.09.12-19.44.01:177][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.09.12-19.44.01:177][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2017.09.12-19.44.01:177][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.09.12-19.44.01:177][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.09.12-19.44.01:177][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.09.12-19.44.01:177][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.09.12-19.44.01:177][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
-[2017.09.12-19.44.01:177][  0]LogD3D11RHI:      Driver Date: 5-17-2017
-[2017.09.12-19.44.01:177][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.12-19.44.01:188][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.12-19.44.01:202][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.09.12-19.44.01:250][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (D:/iStepable/Rigging/ProjectBossFight/ProjectBossFight/BossFight/Intermediate/Shaders/WorkingDirectory/5548/).
-[2017.09.12-19.44.01:250][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/student/AppData/Local/Temp/UnrealShaderWorkingDir/28F7D22641BCAAF306370DB2F02CD9E3/'.
-[2017.09.12-19.44.01:250][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.09.12-19.44.02:586][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.12-19.44.02:651][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.09.12-19.44.02:698][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.12-19.44.02:746][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.09.12-19.44.02:782][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.09.12-19.44.02:818][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.12-19.44.02:854][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.12-19.44.02:890][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.12-19.44.02:927][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.09.12-19.44.02:964][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.09.12-19.44.03:007][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.12-19.44.03:043][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.12-19.44.03:083][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.12-19.44.03:117][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.12-19.44.03:153][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.12-19.44.03:223][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.12-19.44.03:223][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.12-19.44.03:249][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.09.12-19.44.03:338][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.09.12-19.44.03:358][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.09.12-19.44.03:393][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.12-19.44.03:428][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.12-19.44.03:476][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.12-19.44.03:511][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.09.12-19.44.03:511][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.09.12-19.44.03:912][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.09.12-19.44.04:047][  0]LogDerivedDataCache: Loaded boot cache 0.14s 90MB C:/Users/student/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.09.12-19.44.04:047][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/student/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.09.12-19.44.04:047][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/iStepable/Rigging/ProjectBossFight/ProjectBossFight/BossFight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.12-19.44.04:047][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.12-19.44.04:047][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/iStepable/Rigging/ProjectBossFight/ProjectBossFight/BossFight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.12-19.44.04:047][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.12-19.44.04:063][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.12-19.44.04:074][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.12-19.44.04:098][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.12-19.44.04:098][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.12-19.44.04:099][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.12-19.44.04:099][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.12-19.44.04:704][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.12-19.44.04:706][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.12-19.44.05:017][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.12-19.44.05:096][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.12-19.44.05:179][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.12-19.44.05:179][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.09.12-19.44.05:179][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.09.12-19.44.05:955][  0]LogNetVersion: BossFight , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3365732719)
-[2017.09.12-19.44.06:013][  0]LogAssetRegistry: FAssetRegistry took 0.0240 seconds to start up
-[2017.09.12-19.44.06:082][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.035943 seconds
-[2017.09.12-19.44.06:087][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.09.12-19.44.06:087][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.09.12-19.44.06:087][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.12-19.44.06:150][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.12-19.44.08:511][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.12-19.44.08:542][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.12-19.44.08:954][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
-[2017.09.12-19.44.08:954][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
-[2017.09.12-19.44.08:954][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'
-[2017.09.12-19.44.08:954][  0]Error: CDO Constructor (BossFightGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2017.09.12-21.25.56:458][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.12-21.25.56:458][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.12-21.25.56:766][  0]LogInit: Computer: IAIO
+[2017.09.12-21.25.56:766][  0]LogInit: User: User
+[2017.09.12-21.25.56:766][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.12-21.25.56:766][  0]LogInit: High frequency timer resolution =3.119140 MHz
+[2017.09.12-21.25.56:777][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.09.12-21.25.56:777][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.12-21.25.56:777][  0]LogMemory: Process Physical Memory: 282.71 MB used, 282.71 MB peak
+[2017.09.12-21.25.56:777][  0]LogMemory: Process Virtual Memory: 260.76 MB used, 260.76 MB peak
+[2017.09.12-21.25.56:777][  0]LogMemory: Physical Memory: 3439.21 MB used,  4703.88 MB free, 8143.10 MB total
+[2017.09.12-21.25.56:777][  0]LogMemory: Virtual Memory: 643.01 MB used,  4703.88 MB free, 134217728.00 MB total
+[2017.09.12-21.26.00:650][  0]LogInit: Using OS detected language (en-US).
+[2017.09.12-21.26.00:650][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.12-21.26.01:063][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.12-21.26.11:642][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.12-21.26.11:757][  0]LogD3D11RHI:    0. 'Radeon RX 550 Series' (Feature Level 11_0)
+[2017.09.12-21.26.11:757][  0]LogD3D11RHI:       1996/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.09.12-21.26.11:772][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.12-21.26.11:772][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.12-21.26.11:772][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.12-21.26.11:792][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.12-21.26.11:792][  0]LogD3D11RHI:     GPU DeviceId: 0x699f (for the marketing name, search the web for "GPU Device Id")
+[2017.09.12-21.26.11:792][  0]LogWindows: EnumDisplayDevices:
+[2017.09.12-21.26.11:792][  0]LogWindows:    0. 'Radeon 500 Series' (P:1 D:1)
+[2017.09.12-21.26.11:793][  0]LogWindows:    1. 'Radeon 500 Series' (P:0 D:0)
+[2017.09.12-21.26.11:793][  0]LogWindows:    2. 'Radeon 500 Series' (P:0 D:0)
+[2017.09.12-21.26.11:793][  0]LogWindows:    3. 'Radeon 500 Series' (P:0 D:0)
+[2017.09.12-21.26.11:793][  0]LogWindows:    4. 'Radeon 500 Series' (P:0 D:0)
+[2017.09.12-21.26.11:793][  0]LogWindows: DebugString: FoundDriverCount:5 
+[2017.09.12-21.26.11:793][  0]LogD3D11RHI:     Adapter Name: Radeon RX 550 Series
+[2017.09.12-21.26.11:793][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.8.2 (internal:22.19.673.0, unified:22.19.673.0)
+[2017.09.12-21.26.11:793][  0]LogD3D11RHI:      Driver Date: 8-22-2017
+[2017.09.12-21.26.11:794][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.12-21.26.11:965][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.12-21.26.12:463][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2017.09.12-21.26.12:598][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Intermediate/Shaders/WorkingDirectory/2468/).
+[2017.09.12-21.26.12:598][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/8A41926A433DD7F077C625879CFE4CA3/'.
+[2017.09.12-21.26.12:635][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.12-21.26.30:047][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.12-21.26.30:130][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.12-21.26.30:236][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.12-21.26.30:319][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.12-21.26.30:431][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.12-21.26.30:518][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.12-21.26.30:621][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.12-21.26.30:703][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.12-21.26.30:814][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.12-21.26.30:934][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.12-21.26.31:367][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.12-21.26.31:509][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.12-21.26.31:622][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.12-21.26.31:718][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.12-21.26.31:797][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.12-21.26.31:989][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.12-21.26.31:989][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.12-21.26.32:145][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.12-21.26.32:463][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.12-21.26.32:513][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.12-21.26.32:618][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.12-21.26.32:699][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.12-21.26.32:791][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.12-21.26.32:896][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.12-21.26.32:896][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.12-21.26.36:932][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.12-21.26.38:677][  0]LogDerivedDataCache: Loaded boot cache 1.73s 90MB C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.12-21.26.38:677][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.12-21.26.38:677][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.12-21.26.38:677][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.12-21.26.38:677][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.12-21.26.38:677][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.12-21.26.38:918][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.12-21.26.38:967][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.12-21.26.39:092][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.12-21.26.39:213][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.12-21.26.39:323][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.12-21.26.39:323][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.12-21.26.50:373][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.12-21.26.52:463][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.12-21.26.53:787][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.12-21.26.54:109][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.12-21.26.54:360][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.12-21.26.54:360][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.12-21.26.54:360][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.12-21.27.06:225][  0]LogNetVersion: BossFight , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3365732719)
+[2017.09.12-21.27.06:874][  0]LogAssetRegistry: FAssetRegistry took 0.0839 seconds to start up
+[2017.09.12-21.27.07:446][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.415253 seconds
+[2017.09.12-21.27.07:454][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.12-21.27.07:454][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.12-21.27.07:454][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.12-21.27.07:593][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.12-21.28.56:292][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.12-21.28.56:701][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.12-21.28.58:975][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2017.09.12-21.28.58:975][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2017.09.12-21.28.58:975][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'
+[2017.09.12-21.28.58:975][  0]Error: CDO Constructor (BossFightGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
 
-[2017.09.12-19.44.08:954][  0]LogUObjectBase:Warning: -------------- Default Property warnings and errors:
-[2017.09.12-19.44.08:954][  0]LogUObjectBase:Warning: Error: CDO Constructor (BossFightGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2017.09.12-21.28.58:975][  0]LogUObjectBase:Warning: -------------- Default Property warnings and errors:
+[2017.09.12-21.28.58:975][  0]LogUObjectBase:Warning: Error: CDO Constructor (BossFightGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
 
-[2017.09.12-19.44.10:611][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.12-19.44.11:114][  0]SourceControl: Info Source control is disabled
-[2017.09.12-19.44.11:115][  0]SourceControl: Info Source control is disabled
-[2017.09.12-19.44.11:157][  0]SourceControl: Info Source control is disabled
-[2017.09.12-19.44.11:204][  0]SourceControl: Info Source control is disabled
-[2017.09.12-19.44.11:753][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.12-19.44.12:272][  0]LogEngine: Initializing Engine...
-[2017.09.12-19.44.12:272][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.12-19.44.12:696][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.12-19.44.12:697][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.12-19.44.12:862][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.12-19.44.12:880][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.12-19.44.12:893][  0]LogInit: FAudioDevice initialized.
-[2017.09.12-19.44.12:942][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/student/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.09.12-19.44.12:960][  0]LogInit: Texture streaming: Enabled
-[2017.09.12-19.44.13:020][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.12-19.44.13:213][  0]LogInit: Transaction tracking system initialized
-[2017.09.12-19.44.13:748][  0]BlueprintLog: New page: Editor Load
-[2017.09.12-19.44.14:443][  0]LocalizationService: Info Localization service is disabled
-[2017.09.12-19.44.15:075][  0]LogConsoleResponse:Display: 
-[2017.09.12-19.44.15:235][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.12-19.44.15:235][  0]LogCook:Display: Mobile HDR setting 1
-[2017.09.12-19.44.16:066][  0]LogFileCache: Scanning file cache for directory 'D:/iStepable/Rigging/ProjectBossFight/ProjectBossFight/BossFight/Content/' took 0.01s
-[2017.09.12-19.44.16:124][  0]SourceControl: Info Source control is disabled
-[2017.09.12-19.44.16:124][  0]Cmd: MAP LOAD FILE="D:/iStepable/Rigging/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.12-19.44.16:124][  0]LightingResults: New page: Lighting Build
-[2017.09.12-19.44.16:162][  0]MapCheck: New page: Map Check
-[2017.09.12-19.44.16:162][  0]LightingResults: New page: Lighting Build
-[2017.09.12-19.44.16:454][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.09.12-19.44.16:460][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.12-19.44.16:478][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.12-19.44.16:529][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.07ms to complete.
-[2017.09.12-19.44.16:529][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.406
-[2017.09.12-19.44.16:593][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.09.12-19.44.16:742][  0]LogCollectionManager: Loaded 0 collections in 0.002589 seconds
-[2017.09.12-19.44.16:838][  0]LogFileCache: Scanning file cache for directory 'D:/iStepable/Rigging/ProjectBossFight/ProjectBossFight/BossFight/Saved/Collections/' took 0.01s
-[2017.09.12-19.44.16:838][  0]LogFileCache: Scanning file cache for directory 'D:/iStepable/Rigging/ProjectBossFight/ProjectBossFight/BossFight/Content/Developers/student/Collections/' took 0.01s
-[2017.09.12-19.44.16:838][  0]LogFileCache: Scanning file cache for directory 'D:/iStepable/Rigging/ProjectBossFight/ProjectBossFight/BossFight/Content/Collections/' took 0.01s
-[2017.09.12-19.44.16:838][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.09.12-19.44.16:855][  0]LogContentBrowser: Native class hierarchy populated in 0.0173 seconds. Added 2331 classes and 493 folders.
-[2017.09.12-19.44.16:909][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.09.12-19.44.16:946][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0024 seconds. Added 0 classes and 0 folders.
-[2017.09.12-19.44.16:983][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
-[2017.09.12-19.44.17:016][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.09.12-19.44.17:023][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.09.12-19.44.17:121][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
-[2017.09.12-19.44.17:121][  0]LogLoad: (Engine Initialization) Total time: 19.01 seconds
-[2017.09.12-19.44.17:121][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
-[2017.09.12-19.44.17:121][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.09.12-19.44.17:121][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.09.12-19.44.17:131][  0]LogOcInput: OculusInput pre-init called
-[2017.09.12-19.44.17:131][  0]LogHMD: Starting GearVRController plugin
-[2017.09.12-19.44.17:132][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Arrow': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2
-[2017.09.12-19.44.17:132][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'FollowCamera': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2
-[2017.09.12-19.44.17:132][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CollisionCylinder': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2
-[2017.09.12-19.44.17:132][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharMoveComp': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2
-[2017.09.12-19.44.17:132][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharacterMesh0': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2
-[2017.09.12-19.44.17:132][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CameraBoom': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2
-[2017.09.12-19.44.17:155][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.09.12-19.44.17:170][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.12-19.44.17:174][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.12-19.44.17:184][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.12-19.44.17:335][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.12-19.44.17:376][  1]LogAssetRegistry: Asset discovery search completed in 11.3841 seconds
-[2017.09.12-19.44.17:377][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.09.12-19.44.17:377][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
-[2017.09.12-19.44.17:419][  2]LogRenderer: Reallocating scene render targets to support 808x368 NumSamples 1 (Frame:1).
-[2017.09.12-19.44.22:065][311]LogRenderer: Reallocating scene render targets to support 808x564 NumSamples 1 (Frame:301).
-[2017.09.12-19.44.36:340][907]LogActor:Warning: VREditorButton /Engine/Transient.World_6:PersistentLevel.VREditorButton_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2017.09.12-19.44.46:941][136]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.12-19.44.47:249][136]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
-[2017.09.12-19.44.47:760][136]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.09.12-19.44.47:862][137]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.09.12-19.45.38:438][719]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2017.09.12-19.45.38:483][721]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BossFight
-[2017.09.12-19.45.38:483][721]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
-[2017.09.12-19.45.38:483][721]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
-[2017.09.12-19.45.38:483][721]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
-[2017.09.12-19.45.38:487][721]LogTemp: BranchPath = T250-3/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = T250-3/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
-[2017.09.12-19.45.38:499][721]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\student\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.12-21.29.00:917][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.12-21.29.12:551][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.12-21.29.16:358][  0]SourceControl: Info Source control is disabled
+[2017.09.12-21.29.16:414][  0]SourceControl: Info Source control is disabled
+[2017.09.12-21.29.18:246][  0]SourceControl: Info Source control is disabled
+[2017.09.12-21.29.19:369][  0]SourceControl: Info Source control is disabled
+[2017.09.12-21.29.23:475][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.12-21.29.25:652][  0]LogEngine: Initializing Engine...
+[2017.09.12-21.29.25:722][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.12-21.29.26:240][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.12-21.29.26:240][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.12-21.29.27:424][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.12-21.29.27:721][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.12-21.29.27:789][  0]LogInit: FAudioDevice initialized.
+[2017.09.12-21.29.27:896][  0]LogDerivedDataCache: Saved boot cache 0.11s 90MB C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.12-21.29.27:923][  0]LogInit: Texture streaming: Enabled
+[2017.09.12-21.29.31:401][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.12-21.29.39:457][  0]LogInit: Transaction tracking system initialized
+[2017.09.12-21.29.43:300][  0]BlueprintLog: New page: Editor Load
+[2017.09.12-21.29.57:512][  0]LocalizationService: Info Localization service is disabled
+[2017.09.12-21.30.02:759][  0]LogConsoleResponse:Display: 
+[2017.09.12-21.30.08:520][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/' took 0.02s
+[2017.09.12-21.30.08:520][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.12-21.30.08:521][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.12-21.30.18:065][  0]SourceControl: Info Source control is disabled
+[2017.09.12-21.30.18:290][  0]LightingResults: New page: Lighting Build
+[2017.09.12-21.30.18:759][  0]MapCheck: New page: Map Check
+[2017.09.12-21.30.18:759][  0]LightingResults: New page: Lighting Build
+[2017.09.12-21.30.26:272][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.12-21.30.28:000][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.12-21.30.28:325][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.12-21.30.28:536][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 210.893ms to complete.
+[2017.09.12-21.30.28:536][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 10.370
+[2017.09.12-21.30.32:595][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.12-21.30.42:182][  0]LogCollectionManager: Loaded 0 collections in 0.004623 seconds
+[2017.09.12-21.30.45:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/Collections/' took 0.01s
+[2017.09.12-21.30.45:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Developers/User/Collections/' took 0.01s
+[2017.09.12-21.30.45:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Collections/' took 0.01s
+[2017.09.12-21.30.45:080][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.09.12-21.30.45:384][  0]LogContentBrowser: Native class hierarchy populated in 0.1382 seconds. Added 2331 classes and 493 folders.
+[2017.09.12-21.30.46:086][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0028 seconds. Added 0 classes and 0 folders.
+[2017.09.12-21.30.52:928][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2017.09.12-21.30.53:156][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0108 seconds. Added 1 classes and 2 folders.
+[2017.09.12-21.30.57:055][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.12-21.30.58:826][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0032 seconds. Added 1 classes and 2 folders.
+[2017.09.12-21.30.58:826][  0]LogLoad: (Engine Initialization) Total time: 354.75 seconds
+[2017.09.12-21.30.58:826][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.65 seconds
+[2017.09.12-21.30.58:826][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.12-21.30.58:863][  0]LogOcInput: OculusInput pre-init called
+[2017.09.12-21.30.58:863][  0]LogHMD: Starting GearVRController plugin
+[2017.09.12-21.30.58:864][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Arrow': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2
+[2017.09.12-21.30.58:864][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'FollowCamera': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2
+[2017.09.12-21.30.58:864][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CollisionCylinder': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2
+[2017.09.12-21.30.58:864][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharMoveComp': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2
+[2017.09.12-21.30.58:864][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharacterMesh0': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2
+[2017.09.12-21.30.58:864][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CameraBoom': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2
+[2017.09.12-21.30.59:333][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.12-21.31.00:468][  0]LogSlate: Took 0.261733 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.12-21.31.00:576][  0]LogSlate: Took 0.104084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.12-21.31.00:847][  0]LogSlate: Took 0.109300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.12-21.31.03:999][  0]LogRenderer: Reallocating scene render targets to support 808x368 NumSamples 1 (Frame:1).
+[2017.09.12-21.31.03:999][  0]LogSlate: Took 0.476105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.12-21.31.05:510][  2]LogAssetRegistry: Asset discovery search completed in 238.6591 seconds
+[2017.09.12-21.31.05:512][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.12-21.31.05:512][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2017.09.12-21.31.05:580][  2]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.12-21.31.20:967][167]LogRenderer: Reallocating scene render targets to support 808x588 NumSamples 1 (Frame:512).
+[2017.09.12-21.31.23:579][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.12-21.31.34:342][261]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.09.12-21.32.16:524][309]LogSlate: Took 0.006777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.12-21.32.18:466][309]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0031 seconds. Added 112 classes and 0 folders.
+[2017.09.12-21.32.21:509][309]LogSlate: Took 0.024814 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.12-21.32.22:044][310]LogSlate: Took 0.045080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.12-21.32.45:770][635]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.09.12-21.32.46:293][638]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BossFight
+[2017.09.12-21.32.46:293][638]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.09.12-21.32.46:293][638]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.09.12-21.32.46:293][638]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.09.12-21.32.46:293][638]LogTemp: BranchPath = IAIO/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = IAIO/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.09.12-21.32.46:597][639]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\User\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.12-21.34.05:806][751]LogSavePackage: Save=249.80ms
+[2017.09.12-21.34.05:806][751]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/ThirdPersonExampleMap97C431874ABAD213D1C01F8626049C8B.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.09.12-21.34.05:863][751]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.09.12-21.34.06:200][751]LogSavePackage: Save=231.85ms
+[2017.09.12-21.34.06:200][751]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/ThirdPersonExampleMap_BuiltData6FA250FB4067A88C3C217C8734A84C75.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.09.12-21.34.06:203][751]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.09.12-21.34.07:848][865]LogSavePackage: Save=123.40ms
+[2017.09.12-21.34.07:850][865]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/ThirdPersonCharacter3E824CF8444D4085109D28AE4181DE49.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.09.12-21.34.07:858][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.09.12-21.35.23:680][647]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.09.12-21.35.31:106][329]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.12-21.35.31:321][329]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.12-21.35.31:321][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-21.35.31:357][329]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 12, 2017, 11:35:31 AM)
+[2017.09.12-21.35.31:357][329]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.12-21.35.31:434][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076286s)
+[2017.09.12-21.35.31:435][329]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.12-21.35.31:435][329]LogPlayLevel: PIE: World Init took: (0.001405s)
+[2017.09.12-21.35.31:435][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.078002s)
+[2017.09.12-21.35.31:501][329]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.12-21.35.31:520][329]LogInit: FAudioDevice initialized.
+[2017.09.12-21.35.31:586][329]LogLoad: Game class is 'BossFightGameMode'
+[2017.09.12-21.35.31:626][329]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.09.12-16.35.31
+[2017.09.12-21.35.31:707][329]LogWorld: Bringing up level for play took: 0.083129
+[2017.09.12-21.35.31:886][329]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0027 seconds. Added 11 classes and 0 folders.
+[2017.09.12-21.35.31:945][329]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.122
+[2017.09.12-21.35.31:946][329]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.12-21.35.32:003][329]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:051][330]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:067][331]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:077][332]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:085][333]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:092][334]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:101][335]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:109][336]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:117][337]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:125][338]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:133][339]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:142][340]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:151][341]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:159][342]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:168][343]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:175][344]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.32:184][345]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
+	Function /Game/ThirdPersonBP/HUD.HUD_C:Get Ammo:003D
+[2017.09.12-21.35.34:338][602]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.12-21.35.34:522][602]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.12-21.36.18:760][526]LogMetaData: Removing '/Game/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.HUD_C' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.HUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.HUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.HUD:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.HUD:Get Ammo.K2Node_FunctionResult_0' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.HUD:Get Ammo.K2Node_FunctionEntry_68' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.HUD_C:Construct' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.HUD_C:AmmoNum' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.HUD_C:EnergyBar' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.HUD_C:HealthBar' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.HUD_C:My Character' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.SKEL_HUD_C:My Character' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.SKEL_HUD_C:HealthBar' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.SKEL_HUD_C:EnergyBar' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.SKEL_HUD_C:AmmoNum' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.SKEL_HUD_C:Construct' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.SKEL_HUD_C:ExecuteUbergraph_HUD' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:761][526]LogMetaData: Removing '/Game/Blueprints/HUD.SKEL_HUD_C' ref from Metadata '/Game/ThirdPersonBP/HUD.PackageMetaData'
+[2017.09.12-21.36.18:806][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD" FILE="../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset" SILENT=true
+[2017.09.12-21.36.18:851][526]LogSavePackage: Save=40.97ms
+[2017.09.12-21.36.18:851][526]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/HUD0A42091046D0CBFE970708BD40810CB2.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset'
+[2017.09.12-21.36.18:856][526]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset
+[2017.09.12-21.36.19:222][526]LogSavePackage: Save=93.06ms
+[2017.09.12-21.36.19:222][526]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/ThirdPersonCharacter76E258F743E11DAFBA7393AA924DFEC0.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.09.12-21.36.19:228][526]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.09.12-21.36.21:690][705]LogSavePackage: Save=163.19ms
+[2017.09.12-21.36.21:690][705]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/ThirdPersonExampleMap6C8DD87743F68BDCD6F2CBB8B8452B3C.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.09.12-21.36.21:697][705]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.09.12-21.36.21:914][705]LogSavePackage: Save=174.92ms
+[2017.09.12-21.36.21:914][705]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/ThirdPersonExampleMap_BuiltData7684D9674806E47E5C021A9806AD8754.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.09.12-21.36.21:917][705]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.09.12-21.36.26:261][  5]LogSlate: Took 0.075597 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.09.12-21.36.49:252][291]BlueprintLog: New page: Compile HUD
+[2017.09.12-21.36.49:772][291]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.12-21.36.54:130][365]LogSavePackage: Save=198.95ms
+[2017.09.12-21.36.54:130][365]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/ThirdPersonExampleMap4559996248BB1A36A261778CB02BC246.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.09.12-21.36.54:139][365]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.09.12-21.36.54:185][365]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.536
+[2017.09.12-21.36.54:188][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD" FILE="../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset" SILENT=true
+[2017.09.12-21.36.54:234][365]LogSavePackage: Save=36.98ms
+[2017.09.12-21.36.54:234][365]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/HUD80651D954535241B68147EB6F84964BA.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset'
+[2017.09.12-21.36.54:239][365]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset
+[2017.09.12-21.38.55:163][654]LogRenderer: Reallocating scene render targets to support 808x920 NumSamples 1 (Frame:1).
+[2017.09.12-21.39.22:021][814]LogRenderer: Reallocating scene render targets to support 1528x920 NumSamples 1 (Frame:23051).
+[2017.09.12-21.40.20:709][688]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.09.12-21.40.21:072][689]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.09.12-21.40.23:521][920]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.12-21.40.23:593][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.12-21.40.23:594][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-21.40.23:594][920]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 12, 2017, 11:40:23 AM)
+[2017.09.12-21.40.23:594][920]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.12-21.40.23:623][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029488s)
+[2017.09.12-21.40.23:624][920]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.12-21.40.23:625][920]LogPlayLevel: PIE: World Init took: (0.001499s)
+[2017.09.12-21.40.23:625][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031336s)
+[2017.09.12-21.40.23:770][920]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.12-21.40.23:792][920]LogInit: FAudioDevice initialized.
+[2017.09.12-21.40.23:886][920]LogLoad: Game class is 'BossFightGameMode'
+[2017.09.12-21.40.23:891][920]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.09.12-16.40.23
+[2017.09.12-21.40.23:892][920]LogWorld: Bringing up level for play took: 0.003503
+[2017.09.12-21.40.23:899][920]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.168
+[2017.09.12-21.40.23:899][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.12-21.40.23:914][920]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:024][921]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:059][922]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:074][923]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:090][924]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:105][925]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:121][926]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:136][927]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:151][928]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:166][929]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:182][930]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:196][931]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:211][932]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:225][933]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:239][934]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:254][935]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:268][936]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:283][937]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:297][938]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:311][939]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:324][940]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:338][941]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:352][942]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:367][943]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:383][944]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:397][945]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:411][946]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:426][947]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:440][948]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:455][949]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:471][950]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:484][951]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:498][952]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:512][953]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:525][954]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:539][955]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:554][956]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:568][957]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:582][958]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:597][959]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:611][960]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:624][961]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:639][962]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:652][963]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:668][964]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:687][965]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:715][966]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:729][967]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:743][968]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:757][969]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:771][970]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:785][971]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:799][972]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:813][973]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:827][974]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:841][975]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:854][976]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:870][977]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:884][978]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:899][979]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:914][980]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:928][981]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:941][982]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:954][983]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:970][984]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:982][985]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.24:996][986]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:010][987]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:024][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:037][989]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:051][990]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:066][991]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:082][992]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:098][993]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:113][994]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:126][995]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:139][996]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:156][997]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:168][998]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:182][999]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:196][  0]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:210][  1]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:224][  2]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:239][  3]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:252][  4]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:267][  5]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:281][  6]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:295][  7]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:308][  8]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:322][  9]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:336][ 10]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:350][ 11]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:365][ 12]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:379][ 13]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:392][ 14]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:407][ 15]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:420][ 16]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:434][ 17]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:450][ 18]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:462][ 19]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:475][ 20]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:489][ 21]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:503][ 22]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:517][ 23]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:531][ 24]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:546][ 25]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:560][ 26]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:573][ 27]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:587][ 28]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:602][ 29]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:618][ 30]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:632][ 31]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:646][ 32]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:660][ 33]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:675][ 34]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:689][ 35]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:703][ 36]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:719][ 37]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:733][ 38]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:747][ 39]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:761][ 40]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:775][ 41]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:788][ 42]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:801][ 43]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:816][ 44]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:830][ 45]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:844][ 46]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:857][ 47]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:872][ 48]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:887][ 49]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:902][ 50]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:917][ 51]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:931][ 52]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:946][ 53]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:962][ 54]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:976][ 55]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.25:989][ 56]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:003][ 57]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:017][ 58]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:032][ 59]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:046][ 60]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:060][ 61]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:074][ 62]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:088][ 63]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:102][ 64]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:116][ 65]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:130][ 66]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:144][ 67]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:157][ 68]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:170][ 69]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:184][ 70]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:198][ 71]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:212][ 72]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:225][ 73]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:238][ 74]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:251][ 75]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:265][ 76]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:279][ 77]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:293][ 78]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:307][ 79]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:320][ 80]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:333][ 81]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:348][ 82]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:362][ 83]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:375][ 84]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:389][ 85]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:402][ 86]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:416][ 87]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:429][ 88]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:444][ 89]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:457][ 90]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:471][ 91]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:486][ 92]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:499][ 93]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:513][ 94]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:528][ 95]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:541][ 96]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:554][ 97]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:570][ 98]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:583][ 99]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:598][100]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:612][101]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:627][102]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:640][103]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:654][104]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:669][105]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:683][106]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:698][107]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:712][108]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:725][109]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:739][110]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:753][111]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:768][112]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:782][113]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:797][114]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:811][115]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:825][116]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:840][117]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:855][118]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:871][119]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:886][120]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:902][121]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:916][122]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:931][123]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:948][124]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:962][125]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:984][126]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.26:996][127]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:007][128]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:021][129]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:036][130]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:050][131]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:065][132]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:079][133]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:093][134]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:106][135]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:121][136]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:134][137]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:148][138]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:163][139]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:178][140]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:191][141]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:205][142]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:220][143]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:233][144]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:248][145]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:261][146]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:274][147]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:287][148]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:301][149]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:315][150]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:329][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:342][152]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:355][153]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:369][154]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:383][155]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:399][156]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:412][157]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:425][158]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:438][159]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:452][160]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:466][161]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:480][162]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:494][163]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:508][164]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:522][165]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:537][166]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:551][167]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:566][168]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:581][169]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:595][170]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:609][171]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:623][172]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:638][173]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:654][174]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:667][175]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:682][176]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:697][177]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:711][178]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:725][179]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:739][180]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:753][181]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:767][182]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:781][183]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:795][184]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:808][185]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:821][186]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:836][187]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:850][188]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:864][189]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:879][190]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:892][191]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:907][192]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:921][193]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'Get Ammo' from node: Return Node in graph: Get Ammo in object: HUD with description: Accessed None trying to read property My Character
+[2017.09.12-21.40.27:932][194]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.12-21.40.28:061][194]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.12-21.40.41:597][429]BlueprintLog: New page: Compile HUD
+[2017.09.12-21.40.41:774][429]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.12-21.40.44:271][655]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.09.12-21.40.44:299][655]LogBlueprint:Warning: [HUD] 'Ammo' variable not found. Base class was probably changed.
+[2017.09.12-21.40.44:316][655]LogBlueprint:Warning: [Compiler HUD] Warning Could not find a variable named "Ammo" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get Ammo
+[2017.09.12-21.40.44:317][655]LogBlueprint:Error: [Compiler HUD] Error The property associated with  Ammo  could not be found
+[2017.09.12-21.40.51:048][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD" FILE="../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset" SILENT=true
+[2017.09.12-21.40.51:088][278]LogSavePackage: Save=36.51ms
+[2017.09.12-21.40.51:088][278]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/HUD04DFE16A40710A2324FA7282E8A3E18B.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset'
+[2017.09.12-21.40.51:094][278]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset
+[2017.09.12-21.41.23:428][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD" FILE="../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset" SILENT=true
+[2017.09.12-21.41.23:484][741]LogSavePackage: Save=26.14ms
+[2017.09.12-21.41.23:484][741]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/HUD0D5E2F52477151D1D7B8FD9BFE77CF32.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset'
+[2017.09.12-21.41.23:489][741]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset
+[2017.09.12-21.41.24:166][819]BlueprintLog: New page: Compile HUD
+[2017.09.12-21.41.24:404][819]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.12-21.41.55:510][959]BlueprintLog: New page: Compile HUD
+[2017.09.12-21.41.55:706][959]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.12-21.42.00:931][330]LogSavePackage: Save=176.07ms
+[2017.09.12-21.42.00:931][330]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/ThirdPersonExampleMap44F7739047A4168D0770F69ABD7D54B7.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.09.12-21.42.00:938][330]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.09.12-21.42.01:023][330]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.387
+[2017.09.12-21.42.01:168][330]LogSavePackage: Save=87.16ms
+[2017.09.12-21.42.01:168][330]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/ThirdPersonCharacter180349614731A39A03288788647075C5.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.09.12-21.42.01:174][330]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.09.12-21.42.01:184][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD" FILE="../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset" SILENT=true
+[2017.09.12-21.42.01:231][330]LogSavePackage: Save=36.67ms
+[2017.09.12-21.42.01:231][330]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/HUD19A0507C4C35B951F23BED9E1EEF9E94.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset'
+[2017.09.12-21.42.01:237][330]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Blueprints/HUD.uasset
+[2017.09.12-21.43.48:530][560]LogSlate: Took 0.047321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.12-21.43.52:187][875]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.09.12-21.43.55:021][ 59]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.09.12-21.43.58:769][390]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.09.12-21.49.07:733][498]LogEditorTransaction: Undo Rename Node
+[2017.09.12-21.49.08:357][548]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.09.12-21.52.37:886][902]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.09.12-21.56.11:983][697]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.09.12-21.56.21:971][390]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.09.12-21.56.24:653][503]LogSavePackage: Save=185.07ms
+[2017.09.12-21.56.24:653][503]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/ThirdPersonExampleMap76348AFB4FE10A734AB1739280F44928.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.09.12-21.56.24:661][503]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.09.12-21.56.24:786][503]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.646
+[2017.09.12-21.56.24:971][503]LogSavePackage: Save=121.47ms
+[2017.09.12-21.56.24:971][503]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/ThirdPersonCharacter5B0127764CA125D7F9F541A7372DC556.tmp' to '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.09.12-21.56.24:976][503]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.09.12-21.57.15:913][257]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.12-21.57.15:955][257]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.12-21.57.15:955][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-21.57.15:955][257]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 12, 2017, 11:57:15 AM)
+[2017.09.12-21.57.15:955][257]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.12-21.57.16:046][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090780s)
+[2017.09.12-21.57.16:047][257]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.12-21.57.16:047][257]LogPlayLevel: PIE: World Init took: (0.001423s)
+[2017.09.12-21.57.16:048][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.092525s)
+[2017.09.12-21.57.16:118][257]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.12-21.57.16:136][257]LogInit: FAudioDevice initialized.
+[2017.09.12-21.57.16:199][257]LogLoad: Game class is 'BossFightGameMode'
+[2017.09.12-21.57.16:208][257]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.09.12-16.57.16
+[2017.09.12-21.57.16:209][257]LogWorld: Bringing up level for play took: 0.005696
+[2017.09.12-21.57.16:217][257]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.15
+[2017.09.12-21.57.16:218][257]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.12-21.57.20:000][490]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.12-21.57.20:155][490]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.12-21.57.25:515][874]Cmd: QUIT_EDITOR
+[2017.09.12-21.57.26:056][874]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.12-21.57.26:088][874]LogExit: Preparing to exit.
+[2017.09.12-21.57.26:605][874]LogDirectoryWatcher: A directory notification for 'C:/Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/' was aborted.
+[2017.09.12-21.57.26:742][874]LogExit: Editor shut down
+[2017.09.12-21.57.26:795][874]LogExit: Transaction tracking system shut down
+[2017.09.12-21.57.28:823][874]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.12-21.57.28:824][874]LogExit: Object subsystem successfully closed.
+[2017.09.12-21.57.29:089][874]LogD3D11RHI: Shutdown
+[2017.09.12-21.57.29:089][874]LogD3D11RHI: CleanupD3DDevice
+[2017.09.12-21.57.29:309][874]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.12-21.57.29:540][874]LogModuleManager: Shutting down and abandoning module SequencerWidgets (536)
+[2017.09.12-21.57.29:540][874]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.09.12-21.57.29:540][874]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (532)
+[2017.09.12-21.57.29:540][874]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.09.12-21.57.29:540][874]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.09.12-21.57.29:553][874]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.09.12-21.57.29:553][874]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.09.12-21.57.29:553][874]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.09.12-21.57.29:553][874]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.09.12-21.57.29:566][874]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.09.12-21.57.29:568][874]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.09.12-21.57.29:568][874]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.09.12-21.57.29:568][874]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.09.12-21.57.29:568][874]LogDirectoryWatcher: A directory notification for 'C:/Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Collections/' was aborted.
+[2017.09.12-21.57.29:569][874]LogDirectoryWatcher: A directory notification for 'C:/Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/Developers/User/Collections/' was aborted.
+[2017.09.12-21.57.29:569][874]LogDirectoryWatcher: A directory notification for 'C:/Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Saved/Collections/' was aborted.
+[2017.09.12-21.57.29:569][874]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2017.09.12-21.57.29:569][874]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2017.09.12-21.57.29:569][874]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2017.09.12-21.57.29:579][874]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2017.09.12-21.57.29:579][874]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2017.09.12-21.57.29:579][874]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2017.09.12-21.57.29:579][874]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2017.09.12-21.57.29:579][874]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2017.09.12-21.57.29:579][874]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2017.09.12-21.57.29:579][874]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2017.09.12-21.57.29:579][874]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2017.09.12-21.57.29:579][874]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2017.09.12-21.57.29:579][874]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2017.09.12-21.57.29:579][874]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2017.09.12-21.57.29:606][874]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2017.09.12-21.57.29:606][874]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2017.09.12-21.57.29:606][874]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2017.09.12-21.57.29:606][874]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2017.09.12-21.57.29:606][874]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2017.09.12-21.57.29:606][874]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2017.09.12-21.57.29:606][874]LogModuleManager: Shutting down and abandoning module Media (473)
+[2017.09.12-21.57.29:606][874]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2017.09.12-21.57.29:606][874]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2017.09.12-21.57.29:607][874]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2017.09.12-21.57.29:607][874]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2017.09.12-21.57.29:607][874]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2017.09.12-21.57.29:607][874]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2017.09.12-21.57.29:607][874]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2017.09.12-21.57.29:607][874]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2017.09.12-21.57.29:607][874]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2017.09.12-21.57.29:640][874]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2017.09.12-21.57.29:647][874]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2017.09.12-21.57.29:647][874]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2017.09.12-21.57.29:687][874]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2017.09.12-21.57.29:687][874]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2017.09.12-21.57.29:687][874]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2017.09.12-21.57.29:687][874]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2017.09.12-21.57.29:687][874]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2017.09.12-21.57.30:267][874]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2017.09.12-21.57.30:267][874]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2017.09.12-21.57.30:267][874]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2017.09.12-21.57.30:291][874]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2017.09.12-21.57.30:305][874]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2017.09.12-21.57.30:305][874]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2017.09.12-21.57.30:316][874]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2017.09.12-21.57.30:316][874]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2017.09.12-21.57.30:356][874]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2017.09.12-21.57.30:356][874]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2017.09.12-21.57.30:356][874]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2017.09.12-21.57.30:366][874]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2017.09.12-21.57.30:366][874]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2017.09.12-21.57.30:366][874]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2017.09.12-21.57.30:366][874]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2017.09.12-21.57.30:366][874]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2017.09.12-21.57.30:367][874]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2017.09.12-21.57.30:367][874]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2017.09.12-21.57.30:367][874]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2017.09.12-21.57.30:367][874]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2017.09.12-21.57.30:384][874]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2017.09.12-21.57.30:398][874]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2017.09.12-21.57.30:417][874]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2017.09.12-21.57.30:428][874]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2017.09.12-21.57.30:471][874]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2017.09.12-21.57.30:471][874]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2017.09.12-21.57.30:494][874]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2017.09.12-21.57.30:522][874]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2017.09.12-21.57.30:522][874]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2017.09.12-21.57.30:522][874]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2017.09.12-21.57.30:522][874]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2017.09.12-21.57.30:533][874]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2017.09.12-21.57.30:533][874]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2017.09.12-21.57.30:533][874]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2017.09.12-21.57.30:554][874]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2017.09.12-21.57.30:554][874]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2017.09.12-21.57.30:554][874]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2017.09.12-21.57.30:617][874]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2017.09.12-21.57.30:617][874]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2017.09.12-21.57.30:617][874]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2017.09.12-21.57.30:630][874]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2017.09.12-21.57.30:630][874]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2017.09.12-21.57.30:630][874]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2017.09.12-21.57.30:630][874]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2017.09.12-21.57.30:630][874]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2017.09.12-21.57.30:652][874]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2017.09.12-21.57.30:652][874]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2017.09.12-21.57.30:652][874]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2017.09.12-21.57.30:653][874]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2017.09.12-21.57.30:653][874]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2017.09.12-21.57.30:653][874]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2017.09.12-21.57.30:653][874]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2017.09.12-21.57.30:653][874]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2017.09.12-21.57.30:653][874]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2017.09.12-21.57.30:756][874]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2017.09.12-21.57.30:779][874]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.09.12-21.57.30:779][874]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.09.12-21.57.30:779][874]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.09.12-21.57.30:779][874]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.09.12-21.57.30:779][874]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.09.12-21.57.30:779][874]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.09.12-21.57.30:779][874]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.09.12-21.57.30:779][874]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.09.12-21.57.30:779][874]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.09.12-21.57.30:779][874]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.09.12-21.57.30:779][874]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.09.12-21.57.30:779][874]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.09.12-21.57.30:802][874]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.09.12-21.57.30:802][874]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.09.12-21.57.30:811][874]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.09.12-21.57.30:813][874]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.09.12-21.57.30:813][874]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.09.12-21.57.30:813][874]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.09.12-21.57.30:813][874]LogDirectoryWatcher: A directory notification for 'C:/Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Binaries/Win64' was aborted.
+[2017.09.12-21.57.30:814][874]LogModuleManager: Shutting down and abandoning module BossFight (248)
+[2017.09.12-21.57.30:814][874]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.09.12-21.57.30:814][874]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.09.12-21.57.30:814][874]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.09.12-21.57.30:814][874]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.09.12-21.57.30:814][874]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.09.12-21.57.30:814][874]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.09.12-21.57.30:915][874]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.09.12-21.57.31:015][874]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.09.12-21.57.31:015][874]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.09.12-21.57.31:015][874]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.09.12-21.57.31:015][874]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.09.12-21.57.31:015][874]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.09.12-21.57.31:015][874]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.09.12-21.57.31:016][874]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.09.12-21.57.31:016][874]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.09.12-21.57.31:048][874]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.09.12-21.57.31:048][874]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.09.12-21.57.31:048][874]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.09.12-21.57.31:049][874]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.09.12-21.57.31:097][874]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.09.12-21.57.31:097][874]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.09.12-21.57.31:097][874]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.09.12-21.57.31:097][874]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.09.12-21.57.31:137][874]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.09.12-21.57.31:137][874]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.09.12-21.57.31:145][874]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.09.12-21.57.31:145][874]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.09.12-21.57.31:166][874]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.09.12-21.57.31:166][874]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.09.12-21.57.31:166][874]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.09.12-21.57.31:166][874]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.09.12-21.57.31:185][874]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.09.12-21.57.31:185][874]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.09.12-21.57.31:185][874]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.09.12-21.57.31:210][874]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.09.12-21.57.31:210][874]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.09.12-21.57.31:218][874]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.09.12-21.57.31:218][874]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.09.12-21.57.31:218][874]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.09.12-21.57.31:218][874]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.09.12-21.57.31:218][874]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.09.12-21.57.31:218][874]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.09.12-21.57.31:350][874]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.12-21.57.31:350][874]LogDirectoryWatcher: A directory notification for '../../../../../../Users/User/Documents/GitHub/ProjectBossFight/ProjectBossFight/BossFight/Content/' was aborted.
+[2017.09.12-21.57.31:351][874]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.12-21.57.31:351][874]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.09.12-21.57.31:356][874]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.09.12-21.57.31:361][874]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.09.12-21.57.31:361][874]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.09.12-21.57.31:361][874]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.09.12-21.57.31:361][874]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.09.12-21.57.31:362][874]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.09.12-21.57.31:362][874]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.09.12-21.57.31:362][874]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.09.12-21.57.31:362][874]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.12-21.57.31:456][874]LogDerivedDataCache: Shutdown
+[2017.09.12-21.57.31:456][874]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.12-21.57.31:456][874]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.12-21.57.31:456][874]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.12-21.57.31:478][874]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.12-21.57.31:483][874]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.12-21.57.31:483][874]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.12-21.57.31:493][874]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.12-21.57.31:493][874]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.12-21.57.31:493][874]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.12-21.57.31:493][874]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.12-21.57.31:493][874]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.12-21.57.31:493][874]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.12-21.57.31:493][874]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.12-21.57.31:493][874]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.12-21.57.31:507][874]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.12-21.57.31:507][874]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.12-21.57.31:507][874]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.12-21.57.31:507][874]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.12-21.57.31:508][874]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.12-21.57.31:509][874]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.12-21.57.31:509][874]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.09.12-21.57.31:509][874]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.09.12-21.57.31:509][874]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.09.12-21.57.31:509][874]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.12-21.57.31:509][874]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.12-21.57.31:509][874]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.12-21.57.31:509][874]LogOnline:Display: Unloading online subsystem: NULL
+[2017.09.12-21.57.31:526][874]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.12-21.57.31:539][874]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.12-21.57.31:539][874]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.12-21.57.31:539][874]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1556B94F-4A70-95D4-1190-23AFE648E439%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=3503efcd48345824f7998483bcd2e2e9%7Cf501aecda6144f94a6d36bf9a85d7e03%7C5bc25056-b701-48ee-a03b-2702017779c5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.12-21.57.31:569][874]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.12-21.57.31:572][874]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.09.12-21.57.31:594][874]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.09.12-21.57.31:603][874]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.09.12-21.57.31:603][874]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.09.12-21.57.31:609][874]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.09.12-21.57.31:617][874]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.09.12-21.57.31:617][874]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.09.12-21.57.31:617][874]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.09.12-21.57.31:637][874]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.09.12-21.57.31:652][874]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.09.12-21.57.31:653][874]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.09.12-21.57.31:653][874]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.09.12-21.57.31:653][874]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.09.12-21.57.31:653][874]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.09.12-21.57.31:653][874]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.09.12-21.57.31:653][874]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.12-21.57.31:653][874]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.12-21.57.31:653][874]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.12-21.57.31:656][874]LogExit: Exiting.
+[2017.09.12-21.57.31:696][874]Log file closed, 09/12/17 16:57:31
