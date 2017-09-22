@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> BossHUD
 ﻿Log file open, 09/22/17 08:51:01
 LogInit:Display: Running engine for game: ProjectBossFight
 LogPlatformFile: Not using cached read wrapper
 LogInit:Display: RandInit(1190569779) SRandInit(1190569779).
 LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
 LogStats: Stats thread started at 0.209626
+<<<<<<< HEAD
 =======
 ﻿Log file open, 09/22/17 08:58:55
 LogInit:Display: Running engine for game: ProjectBossFight
@@ -13,6 +17,8 @@ LogInit:Display: RandInit(-1523071974) SRandInit(-1523071974).
 LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
 LogStats: Stats thread started at 0.099268
 >>>>>>> Pausemenu
+=======
+>>>>>>> BossHUD
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -60,6 +66,9 @@ LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> BossHUD
 [2017.09.22-13.51.02:122][  0]LogInit: Selected Device Profile: [Windows]
 [2017.09.22-13.51.02:122][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2017.09.22-13.51.02:176][  0]LogInit: Computer: T250-12
@@ -322,6 +331,7 @@ LogInit: Object subsystem initialized
 [2017.09.22-13.55.28:453][276]LogSavePackage: Save=21.65ms
 [2017.09.22-13.55.28:453][276]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/BossHUDD7A1B3E64A49A4EDBB8C14B11590187E.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/BossHUD.uasset'
 [2017.09.22-13.55.28:455][276]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/BossHUD.uasset
+<<<<<<< HEAD
 =======
 [2017.09.22-13.58.55:669][  0]LogInit: Selected Device Profile: [Windows]
 [2017.09.22-13.58.55:669][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
@@ -675,3 +685,5 @@ LogInit: Object subsystem initialized
 [2017.09.22-14.13.00:962][318]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
 [2017.09.22-14.13.01:062][318]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
 >>>>>>> Pausemenu
+=======
+>>>>>>> BossHUD
