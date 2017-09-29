@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
-//Name: GiantReadyToAnimate.ma
-//Last modified: Fri, Sep 29, 2017 09:19:50 AM
+//Name: Giant_DEATH_ANIMATION.ma
+//Last modified: Fri, Sep 29, 2017 09:25:57 AM
 //Codeset: 1252
 file -rdi 1 -rpr "Shield" -rfn "ShieldRN" -op "v=0;p=17;f=0" -typ "mayaAscii"
 		 "C:/Users/kudza/Documents/GitHub/ProjectBossFight/Assets/Art/Characters/ColosseumBoss/Weapons/Shield.ma";
@@ -81,7 +81,7 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".hc" -type "string" "viewSet -s %camera";
 	setAttr ".o" yes;
 createNode fosterParent -n "ShieldRNfosterParent1";
-	rename -uid "D758F369-4C8E-8D41-C525-008BFA3081FB";
+	rename -uid "EB1BC88F-4C43-4334-8D91-5F8D1E3BBF4C";
 createNode parentConstraint -n "Shield_root_parentConstraint1" -p "ShieldRNfosterParent1";
 	rename -uid "21039E6A-4102-CC07-748A-99B36B2BC061";
 	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Bind_LeftHandW0" -dv 1 -min 0 -at "double";
@@ -104,7 +104,7 @@ createNode parentConstraint -n "Shield_root_parentConstraint1" -p "ShieldRNfoste
 	setAttr ".rsrr" -type "double3" 89.999999999999986 -6.7158156123618377e-016 -1.0933361543681551e-016 ;
 	setAttr -k on ".w0";
 createNode fosterParent -n "SwordRNfosterParent1";
-	rename -uid "A5F95AEE-4004-E863-15D2-EA865A63F44A";
+	rename -uid "9EBE3377-405D-8E95-8C92-A18F5EAF5176";
 createNode parentConstraint -n "Sword_root_parentConstraint1" -p "SwordRNfosterParent1";
 	rename -uid "FD09B279-49C4-8F58-9EBA-09B345049F55";
 	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Bind_RightHandW0" -dv 1 -min 0 -at "double";
@@ -514,4 +514,4 @@ connectAttr "sharedReferenceNode.sr" "ShieldRN.sr";
 connectAttr "ShieldRNfosterParent1.msg" "ShieldRN.fp";
 connectAttr "SwordRNfosterParent1.msg" "SwordRN.fp";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-// End of GiantReadyToAnimate.ma
+// End of Giant_DEATH_ANIMATION.ma
