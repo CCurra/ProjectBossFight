@@ -76,3 +76,4 @@ ProjectBossFight/DerivedDataCache/**
 
 #Log Files
 *.log
+ProjectBossFight/Content/Characters/Hero/Animation/Hero_Idle.uasset
