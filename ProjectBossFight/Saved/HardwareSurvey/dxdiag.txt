@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-Time of this report: 10/17/2017, 12:57:31
+Time of this report: 10/19/2017, 12:56:19
        Machine name: T250-3
    Operating System: Windows 7 Professional 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_ldr.170512-0600)
            Language: English (Regional Setting: English)
@@ -11,7 +11,7 @@ System Manufacturer: Alienware
           Processor: Intel(R) Core(TM) i7-6800K CPU @ 3.40GHz (12 CPUs), ~3.4GHz
              Memory: 32768MB RAM
 Available OS Memory: 32658MB RAM
-          Page File: 6622MB used, 58691MB available
+          Page File: 6070MB used, 59243MB available
         Windows Dir: C:\Windows
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -291,13 +291,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 222.2 GB
+ Free Space: 222.0 GB
 Total Space: 488.2 GB
 File System: NTFS
       Model: Micron 1100 SATA 512GB ATA Device
 
       Drive: D:
- Free Space: 1771.2 GB
+ Free Space: 1771.5 GB
 Total Space: 1907.1 GB
 File System: NTFS
       Model: ST2000DM001-1CH164
