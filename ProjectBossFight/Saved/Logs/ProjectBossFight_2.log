@@ -1,0 +1,1122 @@
+﻿Log file open, 10/20/17 09:39:45
+LogInit:Display: Running engine for game: ProjectBossFight
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(241240795) SRandInit(241240795).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.142355
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.20-14.39.46:369][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.20-14.39.46:369][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.20-14.39.46:383][  0]LogInit: Computer: T250-12
+[2017.10.20-14.39.46:383][  0]LogInit: User: student
+[2017.10.20-14.39.46:383][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.10.20-14.39.46:383][  0]LogInit: High frequency timer resolution =3.312685 MHz
+[2017.10.20-14.39.46:384][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2017.10.20-14.39.46:384][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.20-14.39.46:384][  0]LogMemory: Process Physical Memory: 275.43 MB used, 275.43 MB peak
+[2017.10.20-14.39.46:384][  0]LogMemory: Process Virtual Memory: 271.01 MB used, 271.01 MB peak
+[2017.10.20-14.39.46:384][  0]LogMemory: Physical Memory: 5690.11 MB used,  18775.91 MB free, 24466.01 MB total
+[2017.10.20-14.39.46:384][  0]LogMemory: Virtual Memory: 631.18 MB used,  18775.91 MB free, 8388608.00 MB total
+[2017.10.20-14.39.46:440][  0]LogInit: Using OS detected language (en-US).
+[2017.10.20-14.39.46:440][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.20-14.39.46:442][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.20-14.39.47:343][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.20-14.39.47:380][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.10.20-14.39.47:380][  0]LogD3D11RHI:       8085/0/11977 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.20-14.39.47:380][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.20-14.39.47:388][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.20-14.39.47:388][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.20-14.39.47:388][  0]LogWindows: EnumDisplayDevices:
+[2017.10.20-14.39.47:388][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.10.20-14.39.47:388][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.20-14.39.47:388][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.20-14.39.47:389][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.20-14.39.47:389][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.10.20-14.39.47:389][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.10.20-14.39.47:389][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.10.20-14.39.47:389][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.20-14.39.47:389][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.10.20-14.39.47:389][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.10.20-14.39.47:389][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.10.20-14.39.47:390][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.20-14.39.47:403][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.20-14.39.47:418][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.20-14.39.47:466][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Intermediate/Shaders/WorkingDirectory/5652/).
+[2017.10.20-14.39.47:466][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/student/AppData/Local/Temp/UnrealShaderWorkingDir/2397F94742CBD77AD1736C86F55C73A5/'.
+[2017.10.20-14.39.47:466][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.20-14.39.48:485][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.20-14.39.48:543][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.20-14.39.48:578][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.20-14.39.48:614][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.20-14.39.48:692][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.20-14.39.48:758][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.20-14.39.48:811][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.20-14.39.48:857][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.20-14.39.48:894][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.20-14.39.48:933][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.20-14.39.48:968][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.20-14.39.49:003][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.20-14.39.49:037][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.20-14.39.49:072][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.20-14.39.49:110][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.20-14.39.49:222][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.20-14.39.49:222][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.20-14.39.49:262][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.20-14.39.49:353][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.20-14.39.49:402][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.20-14.39.49:441][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.20-14.39.49:476][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.20-14.39.49:511][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.20-14.39.49:545][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.20-14.39.49:545][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.20-14.39.50:003][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.20-14.39.50:093][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/student/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.20-14.39.50:093][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/student/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.20-14.39.50:093][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.20-14.39.50:093][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.20-14.39.50:093][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.20-14.39.50:094][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.20-14.39.50:139][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.20-14.39.50:151][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.20-14.39.50:176][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.20-14.39.50:176][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.20-14.39.50:177][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.20-14.39.50:177][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.20-14.39.50:708][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.20-14.39.50:713][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.20-14.39.50:910][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.20-14.39.50:940][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.20-14.39.50:972][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.20-14.39.50:972][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.20-14.39.50:972][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.20-14.39.51:458][  0]LogNetVersion: ProjectBossFight , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 351899695)
+[2017.10.20-14.39.51:509][  0]LogAssetRegistry: FAssetRegistry took 0.0231 seconds to start up
+[2017.10.20-14.39.51:550][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.024808 seconds
+[2017.10.20-14.39.51:555][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.20-14.39.51:555][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.20-14.39.51:555][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.20-14.39.51:598][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.20-14.39.54:029][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.20-14.39.54:058][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.20-14.39.54:673][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.20-14.39.55:089][  0]SourceControl: Info Source control is disabled
+[2017.10.20-14.39.55:090][  0]SourceControl: Info Source control is disabled
+[2017.10.20-14.39.55:165][  0]SourceControl: Info Source control is disabled
+[2017.10.20-14.39.55:210][  0]SourceControl: Info Source control is disabled
+[2017.10.20-14.39.55:897][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.20-14.39.56:489][  0]LogEngine: Initializing Engine...
+[2017.10.20-14.39.56:490][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.20-14.39.56:872][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.20-14.39.56:872][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.20-14.39.57:012][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.20-14.39.57:023][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-14.39.57:050][  0]LogInit: FAudioDevice initialized.
+[2017.10.20-14.39.57:095][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/student/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.20-14.39.57:112][  0]LogInit: Texture streaming: Enabled
+[2017.10.20-14.39.57:188][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.20-14.39.57:475][  0]LogInit: Transaction tracking system initialized
+[2017.10.20-14.39.57:815][  0]BlueprintLog: New page: Editor Load
+[2017.10.20-14.39.58:581][  0]LocalizationService: Info Localization service is disabled
+[2017.10.20-14.39.59:319][  0]LogConsoleResponse:Display: 
+[2017.10.20-14.39.59:508][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.20-14.39.59:508][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.20-14.40.00:610][  0]LogFileCache: Scanning file cache for directory 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/' took 0.01s
+[2017.10.20-14.40.00:663][  0]SourceControl: Info Source control is disabled
+[2017.10.20-14.40.00:663][  0]Cmd: MAP LOAD FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.20-14.40.00:663][  0]LightingResults: New page: Lighting Build
+[2017.10.20-14.40.00:704][  0]MapCheck: New page: Map Check
+[2017.10.20-14.40.00:704][  0]LightingResults: New page: Lighting Build
+[2017.10.20-14.40.01:607][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.20-14.40.01:624][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.20-14.40.01:652][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.20-14.40.01:699][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.098ms to complete.
+[2017.10.20-14.40.01:699][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.037
+[2017.10.20-14.40.01:868][  0]LogCollectionManager: Loaded 0 collections in 0.001554 seconds
+[2017.10.20-14.40.01:951][  0]LogFileCache: Scanning file cache for directory 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Collections/' took 0.01s
+[2017.10.20-14.40.01:951][  0]LogFileCache: Scanning file cache for directory 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Developers/student/Collections/' took 0.01s
+[2017.10.20-14.40.01:951][  0]LogFileCache: Scanning file cache for directory 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Collections/' took 0.01s
+[2017.10.20-14.40.01:951][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.20-14.40.01:963][  0]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2329 classes and 491 folders.
+[2017.10.20-14.40.02:040][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.20-14.40.02:098][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.20-14.40.02:151][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.20-14.40.02:186][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.20-14.40.02:191][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.20-14.40.02:267][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.20-14.40.02:267][  0]LogLoad: (Engine Initialization) Total time: 17.59 seconds
+[2017.10.20-14.40.02:267][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.29 seconds
+[2017.10.20-14.40.02:267][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.20-14.40.02:267][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.20-14.40.02:606][  0]LogOcInput: OculusInput pre-init called
+[2017.10.20-14.40.02:606][  0]LogHMD: Starting GearVRController plugin
+[2017.10.20-14.40.02:634][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.20-14.40.02:641][  0]LogSlate: Took 0.000421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.20-14.40.02:646][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.20-14.40.02:656][  0]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.20-14.40.02:953][  1]LogRenderer: Reallocating scene render targets to support 1184x580 NumSamples 1 (Frame:1).
+[2017.10.20-14.40.02:953][  1]LogAssetRegistry: Asset discovery search completed in 11.4637 seconds
+[2017.10.20-14.40.02:955][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.20-14.40.02:955][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2017.10.20-14.40.03:610][  3]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.20-14.40.14:416][ 33]LogRenderer: Reallocating scene render targets to support 1184x796 NumSamples 1 (Frame:2).
+[2017.10.20-14.40.18:721][511]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.20-14.41.19:281][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/MasterMix" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset" SILENT=true
+[2017.10.20-14.41.19:300][542]LogSavePackage: Save=8.97ms
+[2017.10.20-14.41.19:300][542]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/MasterMix4B01FC464B4CC9EED40946A4E91E9B5B.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset'
+[2017.10.20-14.41.19:301][542]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset
+[2017.10.20-14.42.17:359][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/MasterMix" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset" SILENT=true
+[2017.10.20-14.42.17:374][511]LogSavePackage: Save=8.53ms
+[2017.10.20-14.42.17:374][511]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/MasterMixDE4BA28C4AB47DCFBF1F848BAE2C0B97.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset'
+[2017.10.20-14.42.17:375][511]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset
+[2017.10.20-14.45.01:317][499]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.20-14.45.22:974][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/MasterMix" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset" SILENT=true
+[2017.10.20-14.45.22:987][773]LogSavePackage: Save=7.07ms
+[2017.10.20-14.45.22:987][773]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/MasterMixAB1E9B5A4E9A1A271246FE99FFA76C0B.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset'
+[2017.10.20-14.45.22:989][773]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset
+[2017.10.20-14.45.39:766][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/Master" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/Master.uasset" SILENT=true
+[2017.10.20-14.45.39:779][735]LogSavePackage: Save=8.02ms
+[2017.10.20-14.45.39:779][735]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/MasterBD6CCC8D46E9FFA2D0543F9666B5CEB4.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/Master.uasset'
+[2017.10.20-14.45.39:780][735]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/Master.uasset
+[2017.10.20-14.45.54:507][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/MasterMix" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset" SILENT=true
+[2017.10.20-14.45.54:523][484]LogSavePackage: Save=8.43ms
+[2017.10.20-14.45.54:523][484]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/MasterMix934B9024427014CF031C66B74B6FE658.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset'
+[2017.10.20-14.45.54:525][484]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset
+[2017.10.20-14.45.54:529][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/FX" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/FX.uasset" SILENT=true
+[2017.10.20-14.45.54:545][484]LogSavePackage: Save=8.24ms
+[2017.10.20-14.45.54:545][484]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/FX08B3C5934C8428B969823F9537DE8989.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/FX.uasset'
+[2017.10.20-14.45.54:547][484]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/FX.uasset
+[2017.10.20-14.45.54:552][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/Music" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/Music.uasset" SILENT=true
+[2017.10.20-14.45.54:568][484]LogSavePackage: Save=8.75ms
+[2017.10.20-14.45.54:568][484]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/MusicAA397E3A443BDCA6711989B913428C93.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/Music.uasset'
+[2017.10.20-14.45.54:570][484]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/Music.uasset
+[2017.10.20-14.45.54:574][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/Voice" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/Voice.uasset" SILENT=true
+[2017.10.20-14.45.54:588][484]LogSavePackage: Save=6.09ms
+[2017.10.20-14.45.54:588][484]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/VoiceE5CA8C054453EE360217F99C933D601D.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/Voice.uasset'
+[2017.10.20-14.45.54:590][484]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/Voice.uasset
+[2017.10.20-14.47.40:976][426]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.10.20-14.47.43:047][576]LogSlate: Took 0.005236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.10.20-14.47.46:773][941]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.20-14.48.04:259][984]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.20-14.48.26:261][994]BlueprintLog: New page: Compile Options
+[2017.10.20-14.48.26:508][994]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-14.48.28:126][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-14.48.28:262][181]LogSavePackage: Save=126.95ms
+[2017.10.20-14.48.28:262][181]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options5186DC45471E75CBD7369296A2530EF3.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-14.48.28:263][181]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-14.57.03:413][621]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.034
+[2017.10.20-14.57.03:415][621]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/Options] ([1] browsable assets)...
+[2017.10.20-14.57.03:415][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/Options]
+[2017.10.20-14.57.03:415][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.20-14.57.03:581][621]LogSavePackage: Save=153.07ms
+[2017.10.20-14.57.03:581][621]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options_Auto155D052754037D09D34061FBA6DA7E727.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto1.uasset'
+[2017.10.20-14.57.03:582][621]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto1.uasset
+[2017.10.20-14.57.03:582][621]LogFileHelpers: Auto-saving content packages took 0.168
+[2017.10.20-14.57.15:418][ 32]BlueprintLog: New page: Compile Options
+[2017.10.20-14.57.15:444][ 32]LogBlueprint:Error: [Compiler Options] Error Could not find a function named "Update Volume" in 'Options_C'.
+Make sure 'Options_C' has been compiled for  Update Volume
+[2017.10.20-14.57.15:760][ 32]BlueprintEditorCompileResults:Error: Error Could not find a function named "Update Volume" in 'Options_C'.
+Make sure 'Options_C' has been compiled for  Update Volume
+[2017.10.20-14.57.15:760][ 32]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-14.57.15:764][ 32]LogBlueprint:Warning: [Compiler Options] Warning [1051.07] Compile of Options failed. 1 Fatal Issue(s) 0 Warning(s) [in 346 ms] (/Game/Widgets/Options.Options)
+[2017.10.20-14.57.19:685][482]BlueprintLog: New page: Compile Options
+[2017.10.20-14.57.19:826][482]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.00.26:295][770]BlueprintLog: New page: Compile Options
+[2017.10.20-15.00.26:438][770]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.00.26:589][784]BlueprintLog: New page: Compile Options
+[2017.10.20-15.00.26:717][784]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.00.26:847][798]BlueprintLog: New page: Compile Options
+[2017.10.20-15.00.26:975][798]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.00.27:838][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-15.00.27:960][892]LogSavePackage: Save=118.55ms
+[2017.10.20-15.00.27:960][892]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options32EF699047AD2E24DC95D492E69DC3E1.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-15.00.27:962][892]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-15.05.32:674][971]BlueprintLog: New page: Compile Options
+[2017.10.20-15.05.32:815][971]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.05.44:760][389]BlueprintLog: New page: Compile Options
+[2017.10.20-15.05.44:903][389]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.05.46:016][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-15.05.46:145][514]LogSavePackage: Save=116.73ms
+[2017.10.20-15.05.46:145][514]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/OptionsECE689B34F8B7AB872E83287D6647D8D.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-15.05.46:147][514]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-15.08.12:056][834]BlueprintLog: New page: Compile Options
+[2017.10.20-15.08.12:185][834]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.08.22:172][ 18]BlueprintLog: New page: Compile Options
+[2017.10.20-15.08.22:308][ 18]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.08.24:404][262]BlueprintLog: New page: Compile Options
+[2017.10.20-15.08.24:535][262]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.08.52:852][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/Master" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/Master.uasset" SILENT=true
+[2017.10.20-15.08.52:864][294]LogSavePackage: Save=7.42ms
+[2017.10.20-15.08.52:864][294]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/MasterE37F330540BC9A5444712698D622722A.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/Master.uasset'
+[2017.10.20-15.08.52:864][294]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/Master.uasset
+[2017.10.20-15.08.54:002][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-15.08.54:124][417]LogSavePackage: Save=117.88ms
+[2017.10.20-15.08.54:124][417]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/OptionsFF7B62664BE6B820EB999FAAE60EDAF6.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-15.08.54:126][417]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-15.08.56:861][590]BlueprintLog: New page: Compile Options
+[2017.10.20-15.08.57:008][590]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.08.57:338][618]BlueprintLog: New page: Compile Options
+[2017.10.20-15.08.57:465][618]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.10.03:129][546]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.024
+[2017.10.20-15.10.03:130][546]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/Options] ([1] browsable assets)...
+[2017.10.20-15.10.03:130][546]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/Options]
+[2017.10.20-15.10.03:130][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.10.20-15.10.03:261][546]LogSavePackage: Save=124.25ms
+[2017.10.20-15.10.03:261][546]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options_Auto2403760634E48FBB3D750BAA1847F96FA.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto2.uasset'
+[2017.10.20-15.10.03:261][546]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto2.uasset
+[2017.10.20-15.10.03:261][546]LogFileHelpers: Auto-saving content packages took 0.131
+[2017.10.20-15.18.36:002][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-15.18.36:167][735]LogSavePackage: Save=142.76ms
+[2017.10.20-15.18.36:167][735]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/OptionsBF2547114196407CF6B0BCABE9A2810A.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-15.18.36:171][735]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-15.18.36:175][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/MasterMix" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset" SILENT=true
+[2017.10.20-15.18.36:185][735]LogSavePackage: Save=8.15ms
+[2017.10.20-15.18.36:185][735]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/MasterMix239C4691408B95CD974ACABC98450878.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset'
+[2017.10.20-15.18.36:187][735]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Sound/MasterMix.uasset
+[2017.10.20-15.20.04:221][309]BlueprintLog: New page: Compile Options
+[2017.10.20-15.20.04:381][309]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.21.33:692][997]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.036
+[2017.10.20-15.21.33:694][997]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/Options] ([1] browsable assets)...
+[2017.10.20-15.21.33:694][997]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/Options]
+[2017.10.20-15.21.33:694][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.10.20-15.21.33:829][997]LogSavePackage: Save=130.92ms
+[2017.10.20-15.21.33:829][997]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options_Auto33699ADDA4F1D5137574A878A2876103D.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto3.uasset'
+[2017.10.20-15.21.33:830][997]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto3.uasset
+[2017.10.20-15.21.33:830][997]LogFileHelpers: Auto-saving content packages took 0.137
+[2017.10.20-15.21.42:112][ 44]BlueprintLog: New page: Compile Options
+[2017.10.20-15.21.42:239][ 44]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.21.43:320][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-15.21.43:445][167]LogSavePackage: Save=119.18ms
+[2017.10.20-15.21.43:445][167]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options9E4BC76E40B39C8D4E8BA4A710FC17B0.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-15.21.43:448][167]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-15.23.27:713][255]BlueprintLog: New page: Compile Options
+[2017.10.20-15.23.27:855][255]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.23.28:292][306]BlueprintLog: New page: Compile Options
+[2017.10.20-15.23.28:424][306]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.23.29:484][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-15.23.29:615][427]LogSavePackage: Save=127.07ms
+[2017.10.20-15.23.29:615][427]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options0707D7ED4B6A7ACCE02C78AA1BC64F41.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-15.23.29:617][427]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-15.30.06:766][442]BlueprintLog: New page: Compile Options
+[2017.10.20-15.30.06:899][442]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-15.30.08:399][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-15.30.08:537][611]LogSavePackage: Save=123.97ms
+[2017.10.20-15.30.08:537][611]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/OptionsFC9278CF407F93BA1F6F80B40A03C4DF.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-15.30.08:539][611]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-15.31.34:714][304]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.035
+[2017.10.20-15.31.34:716][304]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/Options] ([1] browsable assets)...
+[2017.10.20-15.31.34:716][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/Options]
+[2017.10.20-15.31.34:716][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.10.20-15.31.34:882][304]LogSavePackage: Save=162.20ms
+[2017.10.20-15.31.34:882][304]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options_Auto4E431E89C4ABC91313254DBBF5F789330.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto4.uasset'
+[2017.10.20-15.31.34:883][304]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto4.uasset
+[2017.10.20-15.31.34:883][304]LogFileHelpers: Auto-saving content packages took 0.168
+[2017.10.20-15.41.34:823][485]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.029
+[2017.10.20-15.41.34:824][485]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/Options] ([1] browsable assets)...
+[2017.10.20-15.41.34:824][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/Options]
+[2017.10.20-15.41.34:824][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.10.20-15.41.34:956][485]LogSavePackage: Save=122.00ms
+[2017.10.20-15.41.34:956][485]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options_Auto53D54BF53426E5490B23F9CBABC2E31D7.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto5.uasset'
+[2017.10.20-15.41.34:956][485]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto5.uasset
+[2017.10.20-15.41.34:956][485]LogFileHelpers: Auto-saving content packages took 0.133
+[2017.10.20-16.03.10:564][ 41]BlueprintLog: New page: Compile Options
+[2017.10.20-16.03.10:804][ 41]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.03.11:802][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-16.03.11:953][151]LogSavePackage: Save=139.25ms
+[2017.10.20-16.03.11:953][151]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options987B1E834ACBB5253B69F4849E79ECA1.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-16.03.11:956][151]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-16.08.22:729][774]BlueprintLog: New page: Compile Options
+[2017.10.20-16.08.22:863][774]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.08.23:745][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-16.08.23:880][871]LogSavePackage: Save=126.21ms
+[2017.10.20-16.08.23:880][871]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/OptionsE2E3D6BC4FA67F43EF44E8B24FBDCD9E.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-16.08.23:882][871]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-16.08.59:376][ 91]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.027
+[2017.10.20-16.08.59:377][ 91]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/Options] ([1] browsable assets)...
+[2017.10.20-16.08.59:377][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/Options]
+[2017.10.20-16.08.59:377][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.10.20-16.08.59:503][ 91]LogSavePackage: Save=123.22ms
+[2017.10.20-16.08.59:503][ 91]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options_Auto65BD452914DCBCC173D3F8DB1920718D2.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto6.uasset'
+[2017.10.20-16.08.59:504][ 91]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Autosaves/Game/Widgets/Options_Auto6.uasset
+[2017.10.20-16.08.59:504][ 91]LogFileHelpers: Auto-saving content packages took 0.127
+[2017.10.20-16.10.07:292][134]BlueprintLog: New page: Compile Options
+[2017.10.20-16.10.07:426][134]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.11.08:706][365]BlueprintLog: New page: Compile Options
+[2017.10.20-16.11.08:848][365]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.11.10:572][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-16.11.10:701][565]LogSavePackage: Save=126.06ms
+[2017.10.20-16.11.10:701][565]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options9F35190742923A9FC6620DBC32FEA08C.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-16.11.10:703][565]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-16.16.05:963][733]BlueprintLog: New page: Compile Options
+[2017.10.20-16.16.06:114][733]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.16.07:173][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-16.16.07:308][849]LogSavePackage: Save=127.35ms
+[2017.10.20-16.16.07:308][849]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/OptionsC942C0DD45D4A225CF825497FFDB5E6C.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-16.16.07:310][849]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-16.17.41:450][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-16.17.41:577][978]LogSavePackage: Save=123.94ms
+[2017.10.20-16.17.41:577][978]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options6B303F9E49AC8BC8BF99C3BAFB881F1F.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-16.17.41:579][978]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_2.WidgetTree_116.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/HUD.HUD:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Options.Options:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_8.WidgetTree_119.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_9.WidgetTree_120.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/OptionsPause2.OptionsPause2:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Pause.Pause:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_13.WidgetTree_124.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Reload.Reload:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_14.WidgetTree_133.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_7.WidgetTree_118.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_11.WidgetTree_122.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/BossHUD.BossHUD_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Death.Death_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/HUD.HUD_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_3.WidgetTree_111.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/OptionsPause2.OptionsPause2_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Pause.Pause_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Options.Options_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Reload.Reload_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Defeat.Defeat:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_10.WidgetTree_121.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Defeat.Defeat_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_6.WidgetTree_117.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_15.WidgetTree_134.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Options_C_96:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Options_C_7.WidgetTree_80.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_16.WidgetTree_135.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Options_C_71:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_4.WidgetTree_112.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_12.WidgetTree_123.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Options_C_6.WidgetTree_79.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Options_C_4.WidgetTree_77.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_5.WidgetTree_113.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Options_C_89:WidgetTree.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Options_C_5.WidgetTree_78.CanvasPanel_0
+[2017.10.20-16.17.51:292][112]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_4).  Import failed...
+[2017.10.20-16.17.51:292][112]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2017.10.20-16.18.25:781][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:781][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_2.WidgetTree_116.CanvasPanel_0
+[2017.10.20-16.18.25:781][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/HUD.HUD:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:781][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:781][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Options.Options:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:781][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_8.WidgetTree_119.CanvasPanel_0
+[2017.10.20-16.18.25:781][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_9.WidgetTree_120.CanvasPanel_0
+[2017.10.20-16.18.25:781][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/OptionsPause2.OptionsPause2:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Pause.Pause:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_13.WidgetTree_124.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Reload.Reload:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_14.WidgetTree_133.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_7.WidgetTree_118.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_11.WidgetTree_122.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/BossHUD.BossHUD_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Death.Death_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/HUD.HUD_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_17.WidgetTree_136.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_3.WidgetTree_111.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/OptionsPause2.OptionsPause2_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Pause.Pause_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Options.Options_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Reload.Reload_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Defeat.Defeat:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_10.WidgetTree_121.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Defeat.Defeat_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_6.WidgetTree_117.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_20.WidgetTree_139.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_15.WidgetTree_134.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Options_C_96:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Options_C_7.WidgetTree_80.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_16.WidgetTree_135.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_18.WidgetTree_137.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_21.WidgetTree_140.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_19.WidgetTree_138.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Options_C_71:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_4.WidgetTree_112.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_12.WidgetTree_123.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Options_C_6.WidgetTree_79.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Options_C_4.WidgetTree_77.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_5.WidgetTree_113.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Options_C_89:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Options_C_5.WidgetTree_78.CanvasPanel_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Game/Widgets/Death.Death_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Game/Widgets/Defeat.Defeat:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Game/Widgets/Defeat.Defeat_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Game/Widgets/Options.Options:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_4:Options_C_17.WidgetTree_136.CanvasPanel_0.CanvasPanelSlot_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_4:Options_C_18.WidgetTree_137.CanvasPanel_0.CanvasPanelSlot_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_4:Options_C_19.WidgetTree_138.CanvasPanel_0.CanvasPanelSlot_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_4:Options_C_20.WidgetTree_139.CanvasPanel_0.CanvasPanelSlot_0
+[2017.10.20-16.18.25:782][191]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_4:Options_C_21.WidgetTree_140.CanvasPanel_0.CanvasPanelSlot_0
+[2017.10.20-16.18.25:782][191]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_1).  Import failed...
+[2017.10.20-16.18.25:782][191]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_0''
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_2.WidgetTree_116.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/HUD.HUD:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Options.Options:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_8.WidgetTree_119.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_9.WidgetTree_120.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/OptionsPause2.OptionsPause2:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Pause.Pause:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_13.WidgetTree_124.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Reload.Reload:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_14.WidgetTree_133.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_7.WidgetTree_118.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_11.WidgetTree_122.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/BossHUD.BossHUD_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Death.Death_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/HUD.HUD_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_17.WidgetTree_136.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_3.WidgetTree_111.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/OptionsPause2.OptionsPause2_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Pause.Pause_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Options.Options_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Reload.Reload_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Defeat.Defeat:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_10.WidgetTree_121.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/Defeat.Defeat_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_6.WidgetTree_117.CanvasPanel_0
+[2017.10.20-16.18.56:150][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_20.WidgetTree_139.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_22.WidgetTree_141.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_15.WidgetTree_134.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Options_C_96:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Options_C_7.WidgetTree_80.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_16.WidgetTree_135.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_18.WidgetTree_137.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_21.WidgetTree_140.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Widgets/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_19.WidgetTree_138.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Options_C_71:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_4.WidgetTree_112.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_12.WidgetTree_123.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_24.WidgetTree_143.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Options_C_6.WidgetTree_79.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_23.WidgetTree_142.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Options_C_4.WidgetTree_77.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Options_C_5.WidgetTree_113.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Options_C_89:WidgetTree.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Widgets/BossHUD.BossHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Options_C_5.WidgetTree_78.CanvasPanel_0
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/Widgets/Reload.Reload:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/Widgets/Death.Death_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/Widgets/Reload.Reload_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/Widgets/Options.Options:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_4:Options_C_22.WidgetTree_141.CanvasPanel_0.CanvasPanelSlot_2
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_4:Options_C_23.WidgetTree_142.CanvasPanel_0.CanvasPanelSlot_2
+[2017.10.20-16.18.56:151][788]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_4:Options_C_24.WidgetTree_143.CanvasPanel_0.CanvasPanelSlot_2
+[2017.10.20-16.18.56:151][788]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Widgets/Death.Death:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_2).  Import failed...
+[2017.10.20-16.18.56:151][788]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_2''
+[2017.10.20-16.19.18:654][457]BlueprintLog: New page: Compile Options
+[2017.10.20-16.19.18:834][457]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.19.20:228][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-16.19.20:366][597]LogSavePackage: Save=134.92ms
+[2017.10.20-16.19.20:366][597]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/OptionsD93886F34488F9C7BA9D5B8DFA3FDD1B.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-16.19.20:368][597]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-16.19.51:583][218]BlueprintLog: New page: Compile Options
+[2017.10.20-16.19.51:740][218]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.19.55:178][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-16.19.55:342][590]LogSavePackage: Save=156.43ms
+[2017.10.20-16.19.55:342][590]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/OptionsA0B1EC014E7E5780C437D0BB367AC936.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-16.19.55:344][590]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-16.20.05:767][821]BlueprintLog: New page: Compile Options
+[2017.10.20-16.20.05:921][821]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.20.30:310][633]BlueprintLog: New page: Compile Options
+[2017.10.20-16.20.30:471][633]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.20.34:770][138]BlueprintLog: New page: Compile Options
+[2017.10.20-16.20.34:915][138]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.20.45:783][327]BlueprintLog: New page: Compile Options
+[2017.10.20-16.20.45:923][327]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.20.46:869][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-16.20.47:041][428]LogSavePackage: Save=164.07ms
+[2017.10.20-16.20.47:041][428]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options66C4EF5E479C24D704207EAD503C2F87.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-16.20.47:043][428]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-16.21.18:523][ 35]BlueprintLog: New page: Compile Options
+[2017.10.20-16.21.18:682][ 35]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.21.19:749][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-16.21.19:907][139]LogSavePackage: Save=147.03ms
+[2017.10.20-16.21.19:907][139]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options70C64B75422289563F1BBBB07DCF4B41.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-16.21.19:909][139]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-16.21.43:265][902]BlueprintLog: New page: Compile Options
+[2017.10.20-16.21.43:427][902]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.21.44:260][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Options" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset" SILENT=true
+[2017.10.20-16.21.44:414][990]LogSavePackage: Save=150.46ms
+[2017.10.20-16.21.44:414][990]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Options15B629FD4BA4BA4E12F7E68CCC2E0337.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset'
+[2017.10.20-16.21.44:415][990]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Options.uasset
+[2017.10.20-16.24.17:619][797]LogLinker: Can't find file '/Game/Widgets/OptionsPause'
+[2017.10.20-16.24.17:619][797]LogLinker: Can't find file '/Game/Widgets/OptionsPause'
+[2017.10.20-16.24.19:758][  8]LogSlate: Took 0.007602 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.20-16.24.26:770][  8]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SKEL_OptionsPause2_C' or package '/Game/Widgets/OptionsPause2'.
+[2017.10.20-16.24.26:770][  8]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Epic_K2Node_ComponentBoundEvent_670_OnButtonClickedEvent__DelegateSignature' or package '/Game/Widgets/OptionsPause2'.
+[2017.10.20-16.24.26:770][  8]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__High_K2Node_ComponentBoundEvent_647_OnButtonClickedEvent__DelegateSignature' or package '/Game/Widgets/OptionsPause2'.
+[2017.10.20-16.24.26:770][  8]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Medium_K2Node_ComponentBoundEvent_630_OnButtonClickedEvent__DelegateSignature' or package '/Game/Widgets/OptionsPause2'.
+[2017.10.20-16.24.26:770][  8]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Low_K2Node_ComponentBoundEvent_588_OnButtonClickedEvent__DelegateSignature' or package '/Game/Widgets/OptionsPause2'.
+[2017.10.20-16.24.26:770][  8]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__640x480_K2Node_ComponentBoundEvent_285_OnButtonClickedEvent__DelegateSignature' or package '/Game/Widgets/OptionsPause2'.
+[2017.10.20-16.24.26:770][  8]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__1280x720_K2Node_ComponentBoundEvent_302_OnButtonClickedEvent__DelegateSignature' or package '/Game/Widgets/OptionsPause2'.
+[2017.10.20-16.24.26:770][  8]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Return_K2Node_ComponentBoundEvent_348_OnButtonClickedEvent__DelegateSignature' or package '/Game/Widgets/OptionsPause2'.
+[2017.10.20-16.24.26:770][  8]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__1920x1080_K2Node_ComponentBoundEvent_320_OnButtonClickedEvent__DelegateSignature' or package '/Game/Widgets/OptionsPause2'.
+[2017.10.20-16.24.28:389][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/OptionsPause2" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/OptionsPause2.uasset" SILENT=true
+[2017.10.20-16.24.28:415][  8]LogSavePackage: Save=8.70ms
+[2017.10.20-16.24.28:415][  8]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/OptionsPause2233558084D965C819E31DE92C0438CFE.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/OptionsPause2.uasset'
+[2017.10.20-16.24.28:418][  8]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/OptionsPause2.uasset
+[2017.10.20-16.24.28:423][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Pause" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Pause.uasset" SILENT=true
+[2017.10.20-16.24.28:516][  8]LogSavePackage: Save=76.33ms
+[2017.10.20-16.24.28:516][  8]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Pause6BCCBFA448CB2A2DAB6854BBA50FE480.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Pause.uasset'
+[2017.10.20-16.24.28:518][  8]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/Pause.uasset
+[2017.10.20-16.24.32:155][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/OptionsPause" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/OptionsPause.uasset" SILENT=true
+[2017.10.20-16.24.32:326][239]LogSavePackage: Save=169.17ms
+[2017.10.20-16.24.32:326][239]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/OptionsPauseF5C9B42C4FAD84A193566695D7C2E554.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/OptionsPause.uasset'
+[2017.10.20-16.24.32:328][239]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/OptionsPause.uasset
+[2017.10.20-16.24.40:474][111]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.20-16.24.40:544][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.24.40:544][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-16.24.40:545][111]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 20, 2017, 6:24:40 AM)
+[2017.10.20-16.24.40:545][111]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.20-16.24.40:566][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021036s)
+[2017.10.20-16.24.40:566][111]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.20-16.24.40:566][111]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2017.10.20-16.24.40:567][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021807s)
+[2017.10.20-16.24.40:597][111]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-16.24.40:605][111]LogInit: FAudioDevice initialized.
+[2017.10.20-16.24.40:732][111]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.10.20-16.24.40:736][111]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.20-11.24.40
+[2017.10.20-16.24.40:736][111]LogWorld: Bringing up level for play took: 0.001911
+[2017.10.20-16.24.40:772][111]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.10.20-16.24.40:773][111]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.205
+[2017.10.20-16.24.40:773][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.24.47:290][879]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.24.47:322][879]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.25.05:423][996]BlueprintLog: New page: Compile BossHUD
+[2017.10.20-16.25.05:553][996]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.25.08:254][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/BossHUD" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/BossHUD.uasset" SILENT=true
+[2017.10.20-16.25.08:307][309]LogSavePackage: Save=36.51ms
+[2017.10.20-16.25.08:307][309]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/BossHUDDA9148C640DC17858018C1AE3DDAB156.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/BossHUD.uasset'
+[2017.10.20-16.25.08:309][309]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/BossHUD.uasset
+[2017.10.20-16.25.09:861][489]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.20-16.25.09:883][489]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.25.09:883][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-16.25.09:883][489]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 20, 2017, 6:25:09 AM)
+[2017.10.20-16.25.09:884][489]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.20-16.25.09:899][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015743s)
+[2017.10.20-16.25.09:900][489]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.20-16.25.09:900][489]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2017.10.20-16.25.09:900][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016513s)
+[2017.10.20-16.25.09:930][489]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-16.25.09:937][489]LogInit: FAudioDevice initialized.
+[2017.10.20-16.25.09:969][489]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.10.20-16.25.09:973][489]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.20-11.25.09
+[2017.10.20-16.25.09:974][489]LogWorld: Bringing up level for play took: 0.003355
+[2017.10.20-16.25.09:977][489]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.998
+[2017.10.20-16.25.09:977][489]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.25.26:277][437]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2017.10.20-16.25.26:278][437]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2017.10.20-16.25.26:310][437]Cmd: MEM
+[2017.10.20-16.25.26:332][437]LogMemory: Platform Memory Stats for Windows
+[2017.10.20-16.25.26:332][437]LogMemory: Process Physical Memory: 2206.54 MB used, 2209.93 MB peak
+[2017.10.20-16.25.26:332][437]LogMemory: Process Virtual Memory: 3044.01 MB used, 3044.16 MB peak
+[2017.10.20-16.25.26:332][437]LogMemory: Physical Memory: 7151.19 MB used,  17314.82 MB free, 24466.01 MB total
+[2017.10.20-16.25.26:332][437]LogMemory: Virtual Memory: 3717.59 MB used,  17314.82 MB free, 8388608.00 MB total
+[2017.10.20-16.25.26:332][437]LogMemory: 
+[2017.10.20-16.25.26:332][437]Allocator Stats for TBB: (not implemented)
+[2017.10.20-16.25.26:332][437]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.20-16.25.26:345][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012826s)
+[2017.10.20-16.25.26:346][437]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.20-16.25.26:346][437]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2017.10.20-16.25.26:346][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013606s)
+[2017.10.20-16.25.26:346][437]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.10.20-16.25.26:356][437]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.20-11.25.26
+[2017.10.20-16.25.26:356][437]LogWorld: Bringing up level for play took: 0.009066
+[2017.10.20-16.25.26:358][437]LogLoad: Took 0.080330 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2017.10.20-16.25.30:061][879]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.25.30:090][879]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.25.50:658][155]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.20-16.26.08:306][ 12]BlueprintLog: New page: Compile OptionsPause
+[2017.10.20-16.26.08:445][ 12]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.20-16.26.10:749][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/OptionsPause" FILE="D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/OptionsPause.uasset" SILENT=true
+[2017.10.20-16.26.10:908][267]LogSavePackage: Save=150.07ms
+[2017.10.20-16.26.10:908][267]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/OptionsPause152DAA6F456264EF94F16B8DCCCDCE70.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/OptionsPause.uasset'
+[2017.10.20-16.26.10:910][267]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Widgets/OptionsPause.uasset
+[2017.10.20-16.26.11:895][375]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.20-16.26.11:926][375]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.26.11:926][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-16.26.11:927][375]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 20, 2017, 6:26:11 AM)
+[2017.10.20-16.26.11:927][375]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.20-16.26.11:942][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015650s)
+[2017.10.20-16.26.11:943][375]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.20-16.26.11:943][375]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2017.10.20-16.26.11:943][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016426s)
+[2017.10.20-16.26.11:973][375]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-16.26.11:981][375]LogInit: FAudioDevice initialized.
+[2017.10.20-16.26.12:009][375]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.10.20-16.26.12:013][375]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.20-11.26.12
+[2017.10.20-16.26.12:013][375]LogWorld: Bringing up level for play took: 0.001926
+[2017.10.20-16.26.12:015][375]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.036
+[2017.10.20-16.26.12:015][375]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.26.17:173][987]LogNet: Browse: /Game/Levels/Menu
+[2017.10.20-16.26.17:173][987]LogLoad: LoadMap: /Game/Levels/Menu
+[2017.10.20-16.26.17:200][987]Cmd: MEM
+[2017.10.20-16.26.17:221][987]LogMemory: Platform Memory Stats for Windows
+[2017.10.20-16.26.17:221][987]LogMemory: Process Physical Memory: 2283.95 MB used, 2295.66 MB peak
+[2017.10.20-16.26.17:221][987]LogMemory: Process Virtual Memory: 3128.26 MB used, 3163.47 MB peak
+[2017.10.20-16.26.17:221][987]LogMemory: Physical Memory: 7230.62 MB used,  17235.39 MB free, 24466.01 MB total
+[2017.10.20-16.26.17:221][987]LogMemory: Virtual Memory: 3801.66 MB used,  17235.39 MB free, 8388608.00 MB total
+[2017.10.20-16.26.17:221][987]LogMemory: 
+[2017.10.20-16.26.17:221][987]Allocator Stats for TBB: (not implemented)
+[2017.10.20-16.26.17:240][987]LogAIModule: Creating AISystem for world Menu
+[2017.10.20-16.26.17:240][987]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.10.20-16.26.17:242][987]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2017.10.20-11.26.17
+[2017.10.20-16.26.17:242][987]LogWorld: Bringing up level for play took: 0.000614
+[2017.10.20-16.26.17:242][987]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.20-16.26.17:245][987]LogLoad: Took 0.071703 seconds to LoadMap(/Game/Levels/Menu)
+[2017.10.20-16.26.19:635][272]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2017.10.20-16.26.19:636][272]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2017.10.20-16.26.19:666][272]Cmd: MEM
+[2017.10.20-16.26.19:694][272]LogMemory: Platform Memory Stats for Windows
+[2017.10.20-16.26.19:694][272]LogMemory: Process Physical Memory: 2280.65 MB used, 2295.66 MB peak
+[2017.10.20-16.26.19:694][272]LogMemory: Process Virtual Memory: 3015.14 MB used, 3273.65 MB peak
+[2017.10.20-16.26.19:694][272]LogMemory: Physical Memory: 7222.06 MB used,  17243.95 MB free, 24466.01 MB total
+[2017.10.20-16.26.19:694][272]LogMemory: Virtual Memory: 3688.73 MB used,  17243.95 MB free, 8388608.00 MB total
+[2017.10.20-16.26.19:694][272]LogMemory: 
+[2017.10.20-16.26.19:694][272]Allocator Stats for TBB: (not implemented)
+[2017.10.20-16.26.19:694][272]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.20-16.26.19:707][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012901s)
+[2017.10.20-16.26.19:707][272]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.20-16.26.19:707][272]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2017.10.20-16.26.19:707][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013711s)
+[2017.10.20-16.26.19:707][272]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.10.20-16.26.19:717][272]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.20-11.26.19
+[2017.10.20-16.26.19:718][272]LogWorld: Bringing up level for play took: 0.008935
+[2017.10.20-16.26.19:719][272]LogLoad: Took 0.083622 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2017.10.20-16.26.40:413][749]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.26.40:443][749]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.35.39:798][174]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2017.10.20-16.35.56:452][579]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.20-16.37.41:166][916]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.10.20-16.40.08:247][ 40]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.10.20-16.40.12:804][497]LogSavePackage: Save=133.47ms
+[2017.10.20-16.40.12:804][497]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/ThirdPersonExampleMap7119C66E439DCE10B9EA72A21CB8A9BA.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.10.20-16.40.12:807][497]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.10.20-16.40.12:846][497]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.263
+[2017.10.20-16.40.13:054][497]LogSavePackage: Save=146.85ms
+[2017.10.20-16.40.13:054][497]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/ThirdPersonCharacter820A5E654C1607F3B5A5288EEDDF5409.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.10.20-16.40.13:056][497]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.10.20-16.41.05:886][ 95]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.10.20-16.45.35:757][786]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.10.20-16.45.44:773][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2017.10.20-16.46.15:262][382]LogRenderer: Reallocating scene render targets to support 1184x1240 NumSamples 1 (Frame:1).
+[2017.10.20-16.46.38:926][176]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.20-16.46.38:949][176]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.38:949][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-16.46.38:949][176]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 20, 2017, 6:46:38 AM)
+[2017.10.20-16.46.38:949][176]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.20-16.46.38:965][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015829s)
+[2017.10.20-16.46.38:966][176]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.20-16.46.38:966][176]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2017.10.20-16.46.38:966][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016606s)
+[2017.10.20-16.46.39:006][176]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-16.46.39:017][176]LogInit: FAudioDevice initialized.
+[2017.10.20-16.46.39:042][176]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.10.20-16.46.39:046][176]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.20-11.46.39
+[2017.10.20-16.46.39:046][176]LogWorld: Bringing up level for play took: 0.001866
+[2017.10.20-16.46.39:048][176]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.053
+[2017.10.20-16.46.39:048][176]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.40:172][303]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=553.48 Y=-231.65 Z=0.00 Location: X=0.99 Y=-0.13 Z=0.00 Normal: X=-0.00 Y=1.00 Z=0.00 PenetrationDepth:42.134 Actor:Floor_1 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2017.10.20-16.46.40:381][328]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=-42.000 Z=0.000] for [ThirdPersonCharacter_C]
+[2017.10.20-16.46.41:514][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.41:564][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.42:361][548]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.20-16.46.42:387][548]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.42:387][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-16.46.42:388][548]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 20, 2017, 6:46:42 AM)
+[2017.10.20-16.46.42:388][548]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.20-16.46.42:403][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015731s)
+[2017.10.20-16.46.42:404][548]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.20-16.46.42:404][548]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.10.20-16.46.42:404][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016517s)
+[2017.10.20-16.46.42:448][548]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-16.46.42:459][548]LogInit: FAudioDevice initialized.
+[2017.10.20-16.46.42:490][548]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.10.20-16.46.42:495][548]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.20-11.46.42
+[2017.10.20-16.46.42:496][548]LogWorld: Bringing up level for play took: 0.004010
+[2017.10.20-16.46.42:499][548]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.496
+[2017.10.20-16.46.42:500][548]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.43:913][710]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=-42.000 Z=0.000] for [ThirdPersonCharacter_C]
+[2017.10.20-16.46.45:082][850]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.45:127][850]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.45:865][925]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.20-16.46.45:892][925]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.45:892][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-16.46.45:892][925]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 20, 2017, 6:46:45 AM)
+[2017.10.20-16.46.45:892][925]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.20-16.46.45:906][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014240s)
+[2017.10.20-16.46.45:907][925]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.20-16.46.45:907][925]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2017.10.20-16.46.45:907][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015013s)
+[2017.10.20-16.46.45:935][925]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-16.46.45:946][925]LogInit: FAudioDevice initialized.
+[2017.10.20-16.46.45:971][925]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.10.20-16.46.45:975][925]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.20-11.46.45
+[2017.10.20-16.46.45:975][925]LogWorld: Bringing up level for play took: 0.001916
+[2017.10.20-16.46.45:977][925]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.981
+[2017.10.20-16.46.45:977][925]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.47:117][ 54]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=-42.000 Z=0.000] for [ThirdPersonCharacter_C]
+[2017.10.20-16.46.50:043][405]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.50:085][405]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.53:748][824]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.20-16.46.53:777][824]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.53:777][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-16.46.53:777][824]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 20, 2017, 6:46:53 AM)
+[2017.10.20-16.46.53:777][824]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.20-16.46.53:793][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015844s)
+[2017.10.20-16.46.53:793][824]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.20-16.46.53:793][824]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2017.10.20-16.46.53:794][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016622s)
+[2017.10.20-16.46.53:828][824]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-16.46.53:836][824]LogInit: FAudioDevice initialized.
+[2017.10.20-16.46.53:868][824]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.10.20-16.46.53:871][824]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.20-11.46.53
+[2017.10.20-16.46.53:871][824]LogWorld: Bringing up level for play took: 0.001904
+[2017.10.20-16.46.53:873][824]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.878
+[2017.10.20-16.46.53:873][824]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.56:828][171]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=-42.000 Z=0.000] for [ThirdPersonCharacter_C]
+[2017.10.20-16.46.57:577][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.46.57:614][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.20-16.47.03:807][947]LogSavePackage: Save=134.47ms
+[2017.10.20-16.47.03:807][947]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/ThirdPersonExampleMapDFF6F4974C57E26F58EC86BEEB7C35E5.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.10.20-16.47.03:809][947]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.10.20-16.47.03:845][947]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.258
+[2017.10.20-16.47.04:050][947]LogSavePackage: Save=157.47ms
+[2017.10.20-16.47.04:051][947]LogSavePackage: Moving 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/ThirdPersonCharacterF49430364B539B079205E481F1CE70B8.tmp' to 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.10.20-16.47.04:053][947]LogSavePackage:Display: Finished SavePackage D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.10.20-16.47.09:505][293]Cmd: QUIT_EDITOR
+[2017.10.20-16.47.09:625][293]LogExit: Preparing to exit.
+[2017.10.20-16.47.10:673][293]LogExit: Editor shut down
+[2017.10.20-16.47.10:677][293]LogExit: Transaction tracking system shut down
+[2017.10.20-16.47.10:791][293]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.20-16.47.10:791][293]LogExit: Object subsystem successfully closed.
+[2017.10.20-16.47.10:811][293]LogD3D11RHI: Shutdown
+[2017.10.20-16.47.10:811][293]LogD3D11RHI: CleanupD3DDevice
+[2017.10.20-16.47.10:911][293]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.20-16.47.10:920][293]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.10.20-16.47.10:920][293]LogModuleManager: Shutting down and abandoning module SequencerWidgets (530)
+[2017.10.20-16.47.10:920][293]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.10.20-16.47.10:920][293]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.10.20-16.47.10:920][293]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.10.20-16.47.10:920][293]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.10.20-16.47.10:920][293]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.10.20-16.47.10:920][293]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.10.20-16.47.10:920][293]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.10.20-16.47.10:920][293]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.10.20-16.47.10:920][293]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.10.20-16.47.10:920][293]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.10.20-16.47.10:921][293]LogDirectoryWatcher: A directory notification for 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Collections/' was aborted.
+[2017.10.20-16.47.10:921][293]LogDirectoryWatcher: A directory notification for 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/Developers/student/Collections/' was aborted.
+[2017.10.20-16.47.10:921][293]LogDirectoryWatcher: A directory notification for 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Saved/Collections/' was aborted.
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.10.20-16.47.10:921][293]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.10.20-16.47.11:106][293]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.10.20-16.47.11:106][293]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.10.20-16.47.11:107][293]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.10.20-16.47.11:157][293]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.10.20-16.47.11:157][293]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.10.20-16.47.11:157][293]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.10.20-16.47.11:157][293]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.10.20-16.47.11:157][293]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.10.20-16.47.11:157][293]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.10.20-16.47.11:157][293]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.10.20-16.47.11:157][293]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.10.20-16.47.11:157][293]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.10.20-16.47.11:157][293]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.10.20-16.47.11:175][293]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.10.20-16.47.11:178][293]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.10.20-16.47.11:178][293]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.10.20-16.47.11:178][293]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.10.20-16.47.11:178][293]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.10.20-16.47.11:178][293]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.10.20-16.47.11:178][293]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.10.20-16.47.11:178][293]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.10.20-16.47.11:178][293]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.10.20-16.47.11:178][293]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.10.20-16.47.11:178][293]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.10.20-16.47.11:179][293]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.10.20-16.47.11:179][293]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.10.20-16.47.11:179][293]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.10.20-16.47.11:179][293]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.10.20-16.47.11:179][293]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.10.20-16.47.11:179][293]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.10.20-16.47.11:179][293]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.10.20-16.47.11:179][293]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.10.20-16.47.11:179][293]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.10.20-16.47.11:350][293]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.10.20-16.47.11:351][293]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.10.20-16.47.11:351][293]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.10.20-16.47.11:351][293]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.10.20-16.47.11:351][293]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.10.20-16.47.11:351][293]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.10.20-16.47.11:351][293]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.10.20-16.47.11:352][293]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.10.20-16.47.11:352][293]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.10.20-16.47.11:352][293]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.10.20-16.47.11:354][293]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.10.20-16.47.11:354][293]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.10.20-16.47.11:354][293]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.10.20-16.47.11:354][293]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.10.20-16.47.11:354][293]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.10.20-16.47.11:354][293]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.10.20-16.47.11:454][293]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.10.20-16.47.11:554][293]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.10.20-16.47.11:554][293]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.10.20-16.47.11:554][293]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.10.20-16.47.11:554][293]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.10.20-16.47.11:554][293]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.10.20-16.47.11:554][293]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.20-16.47.11:556][293]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.10.20-16.47.11:556][293]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.10.20-16.47.11:556][293]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.10.20-16.47.11:556][293]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.10.20-16.47.11:557][293]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.10.20-16.47.11:557][293]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.10.20-16.47.11:557][293]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.10.20-16.47.11:557][293]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.10.20-16.47.11:557][293]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.10.20-16.47.11:557][293]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.10.20-16.47.11:557][293]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.10.20-16.47.11:557][293]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.10.20-16.47.11:557][293]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.10.20-16.47.11:557][293]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.10.20-16.47.11:557][293]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.10.20-16.47.11:557][293]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.10.20-16.47.11:557][293]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.10.20-16.47.11:557][293]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.10.20-16.47.11:558][293]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.10.20-16.47.11:558][293]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.10.20-16.47.11:558][293]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.10.20-16.47.11:558][293]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.10.20-16.47.11:558][293]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.10.20-16.47.11:563][293]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.10.20-16.47.11:563][293]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.10.20-16.47.11:563][293]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.10.20-16.47.11:563][293]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.10.20-16.47.11:563][293]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.10.20-16.47.11:563][293]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.10.20-16.47.11:660][293]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.20-16.47.11:660][293]LogDirectoryWatcher: A directory notification for 'D:/iStepable/ProjectDev/ProjectBossFight/ProjectBossFight/Content/' was aborted.
+[2017.10.20-16.47.11:660][293]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.20-16.47.11:660][293]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.10.20-16.47.11:665][293]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.10.20-16.47.11:666][293]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.10.20-16.47.11:666][293]LogModuleManager: Shutting down and abandoning module PhysXFormats (156)
+[2017.10.20-16.47.11:666][293]LogModuleManager: Shutting down and abandoning module MeshUtilities (154)
+[2017.10.20-16.47.11:666][293]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (153)
+[2017.10.20-16.47.11:666][293]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (151)
+[2017.10.20-16.47.11:666][293]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (149)
+[2017.10.20-16.47.11:666][293]LogModuleManager: Shutting down and abandoning module LevelSequence (146)
+[2017.10.20-16.47.11:666][293]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.20-16.47.11:674][293]LogDerivedDataCache: Shutdown
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.20-16.47.11:675][293]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.20-16.47.11:676][293]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.10.20-16.47.11:676][293]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.10.20-16.47.11:676][293]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.20-16.47.11:676][293]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.20-16.47.11:676][293]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.20-16.47.11:676][293]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.20-16.47.11:676][293]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.20-16.47.11:676][293]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.20-16.47.11:676][293]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.20-16.47.11:676][293]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.20-16.47.11:676][293]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B126C5825-45CE-DF1A-FA06-598AD933334C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=1151f1be43a692b902ed169b396b4e98%7Ce67724c06ae34bcab9b8bfae92f27281%7C0d795e83-8b02-4b75-a048-1a5d25071ed2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.20-16.47.11:708][293]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.20-16.47.11:713][293]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.10.20-16.47.11:713][293]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.10.20-16.47.11:713][293]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.10.20-16.47.11:713][293]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.20-16.47.11:713][293]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.20-16.47.11:713][293]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.20-16.47.11:713][293]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.20-16.47.11:713][293]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.20-16.47.11:717][293]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.20-16.47.11:717][293]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.20-16.47.11:717][293]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.20-16.47.11:717][293]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.20-16.47.11:717][293]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.20-16.47.11:717][293]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.20-16.47.11:717][293]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.20-16.47.11:717][293]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.20-16.47.11:717][293]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.20-16.47.11:717][293]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.20-16.47.11:721][293]LogExit: Exiting.
+[2017.10.20-16.47.11:752][293]Log file closed, 10/20/17 11:47:11
