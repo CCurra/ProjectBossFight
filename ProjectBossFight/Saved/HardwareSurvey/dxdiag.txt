@@ -1,24 +1,6 @@
 ------------------
 System Information
 ------------------
-Time of this report: 11/3/2017, 08:49:51
-       Machine name: T250-12
-   Operating System: Windows 7 Professional 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_ldr.170512-0600)
-           Language: English (Regional Setting: English)
-System Manufacturer: Alienware
-       System Model: Alienware Area-51 R2
-               BIOS: BIOS Date: 10/11/16 10:48:49 Ver: 05.0000B
-          Processor: Intel(R) Core(TM) i7-6800K CPU @ 3.40GHz (12 CPUs)
-             Memory: 24576MB RAM
-Available OS Memory: 24466MB RAM
-          Page File: 6414MB used, 42515MB available
-        Windows Dir: C:\Windows
-    DirectX Version: DirectX 11
-DX Setup Parameters: Not found
-   User DPI Setting: Using System DPI
- System DPI Setting: 96 DPI (100 percent)
-    DWM DPI Scaling: Disabled
-     DxDiag Version: 6.01.7601.17514 32bit Unicode
   DxDiag Previously: Crashed in system information (stage 1) & DirectShow (stage 1). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
 
 ------------
@@ -29,17 +11,6 @@ DxDiag Notes
         Sound Tab 2: No problems found.
         Sound Tab 3: No problems found.
           Input Tab: No problems found.
-
---------------------
-DirectX Debug Levels
---------------------
-Direct3D:    0/4 (retail)
-DirectDraw:  0/4 (retail)
-DirectInput: 0/5 (retail)
-DirectMusic: 0/5 (retail)
-DirectPlay:  0/9 (retail)
-DirectSound: 0/5 (retail)
-DirectShow:  0/6 (retail)
 
 ---------------
 Display Devices
@@ -64,7 +35,7 @@ Driver File Version: 22.21.0013.8233 (English)
         DDI Version: 11
        Driver Model: WDDM 1.1
   Driver Attributes: Final Retail
-   Driver Date/Size: 5/18/2017 02:33:32, 16436488 bytes
+   Driver Date/Size: 5/18/2017 01:33:32, 16436488 bytes
         WHQL Logo'd: Yes
     WHQL Date Stamp: 
   Device Identifier: {D7B71E3E-58C1-11CF-B153-0C131BC2DB35}
@@ -125,8 +96,8 @@ Driver File Version: 22.21.0013.8233 (English)
 Sound Devices
 -------------
             Description: Speakers (Sound Blaster Recon3Di)
- Default Sound Playback: Yes
- Default Voice Playback: Yes
+ Default Sound Playback: No
+ Default Voice Playback: No
             Hardware ID: HDAUDIO\FUNC_01&VEN_1102&DEV_0011&SUBSYS_1028064C&REV_1009
         Manufacturer ID: 1
              Product ID: 100
@@ -134,14 +105,14 @@ Sound Devices
             Driver Name: cthda.sys
          Driver Version: 6.00.0101.1034 (English)
       Driver Attributes: Final Retail
-            WHQL Logo'd: Yes
-          Date and Size: 1/29/2015 15:47:38, 1058560 bytes
+            WHQL Logo'd: n/a
+          Date and Size: 1/29/2015 14:47:38, 1058560 bytes
             Other Files: 
         Driver Provider: CREATIVE
          HW Accel Level: Basic
-              Cap Flags: 0xF1F
-    Min/Max Sample Rate: 100, 200000
-Static/Strm HW Mix Bufs: 1, 0
+              Cap Flags: 0x0
+    Min/Max Sample Rate: 0, 0
+Static/Strm HW Mix Bufs: 0, 0
  Static/Strm HW 3D Bufs: 0, 0
               HW Memory: 0
        Voice Management: No
@@ -159,14 +130,14 @@ Sensaura(tm) ZoomFX(tm): No
             Driver Name: nvhda64v.sys
          Driver Version: 1.03.0034.0026 (English)
       Driver Attributes: Final Retail
-            WHQL Logo'd: Yes
-          Date and Size: 5/18/2017 02:33:32, 218040 bytes
+            WHQL Logo'd: n/a
+          Date and Size: 5/18/2017 01:33:32, 218040 bytes
             Other Files: 
         Driver Provider: NVIDIA Corporation
          HW Accel Level: Basic
-              Cap Flags: 0xF1F
-    Min/Max Sample Rate: 100, 200000
-Static/Strm HW Mix Bufs: 1, 0
+              Cap Flags: 0x0
+    Min/Max Sample Rate: 0, 0
+Static/Strm HW Mix Bufs: 0, 0
  Static/Strm HW 3D Bufs: 0, 0
               HW Memory: 0
        Voice Management: No
@@ -184,14 +155,14 @@ Sensaura(tm) ZoomFX(tm): No
             Driver Name: cthda.sys
          Driver Version: 6.00.0101.1034 (English)
       Driver Attributes: Final Retail
-            WHQL Logo'd: Yes
-          Date and Size: 1/29/2015 15:47:38, 1058560 bytes
+            WHQL Logo'd: n/a
+          Date and Size: 1/29/2015 14:47:38, 1058560 bytes
             Other Files: 
         Driver Provider: CREATIVE
          HW Accel Level: Basic
-              Cap Flags: 0xF1F
-    Min/Max Sample Rate: 100, 200000
-Static/Strm HW Mix Bufs: 1, 0
+              Cap Flags: 0x0
+    Min/Max Sample Rate: 0, 0
+Static/Strm HW Mix Bufs: 0, 0
  Static/Strm HW 3D Bufs: 0, 0
               HW Memory: 0
        Voice Management: No
@@ -203,14 +174,14 @@ Sensaura(tm) ZoomFX(tm): No
 Sound Capture Devices
 ---------------------
             Description: What U Hear (Sound Blaster Recon3Di)
-  Default Sound Capture: Yes
-  Default Voice Capture: Yes
+  Default Sound Capture: No
+  Default Voice Capture: No
             Driver Name: cthda.sys
          Driver Version: 6.00.0101.1034 (English)
       Driver Attributes: Final Retail
-          Date and Size: 1/29/2015 15:47:38, 1058560 bytes
-              Cap Flags: 0x1
-           Format Flags: 0xFFFFF
+          Date and Size: 1/29/2015 14:47:38, 1058560 bytes
+              Cap Flags: 0x0
+           Format Flags: 0x0
 
 -------------------
 DirectInput Devices
