@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
 //Name: HYDRA_Intro_Animation.ma
-//Last modified: Tue, Nov 14, 2017 09:25:44 PM
+//Last modified: Wed, Nov 15, 2017 09:33:11 AM
 //Codeset: 1252
 file -rdi 1 -ns ":" -rfn "HYDRARN" -op "VERS|2016|UVER|undef|MADE|undef|CHNG|Fri, Nov 10, 2017 11:22:59 AM|ICON|undef|INFO|undef|OBJN|1061|INCL|D:/ProjectBossFight/Assets/Art/Characters/OasisBoss/Rig/HydraMovement.mb(|LUNI|ft|TUNI|film|AUNI|deg|"
 		 -typ "mayaBinary" "C:/Users/kudza/Documents/GitHub/ProjectBossFight/Assets/Art/Characters/OasisBoss/Rig/HYDRA.mb";
@@ -24,8 +24,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "4DCE72D2-4844-806F-7119-1DAC071B723E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1572.6278271061544 446.98573244781335 1178.3957419209939 ;
-	setAttr ".r" -type "double3" -5.7383527293831857 1840.199999999589 0 ;
+	setAttr ".t" -type "double3" -2.3893979418616453 557.3063657489156 1851.9850375614612 ;
+	setAttr ".r" -type "double3" -11.738352729383294 1800.5999999995863 -2.4849445959820496e-017 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7F272BC6-4991-4D5F-487B-EE94E91B8407";
 	setAttr -k off ".v" no;
@@ -100,15 +100,15 @@ createNode camera -n "leftShape" -p "left";
 	setAttr ".hc" -type "string" "viewSet -ls %camera";
 	setAttr ".o" yes;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "449C46CE-4715-CC2A-6670-C58B55338ECB";
+	rename -uid "A4E68B03-47B1-D849-0F07-CB9EE06959D0";
 	setAttr -s 6 ".lnk";
 	setAttr -s 6 ".slnk";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "2649F22F-4DB7-6F5A-0DF1-9EA88A41707E";
+	rename -uid "4DD64198-425E-B9B5-69EC-E598386F33F8";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "0B998399-4406-BF95-BA07-7EAD3C03E478";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "91907D26-4EDB-2E3A-C807-AB85EFE6C706";
+	rename -uid "DB31D39E-425C-0EB5-6106-BF93A9F66A98";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "1D54FD25-4625-FDFD-CC12-18808B5662BF";
 	setAttr ".g" yes;
@@ -410,7 +410,7 @@ createNode reference -n "HYDRARN";
 		"HydraMovementRN" 0
 		"HYDRARN" 475
 		2 "|nurbsCircle1" "visibility" " -av 1"
-		2 "|nurbsCircle1" "translate" " -type \"double3\" 0 0 -364.49256343347281"
+		2 "|nurbsCircle1" "translate" " -type \"double3\" 0 0 -1591.1536793300215"
 		
 		2 "|nurbsCircle1" "translateX" " -av"
 		2 "|nurbsCircle1" "translateY" " -av"
@@ -420,12 +420,12 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1" "rotateY" " -av"
 		2 "|nurbsCircle1" "rotateZ" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "visibility" " -av 1"
-		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "translate" " -type \"double3\" 0 -19.824451135612804 0"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "translate" " -type \"double3\" 0 -7.0692723367179164 0"
 		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "translateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "translateY" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "translateZ" " -av"
-		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "rotate" " -type \"double3\" -3.7096023892245684 0 0"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "rotate" " -type \"double3\" 8.2873020456114919 0 0"
 		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "rotateY" " -av"
@@ -441,7 +441,7 @@ createNode reference -n "HYDRARN";
 		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13" "visibility" 
 		" -av 1"
-		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13" "rotate" " -type \"double3\" 27.071251571196591 0 0"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13" "rotate" " -type \"double3\" 25.977482789546006 0 0"
 		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13" "rotateX" 
 		" -av"
@@ -452,7 +452,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14" 
-		"rotate" " -type \"double3\" -1.6911378137067501 0 0"
+		"rotate" " -type \"double3\" 26.640395749676451 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14" 
@@ -462,7 +462,8 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15" 
-		"rotate" " -type \"double3\" 29.254492366899388 0 0.14483487405040646"
+		"rotate" " -type \"double3\" 24.549669272989178 0.85583685290143519 0.30524259772117956"
+		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15" 
@@ -472,7 +473,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16" 
-		"rotate" " -type \"double3\" -13.383763392203665 0 0"
+		"rotate" " -type \"double3\" -23.259816123026262 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16" 
@@ -482,7 +483,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17" 
-		"rotate" " -type \"double3\" -13.383763392203665 0 0"
+		"rotate" " -type \"double3\" -23.259816123026262 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17" 
@@ -492,7 +493,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18" 
-		"rotate" " -type \"double3\" -24.86445983870199 0 0"
+		"rotate" " -type \"double3\" -22.957006033286305 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18" 
@@ -502,7 +503,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19" 
-		"rotate" " -type \"double3\" -12.570755080568786 0 0"
+		"rotate" " -type \"double3\" -8.2469247967948114 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19" 
@@ -512,7 +513,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19|nurbsCircle20" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19|nurbsCircle20" 
-		"rotate" " -type \"double3\" 44.832870897571077 0 0"
+		"rotate" " -type \"double3\" -1.1806523209047286 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19|nurbsCircle20" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19|nurbsCircle20" 
@@ -532,7 +533,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21" 
-		"rotate" " -type \"double3\" -24.799235307516717 0 0"
+		"rotate" " -type \"double3\" -22.957006033286305 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21" 
@@ -542,7 +543,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22" 
-		"rotate" " -type \"double3\" -24.799235307516717 0 0"
+		"rotate" " -type \"double3\" -22.957006033286305 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22" 
@@ -552,7 +553,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23" 
-		"rotate" " -type \"double3\" -24.799235307516717 0 0"
+		"rotate" " -type \"double3\" -22.957006033286305 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23" 
@@ -562,7 +563,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24" 
-		"rotate" " -type \"double3\" -37.921650996012232 0 0"
+		"rotate" " -type \"double3\" -7.111800537575367 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24" 
@@ -572,7 +573,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25" 
-		"rotate" " -type \"double3\" 44.832870897571077 0 0"
+		"rotate" " -type \"double3\" -1.1806523209047286 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25" 
@@ -582,7 +583,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35" 
-		"rotate" " -type \"double3\" -17.473629040259738 0 0"
+		"rotate" " -type \"double3\" -23.148193033220341 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35" 
@@ -592,7 +593,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17" 
-		"rotate" " -type \"double3\" -17.473629040259738 0 0"
+		"rotate" " -type \"double3\" -23.148193033220341 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17" 
@@ -602,7 +603,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18" 
-		"rotate" " -type \"double3\" -17.473629040259738 0 0"
+		"rotate" " -type \"double3\" -23.148193033220341 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18" 
@@ -612,7 +613,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19" 
-		"rotate" " -type \"double3\" -18.996395054485404 0 0"
+		"rotate" " -type \"double3\" -7.6408868030848858 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19" 
@@ -622,7 +623,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20" 
-		"rotate" " -type \"double3\" 44.832870897571077 0 0"
+		"rotate" " -type \"double3\" -1.1806523209047286 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20" 
@@ -641,7 +642,7 @@ createNode reference -n "HYDRARN";
 		"rotateZ" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12" "visibility" 
 		" -av 1"
-		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12" "rotate" " -type \"double3\" -10.714612587492834 0 0"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12" "rotate" " -type \"double3\" 21.579902025201612 0 0"
 		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12" "rotateX" 
 		" -av"
@@ -738,7 +739,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11" 
-		"rotate" " -type \"double3\" 4.1270263655179447 0 0"
+		"rotate" " -type \"double3\" -2.9079971036599401 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11" 
@@ -748,7 +749,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10" 
-		"rotate" " -type \"double3\" 9.4545522005173126 0 0"
+		"rotate" " -type \"double3\" -16.965274073998714 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10" 
@@ -758,7 +759,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9" 
-		"rotate" " -type \"double3\" 23.008815877731234 0 0"
+		"rotate" " -type \"double3\" -5.1344222160686046 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9" 
@@ -768,7 +769,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8" 
-		"rotate" " -type \"double3\" 22.858632357991024 0 0"
+		"rotate" " -type \"double3\" -4.2150861287259662 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8" 
@@ -776,12 +777,12 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8" 
 		"rotateZ" " -av"
 		2 "|group3|nurbsCircle26" "visibility" " -av 1"
-		2 "|group3|nurbsCircle26" "translate" " -type \"double3\" -11.61459634332239 -17.726775317109059 -85.648047882031449"
+		2 "|group3|nurbsCircle26" "translate" " -type \"double3\" 0 9.2074580094373637 98.7548911216291"
 		
 		2 "|group3|nurbsCircle26" "translateX" " -av"
 		2 "|group3|nurbsCircle26" "translateY" " -av"
 		2 "|group3|nurbsCircle26" "translateZ" " -av"
-		2 "|group3|nurbsCircle26" "rotate" " -type \"double3\" 24.620491409122252 0 0"
+		2 "|group3|nurbsCircle26" "rotate" " -type \"double3\" -39.664735594513466 0 0"
 		
 		2 "|group3|nurbsCircle26" "rotateX" " -av"
 		2 "|group3|nurbsCircle26" "rotateY" " -av"
@@ -791,7 +792,7 @@ createNode reference -n "HYDRARN";
 		2 "|group3|nurbsCircle26" "scalePivot" " -type \"double3\" -60.456826679619084 0 95.186665388137939"
 		
 		2 "|group3|nurbsCircle26|locator2" "visibility" " -av 1"
-		2 "|group3|nurbsCircle26|locator2" "translate" " -type \"double3\" -62.393723444846223 -41.407017860917449 13.503359499296636"
+		2 "|group3|nurbsCircle26|locator2" "translate" " -type \"double3\" -72.144983375597903 63.58681004557954 -83.903261461410409"
 		
 		2 "|group3|nurbsCircle26|locator2" "translateX" " -av"
 		2 "|group3|nurbsCircle26|locator2" "translateY" " -av"
@@ -827,12 +828,12 @@ createNode reference -n "HYDRARN";
 		2 "|group3|nurbsCircle26|nurbsCircle29" "rotateY" " -av"
 		2 "|group3|nurbsCircle26|nurbsCircle29" "rotateZ" " -av"
 		2 "|group3|nurbsCircle2" "visibility" " -av 1"
-		2 "|group3|nurbsCircle2" "translate" " -type \"double3\" 0 11.017427003452546 -58.243775710602051"
+		2 "|group3|nurbsCircle2" "translate" " -type \"double3\" 6.5830785897952371 -10.847214861191166 84.84639723804446"
 		
 		2 "|group3|nurbsCircle2" "translateX" " -av"
 		2 "|group3|nurbsCircle2" "translateY" " -av"
 		2 "|group3|nurbsCircle2" "translateZ" " -av"
-		2 "|group3|nurbsCircle2" "rotate" " -type \"double3\" -0.73087584185840904 0 0"
+		2 "|group3|nurbsCircle2" "rotate" " -type \"double3\" -22.847171224009244 0 0"
 		
 		2 "|group3|nurbsCircle2" "rotateX" " -av"
 		2 "|group3|nurbsCircle2" "rotateY" " -av"
@@ -842,7 +843,7 @@ createNode reference -n "HYDRARN";
 		2 "|group3|nurbsCircle2" "scalePivot" " -type \"double3\" 60.456775199999996 0 95.186607424285484"
 		
 		2 "|group3|nurbsCircle2|locator1" "visibility" " -av 1"
-		2 "|group3|nurbsCircle2|locator1" "translate" " -type \"double3\" 67.040764590506299 -50.401460056225645 -39.467641316867599"
+		2 "|group3|nurbsCircle2|locator1" "translate" " -type \"double3\" 26.04535056748356 -32.923028697862733 -51.866210694010391"
 		
 		2 "|group3|nurbsCircle2|locator1" "translateX" " -av"
 		2 "|group3|nurbsCircle2|locator1" "translateY" " -av"
@@ -3009,8 +3010,8 @@ select -ne :time1;
 	setAttr -cb on ".ihi";
 	setAttr -av -k on ".nds";
 	setAttr -cb on ".bnm";
-	setAttr -k on ".o" 78;
-	setAttr -av ".unw" 78;
+	setAttr -k on ".o" 3;
+	setAttr -av ".unw" 3;
 	setAttr -k on ".etw";
 	setAttr -k on ".tps";
 	setAttr -k on ".tms";
