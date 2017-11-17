@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
 //Name: HYDRA_Left_Wound.ma
-//Last modified: Wed, Nov 15, 2017 02:48:36 PM
+//Last modified: Fri, Nov 17, 2017 10:03:40 AM
 //Codeset: 1252
 file -rdi 1 -ns ":" -rfn "HYDRARN" -op "VERS|2016|UVER|undef|MADE|undef|CHNG|Fri, Nov 10, 2017 11:22:59 AM|ICON|undef|INFO|undef|OBJN|1061|INCL|D:/ProjectBossFight/Assets/Art/Characters/OasisBoss/Rig/HydraMovement.mb(|LUNI|ft|TUNI|film|AUNI|deg|"
 		 -typ "mayaBinary" "C:/Users/bryso/Desktop/ProjectBossFight/Assets/Art/Characters/OasisBoss/Rig/HYDRA.mb";
@@ -21,13 +21,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "4DCE72D2-4844-806F-7119-1DAC071B723E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 115.56451333006632 292.21022320375067 1067.6779343180344 ;
+	setAttr ".t" -type "double3" 139.24103682630476 340.79279554736593 1466.1991608846618 ;
 	setAttr ".r" -type "double3" -6.9383527296031922 3.4000000000010333 2.9870276966145718e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7F272BC6-4991-4D5F-487B-EE94E91B8407";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 896.32810319410385;
+	setAttr ".coi" 1298.4972369233842;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -2025,7 +2025,7 @@ createNode animCurveTU -n "nurbsCircle32_visibility";
 	setAttr ".ktv[0]"  0 1;
 	setAttr ".kot[0]"  5;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "BB11D550-42AC-3FC7-C3D6-A683D2DEAD37";
+	rename -uid "BD89EE2D-4B50-8D52-FE6D-5CBAE3B54D61";
 	setAttr ".pee" yes;
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -128.57142346245922 -146.42856561002301 ;
