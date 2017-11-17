@@ -76,13 +76,3 @@ ProjectBossFight/DerivedDataCache/**
 
 #Log Files
 *.log
-ProjectBossFight/Content/Characters/Hero/Animation/Hero_Idle.uasset
-
-#Other files in case something goes wrong
-/Binaries
-/DerivedDataCache
-/Intermediate
-/Saved
-*.sln
-*.sdf
-*.suo
