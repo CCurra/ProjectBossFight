@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
 //Name: Hero_HitReaction.ma
-//Last modified: Fri, Nov 17, 2017 11:50:48 AM
+//Last modified: Fri, Nov 17, 2017 12:10:23 PM
 //Codeset: 1252
 file -rdi 1 -ns ":" -rfn "HeroRN" -op "v=0;p=17;f=0" -typ "mayaAscii" "C:/Users/kudza/Documents/GitHub/ProjectBossFight/Assets/Art/Characters/Hero/Rig/Hero.ma";
 file -rdi 1 -ns ":" -rfn "GunBladeRN" -op "VERS|2016|UVER|undef|MADE|undef|CHNG|Tue, Oct 31, 2017 01:38:40 PM|ICON|undef|INFO|undef|OBJN|75|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
@@ -23,8 +23,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "163B621F-4F9D-72BA-7F83-41AB8D5C6494";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -507.62292463829561 191.21583566117511 320.79597267437543 ;
-	setAttr ".r" -type "double3" -11.138352729578036 -56.199999999999427 2.8586911282799118e-015 ;
+	setAttr ".t" -type "double3" -445.38449937230627 212.73520221616667 390.20519816428549 ;
+	setAttr ".r" -type "double3" -13.538352729577685 -45.799999999997759 2.281062741408388e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "D31CA803-4245-510F-FB7F-A9B877228DD3";
 	setAttr -k off ".v" no;
@@ -87,7 +87,7 @@ createNode transform -n "group";
 	setAttr ".rp" -type "double3" -2.51438359405428 97.190370243060954 -70.132014490118024 ;
 	setAttr ".sp" -type "double3" -2.51438359405428 97.190370243060954 -70.132014490118024 ;
 createNode fosterParent -n "GunBladeRNfosterParent1";
-	rename -uid "6F574C5C-4D64-8CE5-5CC8-8AA9207D020C";
+	rename -uid "B082EA80-42C3-A999-CF8D-B7B6251987FE";
 createNode parentConstraint -n "root_parentConstraint1" -p "GunBladeRNfosterParent1";
 	rename -uid "D77A4079-41B0-9C9B-3AD8-7FA5A8ED39D4";
 	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Bind_RightHandW0" -dv 1 -min 0 -at "double";
@@ -105,7 +105,7 @@ createNode parentConstraint -n "root_parentConstraint1" -p "GunBladeRNfosterPare
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" -10.424979729256037 -3.9191197751208335 -1.5088383435527115 ;
 	setAttr ".tg[0].tor" -type "double3" 93.522220558057441 88.99831144586058 3.5203464890235576 ;
-	setAttr ".lr" -type "double3" 34.946448203421305 16.584819826033893 -15.804466022341883 ;
+	setAttr ".lr" -type "double3" 13.843552176421667 13.334368002643389 -18.183420286945932 ;
 	setAttr ".rst" -type "double3" -86.773386225506187 158.87941884834936 -6.1809396028214554 ;
 	setAttr ".rsrr" -type "double3" 90.000000000000028 89.999999999999972 0 ;
 	setAttr -k on ".w0";
@@ -1492,7 +1492,7 @@ createNode script -n "uiConfigurationScriptNode2";
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode2";
 	rename -uid "D545FCA2-438F-AB88-1955-7DA126F3B939";
-	setAttr ".b" -type "string" "playbackOptions -min 0 -max 13.6 -ast 0 -aet 60 ";
+	setAttr ".b" -type "string" "playbackOptions -min 0 -max 13 -ast 0 -aet 13 ";
 	setAttr ".st" 6;
 createNode animCurveTL -n "AnimData_Hips_translateX";
 	rename -uid "124645EB-4A40-0E88-8CBF-E6B8A5584FD2";
@@ -4370,8 +4370,8 @@ select -ne :time1;
 	setAttr -cb on ".ihi";
 	setAttr -av -k on ".nds";
 	setAttr -cb on ".bnm";
-	setAttr ".o" 13.6;
-	setAttr -av ".unw" 13.6;
+	setAttr ".o" 5;
+	setAttr -av ".unw" 5;
 	setAttr -k on ".etw";
 	setAttr -k on ".tps";
 	setAttr -k on ".tms";
@@ -4534,7 +4534,7 @@ select -ne :ikSystem;
 	setAttr -k on ".bnm";
 	setAttr -av -k on ".gsn";
 	setAttr -k on ".gsv";
-	setAttr -s 2 ".sol";
+	setAttr -s 4 ".sol";
 connectAttr "LeftHandIndex1_CTRL_rotateX.o" "HeroRN.phl[1]";
 connectAttr "LeftHandIndex1_CTRL_rotateY.o" "HeroRN.phl[2]";
 connectAttr "LeftHandIndex1_CTRL_rotateZ.o" "HeroRN.phl[3]";
