@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
 //Name: Hero_HitReaction.ma
-//Last modified: Fri, Nov 17, 2017 12:10:23 PM
+//Last modified: Fri, Nov 17, 2017 12:33:52 PM
 //Codeset: 1252
 file -rdi 1 -ns ":" -rfn "HeroRN" -op "v=0;p=17;f=0" -typ "mayaAscii" "C:/Users/kudza/Documents/GitHub/ProjectBossFight/Assets/Art/Characters/Hero/Rig/Hero.ma";
 file -rdi 1 -ns ":" -rfn "GunBladeRN" -op "VERS|2016|UVER|undef|MADE|undef|CHNG|Tue, Oct 31, 2017 01:38:40 PM|ICON|undef|INFO|undef|OBJN|75|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
@@ -23,13 +23,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "163B621F-4F9D-72BA-7F83-41AB8D5C6494";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -445.38449937230627 212.73520221616667 390.20519816428549 ;
-	setAttr ".r" -type "double3" -13.538352729577685 -45.799999999997759 2.281062741408388e-015 ;
+	setAttr ".t" -type "double3" -303.42216307814323 157.10455348091824 -161.01910707434763 ;
+	setAttr ".r" -type "double3" -24.338352729579054 -104.19999999999743 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "D31CA803-4245-510F-FB7F-A9B877228DD3";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 525.92194110419985;
+	setAttr ".coi" 337.76431951792341;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -87,7 +87,7 @@ createNode transform -n "group";
 	setAttr ".rp" -type "double3" -2.51438359405428 97.190370243060954 -70.132014490118024 ;
 	setAttr ".sp" -type "double3" -2.51438359405428 97.190370243060954 -70.132014490118024 ;
 createNode fosterParent -n "GunBladeRNfosterParent1";
-	rename -uid "B082EA80-42C3-A999-CF8D-B7B6251987FE";
+	rename -uid "12872E23-4FF7-5A4C-57E5-D1AE9DB9A634";
 createNode parentConstraint -n "root_parentConstraint1" -p "GunBladeRNfosterParent1";
 	rename -uid "D77A4079-41B0-9C9B-3AD8-7FA5A8ED39D4";
 	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "Bind_RightHandW0" -dv 1 -min 0 -at "double";
@@ -105,7 +105,7 @@ createNode parentConstraint -n "root_parentConstraint1" -p "GunBladeRNfosterPare
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" -10.424979729256037 -3.9191197751208335 -1.5088383435527115 ;
 	setAttr ".tg[0].tor" -type "double3" 93.522220558057441 88.99831144586058 3.5203464890235576 ;
-	setAttr ".lr" -type "double3" 13.843552176421667 13.334368002643389 -18.183420286945932 ;
+	setAttr ".lr" -type "double3" 20.574179066053798 35.744326071831516 3.0455037250979928 ;
 	setAttr ".rst" -type "double3" -86.773386225506187 158.87941884834936 -6.1809396028214554 ;
 	setAttr ".rsrr" -type "double3" 90.000000000000028 89.999999999999972 0 ;
 	setAttr -k on ".w0";
@@ -4370,8 +4370,8 @@ select -ne :time1;
 	setAttr -cb on ".ihi";
 	setAttr -av -k on ".nds";
 	setAttr -cb on ".bnm";
-	setAttr ".o" 5;
-	setAttr -av ".unw" 5;
+	setAttr ".o" 10;
+	setAttr -av ".unw" 10;
 	setAttr -k on ".etw";
 	setAttr -k on ".tps";
 	setAttr -k on ".tms";
