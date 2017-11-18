@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
-//Name: HYDRA_Spit_Attack_Left_Head.ma
-//Last modified: Fri, Nov 17, 2017 03:24:46 PM
+//Name: HYDRA_Spit_Attack_Right_Head.ma
+//Last modified: Fri, Nov 17, 2017 03:17:06 PM
 //Codeset: 1252
 file -rdi 1 -ns ":" -rfn "HYDRARN" -op "VERS|2016|UVER|undef|MADE|undef|CHNG|Fri, Nov 10, 2017 11:22:59 AM|ICON|undef|INFO|undef|OBJN|1061|INCL|D:/ProjectBossFight/Assets/Art/Characters/OasisBoss/Rig/HydraMovement.mb(|LUNI|ft|TUNI|film|AUNI|deg|"
 		 -typ "mayaBinary" "D:/ProjectBossFight/Assets/Art/Characters/OasisBoss/Rig/HYDRA.mb";
@@ -21,13 +21,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "4DCE72D2-4844-806F-7119-1DAC071B723E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -2707.443463549529 325.06136474764241 177.76842713321599 ;
-	setAttr ".r" -type "double3" 0.2616472717756827 271.80000000008675 0 ;
+	setAttr ".t" -type "double3" 1400.970351634445 406.04283982847147 415.31741933073886 ;
+	setAttr ".r" -type "double3" -8.1383527282478809 436.60000000004715 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7F272BC6-4991-4D5F-487B-EE94E91B8407";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 2845.6784540868043;
+	setAttr ".coi" 1495.631127796077;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -81,21 +81,21 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".hc" -type "string" "viewSet -s %camera";
 	setAttr ".o" yes;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "FFF3F966-4607-FB3C-C8BF-10A1E6575695";
+	rename -uid "8D1245BB-437A-98F3-B4B1-DF93D3650669";
 	setAttr -s 6 ".lnk";
 	setAttr -s 6 ".slnk";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "4B2BA4A3-44BC-8F8B-3BCF-2681D3D27C98";
+	rename -uid "6B73C7A8-43CE-7614-8643-5E9F170885FC";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "0B998399-4406-BF95-BA07-7EAD3C03E478";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "FC336D2B-4194-BB45-C7DF-63A38EBFD82D";
+	rename -uid "27D37D0D-450C-5F39-E313-B982EB1F9D7E";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "1D54FD25-4625-FDFD-CC12-18808B5662BF";
 	setAttr ".g" yes;
 createNode reference -n "HYDRARN";
 	rename -uid "CA91A0C6-4483-D8E9-7291-688CEFB783C8";
-	setAttr -s 221 ".phl";
+	setAttr -s 215 ".phl";
 	setAttr ".phl[98]" 0;
 	setAttr ".phl[99]" 0;
 	setAttr ".phl[100]" 0;
@@ -271,12 +271,6 @@ createNode reference -n "HYDRARN";
 	setAttr ".phl[270]" 0;
 	setAttr ".phl[271]" 0;
 	setAttr ".phl[272]" 0;
-	setAttr ".phl[273]" 0;
-	setAttr ".phl[274]" 0;
-	setAttr ".phl[275]" 0;
-	setAttr ".phl[276]" 0;
-	setAttr ".phl[277]" 0;
-	setAttr ".phl[278]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"HYDRARN"
 		"HYDRARN" 46
@@ -367,14 +361,14 @@ createNode reference -n "HYDRARN";
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|nurbsCircle16|nurbsCircle17|nurbsCircle18|nurbsCircle19|nurbsCircle34.visibility" 
 		"HYDRARN.placeHolderList[97]" ""
 		"HydraMovementRN" 0
-		"HYDRARN" 269
+		"HYDRARN" 265
 		2 "|nurbsCircle1" "translate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1" "translateZ" " -av"
-		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "translate" " -type \"double3\" 0 0 0"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "translate" " -type \"double3\" 0 -5.8930826921376616 -11.823397178858489"
 		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "translateY" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "translateZ" " -av"
-		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "rotate" " -type \"double3\" 0 0 0"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "rotate" " -type \"double3\" -2.2165644900025643 0 0"
 		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "rotatePivot" " -type \"double3\" 0 109.18411087702135 -23.859802187465544"
@@ -390,35 +384,31 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15" 
-		"rotate" " -type \"double3\" 0 0 0"
+		"rotate" " -type \"double3\" -9.6063346311702986 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16" 
-		"rotate" " -type \"double3\" 0 0 0"
+		"rotate" " -type \"double3\" -5.763800778702179 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17" 
-		"visibility" " 1"
-		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17" 
-		"rotate" " -type \"double3\" -8 0 0"
+		"rotate" " -type \"double3\" -10 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18" 
-		"visibility" " 1"
-		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18" 
-		"rotate" " -type \"double3\" -3.0000000000000004 0 0"
+		"rotate" " -type \"double3\" -10 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19" 
 		"visibility" " 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19" 
-		"rotate" " -type \"double3\" 0 0 0"
+		"rotate" " -type \"double3\" -16.916845718672377 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19|nurbsCircle20" 
 		"visibility" " 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19|nurbsCircle20" 
-		"rotate" " -type \"double3\" 0 0 0"
+		"rotate" " -type \"double3\" -24.015836577925757 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19|nurbsCircle20" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19|nurbsCircle34" 
@@ -446,19 +436,25 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35" 
-		"rotate" " -type \"double3\" -6.0000000000000009 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17" 
-		"rotate" " -type \"double3\" -10 0 0"
+		"visibility" " 1"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17" 
+		"rotate" " -type \"double3\" -6.0000000000000009 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18" 
-		"rotate" " -type \"double3\" -10 0 0"
+		"visibility" " 1"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18" 
+		"rotate" " -type \"double3\" -6.0000000000000009 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19" 
-		"rotate" " -type \"double3\" -14.999999999999998 0 0"
+		"visibility" " 1"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19" 
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19" 
@@ -466,14 +462,16 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19" 
 		"rotateZ" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20" 
-		"rotate" " -type \"double3\" -25 0 0"
+		"visibility" " 1"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20" 
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle34" 
 		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle34" 
 		"rotateX" " -av"
-		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12" "rotate" " -type \"double3\" -5 0 0"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12" "rotate" " -type \"double3\" 5.7638007787021808 0 0"
 		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12" "rotateX" 
 		" -av"
@@ -486,7 +484,7 @@ createNode reference -n "HYDRARN";
 		"scalePivot" " -type \"double3\" 67.779595199999989 66.302534399999999 -52.510334399999998"
 		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11" 
-		"rotate" " -type \"double3\" -14.999999999999998 0 0"
+		"rotate" " -type \"double3\" -10.518196915073091 9.7451847698068779 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11" 
@@ -494,15 +492,15 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11" 
 		"rotateZ" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10" 
-		"rotate" " -type \"double3\" 0 0 0"
+		"rotate" " -type \"double3\" 0 19.490369539613756 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10" 
 		"rotateY" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9" 
-		"rotate" " -type \"double3\" 0 0 0"
+		"rotate" " -type \"double3\" 0 9.7451847698068779 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9" 
 		"rotateY" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8" 
-		"rotate" " -type \"double3\" 0 0 0"
+		"rotate" " -type \"double3\" 0 4.8725923849034389 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8" 
 		"rotateY" " -av"
 		2 "|group3|nurbsCircle26" "translate" " -type \"double3\" 0 0 0"
@@ -600,301 +598,289 @@ createNode reference -n "HYDRARN";
 		"HYDRARN.placeHolderList[129]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16.visibility" 
 		"HYDRARN.placeHolderList[130]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19.rotateX" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17.rotateX" 
 		"HYDRARN.placeHolderList[131]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19|nurbsCircle20.rotateX" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17.rotateY" 
 		"HYDRARN.placeHolderList[132]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21.rotateX" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17.rotateZ" 
 		"HYDRARN.placeHolderList[133]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21.rotateY" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17.visibility" 
 		"HYDRARN.placeHolderList[134]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21.rotateZ" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18.rotateX" 
 		"HYDRARN.placeHolderList[135]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21.visibility" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18.rotateY" 
 		"HYDRARN.placeHolderList[136]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22.rotateX" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18.rotateZ" 
 		"HYDRARN.placeHolderList[137]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22.rotateY" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18.visibility" 
 		"HYDRARN.placeHolderList[138]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22.rotateZ" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19.rotateX" 
 		"HYDRARN.placeHolderList[139]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22.visibility" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19|nurbsCircle20.rotateX" 
 		"HYDRARN.placeHolderList[140]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23.rotateX" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21.rotateX" 
 		"HYDRARN.placeHolderList[141]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23.rotateY" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21.rotateY" 
 		"HYDRARN.placeHolderList[142]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23.rotateZ" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21.rotateZ" 
 		"HYDRARN.placeHolderList[143]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23.visibility" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21.visibility" 
 		"HYDRARN.placeHolderList[144]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24.rotateX" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22.rotateX" 
 		"HYDRARN.placeHolderList[145]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24.rotateY" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22.rotateY" 
 		"HYDRARN.placeHolderList[146]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24.rotateZ" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22.rotateZ" 
 		"HYDRARN.placeHolderList[147]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24.visibility" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22.visibility" 
 		"HYDRARN.placeHolderList[148]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25.rotateX" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23.rotateX" 
 		"HYDRARN.placeHolderList[149]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25.rotateY" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23.rotateY" 
 		"HYDRARN.placeHolderList[150]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25.rotateZ" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23.rotateZ" 
 		"HYDRARN.placeHolderList[151]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25.visibility" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23.visibility" 
 		"HYDRARN.placeHolderList[152]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35.rotateX" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24.rotateX" 
 		"HYDRARN.placeHolderList[153]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35.rotateY" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24.rotateY" 
 		"HYDRARN.placeHolderList[154]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35.rotateZ" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24.rotateZ" 
 		"HYDRARN.placeHolderList[155]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35.visibility" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24.visibility" 
 		"HYDRARN.placeHolderList[156]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17.rotateX" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25.rotateX" 
 		"HYDRARN.placeHolderList[157]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17.rotateY" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25.rotateY" 
 		"HYDRARN.placeHolderList[158]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17.rotateZ" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25.rotateZ" 
 		"HYDRARN.placeHolderList[159]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17.visibility" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25.visibility" 
 		"HYDRARN.placeHolderList[160]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18.rotateX" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35.rotateX" 
 		"HYDRARN.placeHolderList[161]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18.rotateY" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35.rotateY" 
 		"HYDRARN.placeHolderList[162]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18.rotateZ" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35.rotateZ" 
 		"HYDRARN.placeHolderList[163]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18.visibility" 
+		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35.visibility" 
 		"HYDRARN.placeHolderList[164]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19.rotateX" 
 		"HYDRARN.placeHolderList[165]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19.rotateY" 
-		"HYDRARN.placeHolderList[166]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19.rotateZ" 
-		"HYDRARN.placeHolderList[167]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19.visibility" 
-		"HYDRARN.placeHolderList[168]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20.rotateX" 
-		"HYDRARN.placeHolderList[169]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20.rotateY" 
-		"HYDRARN.placeHolderList[170]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20.rotateZ" 
-		"HYDRARN.placeHolderList[171]" ""
-		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20.visibility" 
-		"HYDRARN.placeHolderList[172]" ""
+		"HYDRARN.placeHolderList[166]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12.rotateX" 
-		"HYDRARN.placeHolderList[173]" ""
+		"HYDRARN.placeHolderList[167]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12.rotateY" 
-		"HYDRARN.placeHolderList[174]" ""
+		"HYDRARN.placeHolderList[168]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12.rotateZ" 
-		"HYDRARN.placeHolderList[175]" ""
+		"HYDRARN.placeHolderList[169]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12.visibility" 
-		"HYDRARN.placeHolderList[176]" ""
+		"HYDRARN.placeHolderList[170]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4.rotateX" 
-		"HYDRARN.placeHolderList[177]" ""
+		"HYDRARN.placeHolderList[171]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4.rotateY" 
-		"HYDRARN.placeHolderList[178]" ""
+		"HYDRARN.placeHolderList[172]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4.rotateZ" 
-		"HYDRARN.placeHolderList[179]" ""
+		"HYDRARN.placeHolderList[173]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4.visibility" 
-		"HYDRARN.placeHolderList[180]" ""
+		"HYDRARN.placeHolderList[174]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4|nurbsCircle5.visibility" 
-		"HYDRARN.placeHolderList[181]" ""
+		"HYDRARN.placeHolderList[175]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4|nurbsCircle5.rotateX" 
-		"HYDRARN.placeHolderList[182]" ""
+		"HYDRARN.placeHolderList[176]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4|nurbsCircle5.rotateY" 
-		"HYDRARN.placeHolderList[183]" ""
+		"HYDRARN.placeHolderList[177]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4|nurbsCircle5.rotateZ" 
-		"HYDRARN.placeHolderList[184]" ""
+		"HYDRARN.placeHolderList[178]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4|nurbsCircle5|nurbsCircle6.rotateY" 
-		"HYDRARN.placeHolderList[185]" ""
+		"HYDRARN.placeHolderList[179]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4|nurbsCircle5|nurbsCircle6.rotateX" 
-		"HYDRARN.placeHolderList[186]" ""
+		"HYDRARN.placeHolderList[180]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4|nurbsCircle5|nurbsCircle6.rotateZ" 
-		"HYDRARN.placeHolderList[187]" ""
+		"HYDRARN.placeHolderList[181]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4|nurbsCircle5|nurbsCircle6.visibility" 
-		"HYDRARN.placeHolderList[188]" ""
+		"HYDRARN.placeHolderList[182]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4|nurbsCircle5|nurbsCircle6|nurbsCircle7.rotateY" 
-		"HYDRARN.placeHolderList[189]" ""
+		"HYDRARN.placeHolderList[183]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4|nurbsCircle5|nurbsCircle6|nurbsCircle7.rotateX" 
-		"HYDRARN.placeHolderList[190]" ""
+		"HYDRARN.placeHolderList[184]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4|nurbsCircle5|nurbsCircle6|nurbsCircle7.rotateZ" 
-		"HYDRARN.placeHolderList[191]" ""
+		"HYDRARN.placeHolderList[185]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle4|nurbsCircle5|nurbsCircle6|nurbsCircle7.visibility" 
-		"HYDRARN.placeHolderList[192]" ""
+		"HYDRARN.placeHolderList[186]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36.rotateX" 
-		"HYDRARN.placeHolderList[193]" ""
+		"HYDRARN.placeHolderList[187]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36.rotateY" 
-		"HYDRARN.placeHolderList[194]" ""
+		"HYDRARN.placeHolderList[188]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36.rotateZ" 
-		"HYDRARN.placeHolderList[195]" ""
+		"HYDRARN.placeHolderList[189]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36.visibility" 
-		"HYDRARN.placeHolderList[196]" ""
+		"HYDRARN.placeHolderList[190]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36|nurbsCircle5.rotateX" 
-		"HYDRARN.placeHolderList[197]" ""
+		"HYDRARN.placeHolderList[191]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36|nurbsCircle5.rotateY" 
-		"HYDRARN.placeHolderList[198]" ""
+		"HYDRARN.placeHolderList[192]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36|nurbsCircle5.rotateZ" 
-		"HYDRARN.placeHolderList[199]" ""
+		"HYDRARN.placeHolderList[193]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36|nurbsCircle5.visibility" 
-		"HYDRARN.placeHolderList[200]" ""
+		"HYDRARN.placeHolderList[194]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36|nurbsCircle5|nurbsCircle6.rotateX" 
-		"HYDRARN.placeHolderList[201]" ""
+		"HYDRARN.placeHolderList[195]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36|nurbsCircle5|nurbsCircle6.rotateY" 
-		"HYDRARN.placeHolderList[202]" ""
+		"HYDRARN.placeHolderList[196]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36|nurbsCircle5|nurbsCircle6.rotateZ" 
-		"HYDRARN.placeHolderList[203]" ""
+		"HYDRARN.placeHolderList[197]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36|nurbsCircle5|nurbsCircle6.visibility" 
-		"HYDRARN.placeHolderList[204]" ""
+		"HYDRARN.placeHolderList[198]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36|nurbsCircle5|nurbsCircle6|nurbsCircle7.rotateX" 
-		"HYDRARN.placeHolderList[205]" ""
+		"HYDRARN.placeHolderList[199]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36|nurbsCircle5|nurbsCircle6|nurbsCircle7.rotateY" 
-		"HYDRARN.placeHolderList[206]" ""
+		"HYDRARN.placeHolderList[200]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36|nurbsCircle5|nurbsCircle6|nurbsCircle7.rotateZ" 
-		"HYDRARN.placeHolderList[207]" ""
+		"HYDRARN.placeHolderList[201]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|nurbsCircle36|nurbsCircle5|nurbsCircle6|nurbsCircle7.visibility" 
-		"HYDRARN.placeHolderList[208]" ""
+		"HYDRARN.placeHolderList[202]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11.rotateX" 
-		"HYDRARN.placeHolderList[209]" ""
+		"HYDRARN.placeHolderList[203]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11.rotateY" 
-		"HYDRARN.placeHolderList[210]" ""
+		"HYDRARN.placeHolderList[204]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11.rotateZ" 
-		"HYDRARN.placeHolderList[211]" ""
+		"HYDRARN.placeHolderList[205]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11.visibility" 
-		"HYDRARN.placeHolderList[212]" ""
+		"HYDRARN.placeHolderList[206]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10.rotateX" 
-		"HYDRARN.placeHolderList[213]" ""
+		"HYDRARN.placeHolderList[207]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10.rotateY" 
-		"HYDRARN.placeHolderList[214]" ""
+		"HYDRARN.placeHolderList[208]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10.rotateZ" 
-		"HYDRARN.placeHolderList[215]" ""
+		"HYDRARN.placeHolderList[209]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10.visibility" 
-		"HYDRARN.placeHolderList[216]" ""
+		"HYDRARN.placeHolderList[210]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9.rotateX" 
-		"HYDRARN.placeHolderList[217]" ""
+		"HYDRARN.placeHolderList[211]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9.rotateY" 
-		"HYDRARN.placeHolderList[218]" ""
+		"HYDRARN.placeHolderList[212]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9.rotateZ" 
-		"HYDRARN.placeHolderList[219]" ""
+		"HYDRARN.placeHolderList[213]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9.visibility" 
-		"HYDRARN.placeHolderList[220]" ""
+		"HYDRARN.placeHolderList[214]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8.rotateX" 
-		"HYDRARN.placeHolderList[221]" ""
+		"HYDRARN.placeHolderList[215]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8.rotateY" 
-		"HYDRARN.placeHolderList[222]" ""
+		"HYDRARN.placeHolderList[216]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8.rotateZ" 
-		"HYDRARN.placeHolderList[223]" ""
+		"HYDRARN.placeHolderList[217]" ""
 		5 4 "HYDRARN" "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8.visibility" 
-		"HYDRARN.placeHolderList[224]" ""
-		5 4 "HYDRARN" "|group3|nurbsCircle26.translateX" "HYDRARN.placeHolderList[225]" 
+		"HYDRARN.placeHolderList[218]" ""
+		5 4 "HYDRARN" "|group3|nurbsCircle26.translateX" "HYDRARN.placeHolderList[219]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26.translateY" "HYDRARN.placeHolderList[226]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26.translateY" "HYDRARN.placeHolderList[220]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26.translateZ" "HYDRARN.placeHolderList[227]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26.translateZ" "HYDRARN.placeHolderList[221]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26.rotateX" "HYDRARN.placeHolderList[228]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26.rotateX" "HYDRARN.placeHolderList[222]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26.rotateY" "HYDRARN.placeHolderList[229]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26.rotateY" "HYDRARN.placeHolderList[223]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26.rotateZ" "HYDRARN.placeHolderList[230]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26.rotateZ" "HYDRARN.placeHolderList[224]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26.visibility" "HYDRARN.placeHolderList[231]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26.visibility" "HYDRARN.placeHolderList[225]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|locator2.translateX" "HYDRARN.placeHolderList[232]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|locator2.translateX" "HYDRARN.placeHolderList[226]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|locator2.translateY" "HYDRARN.placeHolderList[233]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|locator2.translateY" "HYDRARN.placeHolderList[227]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|locator2.translateZ" "HYDRARN.placeHolderList[234]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|locator2.translateZ" "HYDRARN.placeHolderList[228]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|locator2.visibility" "HYDRARN.placeHolderList[235]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|locator2.visibility" "HYDRARN.placeHolderList[229]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle33.rotateX" "HYDRARN.placeHolderList[236]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle33.rotateX" "HYDRARN.placeHolderList[230]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle33.rotateY" "HYDRARN.placeHolderList[237]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle33.rotateY" "HYDRARN.placeHolderList[231]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle33.rotateZ" "HYDRARN.placeHolderList[238]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle33.rotateZ" "HYDRARN.placeHolderList[232]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle33.visibility" "HYDRARN.placeHolderList[239]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle33.visibility" "HYDRARN.placeHolderList[233]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle31.rotateX" "HYDRARN.placeHolderList[240]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle31.rotateX" "HYDRARN.placeHolderList[234]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle31.rotateY" "HYDRARN.placeHolderList[241]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle31.rotateY" "HYDRARN.placeHolderList[235]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle31.rotateZ" "HYDRARN.placeHolderList[242]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle31.rotateZ" "HYDRARN.placeHolderList[236]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle31.visibility" "HYDRARN.placeHolderList[243]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle31.visibility" "HYDRARN.placeHolderList[237]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle30.rotateX" "HYDRARN.placeHolderList[244]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle30.rotateX" "HYDRARN.placeHolderList[238]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle30.rotateY" "HYDRARN.placeHolderList[245]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle30.rotateY" "HYDRARN.placeHolderList[239]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle30.rotateZ" "HYDRARN.placeHolderList[246]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle30.rotateZ" "HYDRARN.placeHolderList[240]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle30.visibility" "HYDRARN.placeHolderList[247]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle30.visibility" "HYDRARN.placeHolderList[241]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle29.rotateX" "HYDRARN.placeHolderList[248]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle29.rotateX" "HYDRARN.placeHolderList[242]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle29.rotateY" "HYDRARN.placeHolderList[249]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle29.rotateY" "HYDRARN.placeHolderList[243]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle29.rotateZ" "HYDRARN.placeHolderList[250]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle29.rotateZ" "HYDRARN.placeHolderList[244]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle29.visibility" "HYDRARN.placeHolderList[251]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle26|nurbsCircle29.visibility" "HYDRARN.placeHolderList[245]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2.translateX" "HYDRARN.placeHolderList[252]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2.translateX" "HYDRARN.placeHolderList[246]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2.translateY" "HYDRARN.placeHolderList[253]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2.translateY" "HYDRARN.placeHolderList[247]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2.translateZ" "HYDRARN.placeHolderList[254]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2.translateZ" "HYDRARN.placeHolderList[248]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2.rotateX" "HYDRARN.placeHolderList[255]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2.rotateX" "HYDRARN.placeHolderList[249]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2.rotateY" "HYDRARN.placeHolderList[256]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2.rotateY" "HYDRARN.placeHolderList[250]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2.rotateZ" "HYDRARN.placeHolderList[257]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2.rotateZ" "HYDRARN.placeHolderList[251]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2.visibility" "HYDRARN.placeHolderList[258]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2.visibility" "HYDRARN.placeHolderList[252]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|locator1.translateX" "HYDRARN.placeHolderList[259]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|locator1.translateX" "HYDRARN.placeHolderList[253]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|locator1.translateY" "HYDRARN.placeHolderList[260]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|locator1.translateY" "HYDRARN.placeHolderList[254]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|locator1.translateZ" "HYDRARN.placeHolderList[261]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|locator1.translateZ" "HYDRARN.placeHolderList[255]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|locator1.visibility" "HYDRARN.placeHolderList[262]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|locator1.visibility" "HYDRARN.placeHolderList[256]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle27.rotateX" "HYDRARN.placeHolderList[263]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle27.rotateX" "HYDRARN.placeHolderList[257]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle27.rotateY" "HYDRARN.placeHolderList[264]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle27.rotateY" "HYDRARN.placeHolderList[258]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle27.rotateZ" "HYDRARN.placeHolderList[265]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle27.rotateZ" "HYDRARN.placeHolderList[259]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle27.visibility" "HYDRARN.placeHolderList[266]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle27.visibility" "HYDRARN.placeHolderList[260]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle28.rotateX" "HYDRARN.placeHolderList[267]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle28.rotateX" "HYDRARN.placeHolderList[261]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle28.rotateY" "HYDRARN.placeHolderList[268]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle28.rotateY" "HYDRARN.placeHolderList[262]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle28.rotateZ" "HYDRARN.placeHolderList[269]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle28.rotateZ" "HYDRARN.placeHolderList[263]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle28.visibility" "HYDRARN.placeHolderList[270]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle28.visibility" "HYDRARN.placeHolderList[264]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle3.rotateX" "HYDRARN.placeHolderList[271]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle3.rotateX" "HYDRARN.placeHolderList[265]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle3.rotateY" "HYDRARN.placeHolderList[272]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle3.rotateY" "HYDRARN.placeHolderList[266]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle3.rotateZ" "HYDRARN.placeHolderList[273]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle3.rotateZ" "HYDRARN.placeHolderList[267]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle3.visibility" "HYDRARN.placeHolderList[274]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle3.visibility" "HYDRARN.placeHolderList[268]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle32.rotateX" "HYDRARN.placeHolderList[275]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle32.rotateX" "HYDRARN.placeHolderList[269]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle32.rotateY" "HYDRARN.placeHolderList[276]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle32.rotateY" "HYDRARN.placeHolderList[270]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle32.rotateZ" "HYDRARN.placeHolderList[277]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle32.rotateZ" "HYDRARN.placeHolderList[271]" 
 		""
-		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle32.visibility" "HYDRARN.placeHolderList[278]" 
+		5 4 "HYDRARN" "|group3|nurbsCircle2|nurbsCircle32.visibility" "HYDRARN.placeHolderList[272]" 
 		"";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
@@ -1196,7 +1182,7 @@ createNode animCurveTA -n "nurbsCircle35_rotateX";
 	rename -uid "ABEA99D1-4E32-67BC-D643-43B8A49DC8C9";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  1.25 0 18 -6.0000000000000009 33 25 38 -6.0000000000000009;
+	setAttr ".ktv[0]"  1.25 0;
 createNode animCurveTA -n "nurbsCircle35_rotateY";
 	rename -uid "6418873B-4AF3-F54D-AD5F-6AA41E54C8F0";
 	setAttr ".tan" 18;
@@ -1431,7 +1417,7 @@ createNode animCurveTA -n "nurbsCircle16_rotateX";
 	rename -uid "8164246F-4578-AC17-101A-15A43174F690";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  1.25 0;
+	setAttr -s 4 ".ktv[0:3]"  1.25 0 18 -6.0000000000000009 33 25 38 -6.0000000000000009;
 createNode animCurveTA -n "nurbsCircle16_rotateY";
 	rename -uid "218164DD-4A76-7646-112F-9CAE5339E6E3";
 	setAttr ".tan" 18;
@@ -2050,99 +2036,67 @@ createNode animCurveTA -n "nurbsCircle19_rotateX2";
 	rename -uid "3A0C70F4-4A7F-684A-0271-4ABDC950D7F1";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  1.25 0;
-createNode animCurveTU -n "nurbsCircle19_visibility3";
-	rename -uid "127F3C65-437E-F863-0766-B7B644A8EFD6";
-	setAttr ".tan" 9;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  18 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  1.25 0 18 -20 33 -47 38 -20;
 createNode animCurveTA -n "nurbsCircle19_rotateX3";
 	rename -uid "5FE614BD-45DC-9537-E81A-F6B0CE7097EF";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  1.25 0 18 -20 33 -47 38 -14.999999999999998;
-createNode animCurveTA -n "nurbsCircle19_rotateY3";
-	rename -uid "C63995BE-47D1-C60C-1D26-32A82BF5549A";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  18 0;
-createNode animCurveTA -n "nurbsCircle19_rotateZ3";
-	rename -uid "C2D839EB-42F4-DA49-0233-A78E152A2B7B";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  18 0;
+	setAttr ".ktv[0]"  1.25 0;
 createNode animCurveTA -n "nurbsCircle20_rotateX2";
 	rename -uid "B7C14F02-43ED-6275-FB96-97B64ADFBBF3";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  1.25 0 18 -25 33 29.999999999999996 38 -25;
-createNode animCurveTA -n "nurbsCircle20_rotateY2";
-	rename -uid "BCE29912-460C-9DAA-3E29-D59175F3F103";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  18 0;
-createNode animCurveTA -n "nurbsCircle20_rotateZ2";
-	rename -uid "19CCC959-4680-33A0-19EE-07B887D0F242";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  18 0;
-createNode animCurveTU -n "nurbsCircle20_visibility2";
-	rename -uid "867FB514-4B48-0711-F805-45860D00238B";
-	setAttr ".tan" 9;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  18 1;
-	setAttr ".kot[0]"  5;
+	setAttr ".ktv[0]"  1.25 0;
 createNode animCurveTA -n "nurbsCircle20_rotateX3";
 	rename -uid "12B5DCD0-401F-8519-D128-8E84E835995F";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  1.25 0;
-createNode animCurveTU -n "nurbsCircle17_visibility3";
-	rename -uid "C35EE5B7-4436-6A03-9BCF-5F984E0E0AA0";
+	setAttr -s 4 ".ktv[0:3]"  1.25 0 18 -25 33 29.999999999999996 38 -25;
+createNode animCurveTU -n "nurbsCircle18_visibility4";
+	rename -uid "D32EC5C4-4252-4F03-6027-43A85861E013";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
 	setAttr ".ktv[0]"  18 1;
 	setAttr ".kot[0]"  5;
-createNode animCurveTA -n "nurbsCircle17_rotateX3";
-	rename -uid "3ACDA10C-482C-5751-F39B-5E8BEE3299D6";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  18 -10 33 14.999999999999998 38 -10;
-createNode animCurveTA -n "nurbsCircle17_rotateY3";
-	rename -uid "EF030DC8-4B8C-1C99-E467-9A80BC9FD752";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  18 0;
-createNode animCurveTA -n "nurbsCircle17_rotateZ3";
-	rename -uid "41AB70C5-47FD-E73D-42D4-D0869791EF78";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  18 0;
-createNode animCurveTU -n "nurbsCircle18_visibility3";
-	rename -uid "DC484BAA-4567-1BC0-44C2-2AA68C4CEC0C";
-	setAttr ".tan" 9;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  18 1;
-	setAttr ".kot[0]"  5;
-createNode animCurveTA -n "nurbsCircle18_rotateX3";
-	rename -uid "7A08C2CE-4B69-4B43-499A-0382579921E9";
+createNode animCurveTA -n "nurbsCircle18_rotateX4";
+	rename -uid "D324EA77-471C-8C7E-0D0B-82B2F9612BE4";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 3 ".ktv[0:2]"  18 -10 33 10 38 -10;
-createNode animCurveTA -n "nurbsCircle18_rotateY3";
-	rename -uid "58D2C9EE-48E2-4F6A-B6D5-4CAC61DBCE94";
+createNode animCurveTA -n "nurbsCircle18_rotateY4";
+	rename -uid "58CA5577-4929-2BC4-35B6-738D834A0E24";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr ".ktv[0]"  18 0;
-createNode animCurveTA -n "nurbsCircle18_rotateZ3";
-	rename -uid "12FC70DE-438E-B3A1-A015-B6B580413811";
+createNode animCurveTA -n "nurbsCircle18_rotateZ4";
+	rename -uid "74AE08FD-47E5-C73D-0CB2-B198973E9733";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  18 0;
+createNode animCurveTU -n "nurbsCircle17_visibility4";
+	rename -uid "7DF24422-402C-4D00-F527-1B8B964FD5B2";
+	setAttr ".tan" 9;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  18 1;
+	setAttr ".kot[0]"  5;
+createNode animCurveTA -n "nurbsCircle17_rotateX4";
+	rename -uid "63652900-4351-4317-46C4-72B0E880BC21";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  18 -10 33 14.999999999999998 38 -10;
+createNode animCurveTA -n "nurbsCircle17_rotateY4";
+	rename -uid "6E7BD639-4A41-D2FE-9839-AD8C6404F1AE";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  18 0;
+createNode animCurveTA -n "nurbsCircle17_rotateZ4";
+	rename -uid "AD6008A7-42B7-5A79-8045-A397283BF9AA";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr ".ktv[0]"  18 0;
 select -ne :time1;
-	setAttr ".o" 43;
-	setAttr ".unw" 43;
+	setAttr ".o" 16;
+	setAttr ".unw" 16;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -2204,154 +2158,148 @@ connectAttr "nurbsCircle16_rotateX.o" "HYDRARN.phl[127]";
 connectAttr "nurbsCircle16_rotateY.o" "HYDRARN.phl[128]";
 connectAttr "nurbsCircle16_rotateZ.o" "HYDRARN.phl[129]";
 connectAttr "nurbsCircle16_visibility.o" "HYDRARN.phl[130]";
-connectAttr "nurbsCircle19_rotateX2.o" "HYDRARN.phl[131]";
-connectAttr "nurbsCircle20_rotateX3.o" "HYDRARN.phl[132]";
-connectAttr "nurbsCircle21_rotateX.o" "HYDRARN.phl[133]";
-connectAttr "nurbsCircle21_rotateY.o" "HYDRARN.phl[134]";
-connectAttr "nurbsCircle21_rotateZ.o" "HYDRARN.phl[135]";
-connectAttr "nurbsCircle21_visibility.o" "HYDRARN.phl[136]";
-connectAttr "nurbsCircle22_rotateX.o" "HYDRARN.phl[137]";
-connectAttr "nurbsCircle22_rotateY.o" "HYDRARN.phl[138]";
-connectAttr "nurbsCircle22_rotateZ.o" "HYDRARN.phl[139]";
-connectAttr "nurbsCircle22_visibility.o" "HYDRARN.phl[140]";
-connectAttr "nurbsCircle23_rotateX.o" "HYDRARN.phl[141]";
-connectAttr "nurbsCircle23_rotateY.o" "HYDRARN.phl[142]";
-connectAttr "nurbsCircle23_rotateZ.o" "HYDRARN.phl[143]";
-connectAttr "nurbsCircle23_visibility.o" "HYDRARN.phl[144]";
-connectAttr "nurbsCircle24_rotateX.o" "HYDRARN.phl[145]";
-connectAttr "nurbsCircle24_rotateY.o" "HYDRARN.phl[146]";
-connectAttr "nurbsCircle24_rotateZ.o" "HYDRARN.phl[147]";
-connectAttr "nurbsCircle24_visibility.o" "HYDRARN.phl[148]";
-connectAttr "nurbsCircle25_rotateX.o" "HYDRARN.phl[149]";
-connectAttr "nurbsCircle25_rotateY.o" "HYDRARN.phl[150]";
-connectAttr "nurbsCircle25_rotateZ.o" "HYDRARN.phl[151]";
-connectAttr "nurbsCircle25_visibility.o" "HYDRARN.phl[152]";
-connectAttr "nurbsCircle35_rotateX.o" "HYDRARN.phl[153]";
-connectAttr "nurbsCircle35_rotateY.o" "HYDRARN.phl[154]";
-connectAttr "nurbsCircle35_rotateZ.o" "HYDRARN.phl[155]";
-connectAttr "nurbsCircle35_visibility.o" "HYDRARN.phl[156]";
-connectAttr "nurbsCircle17_rotateX3.o" "HYDRARN.phl[157]";
-connectAttr "nurbsCircle17_rotateY3.o" "HYDRARN.phl[158]";
-connectAttr "nurbsCircle17_rotateZ3.o" "HYDRARN.phl[159]";
-connectAttr "nurbsCircle17_visibility3.o" "HYDRARN.phl[160]";
-connectAttr "nurbsCircle18_rotateX3.o" "HYDRARN.phl[161]";
-connectAttr "nurbsCircle18_rotateY3.o" "HYDRARN.phl[162]";
-connectAttr "nurbsCircle18_rotateZ3.o" "HYDRARN.phl[163]";
-connectAttr "nurbsCircle18_visibility3.o" "HYDRARN.phl[164]";
+connectAttr "nurbsCircle17_rotateX4.o" "HYDRARN.phl[131]";
+connectAttr "nurbsCircle17_rotateY4.o" "HYDRARN.phl[132]";
+connectAttr "nurbsCircle17_rotateZ4.o" "HYDRARN.phl[133]";
+connectAttr "nurbsCircle17_visibility4.o" "HYDRARN.phl[134]";
+connectAttr "nurbsCircle18_rotateX4.o" "HYDRARN.phl[135]";
+connectAttr "nurbsCircle18_rotateY4.o" "HYDRARN.phl[136]";
+connectAttr "nurbsCircle18_rotateZ4.o" "HYDRARN.phl[137]";
+connectAttr "nurbsCircle18_visibility4.o" "HYDRARN.phl[138]";
+connectAttr "nurbsCircle19_rotateX2.o" "HYDRARN.phl[139]";
+connectAttr "nurbsCircle20_rotateX3.o" "HYDRARN.phl[140]";
+connectAttr "nurbsCircle21_rotateX.o" "HYDRARN.phl[141]";
+connectAttr "nurbsCircle21_rotateY.o" "HYDRARN.phl[142]";
+connectAttr "nurbsCircle21_rotateZ.o" "HYDRARN.phl[143]";
+connectAttr "nurbsCircle21_visibility.o" "HYDRARN.phl[144]";
+connectAttr "nurbsCircle22_rotateX.o" "HYDRARN.phl[145]";
+connectAttr "nurbsCircle22_rotateY.o" "HYDRARN.phl[146]";
+connectAttr "nurbsCircle22_rotateZ.o" "HYDRARN.phl[147]";
+connectAttr "nurbsCircle22_visibility.o" "HYDRARN.phl[148]";
+connectAttr "nurbsCircle23_rotateX.o" "HYDRARN.phl[149]";
+connectAttr "nurbsCircle23_rotateY.o" "HYDRARN.phl[150]";
+connectAttr "nurbsCircle23_rotateZ.o" "HYDRARN.phl[151]";
+connectAttr "nurbsCircle23_visibility.o" "HYDRARN.phl[152]";
+connectAttr "nurbsCircle24_rotateX.o" "HYDRARN.phl[153]";
+connectAttr "nurbsCircle24_rotateY.o" "HYDRARN.phl[154]";
+connectAttr "nurbsCircle24_rotateZ.o" "HYDRARN.phl[155]";
+connectAttr "nurbsCircle24_visibility.o" "HYDRARN.phl[156]";
+connectAttr "nurbsCircle25_rotateX.o" "HYDRARN.phl[157]";
+connectAttr "nurbsCircle25_rotateY.o" "HYDRARN.phl[158]";
+connectAttr "nurbsCircle25_rotateZ.o" "HYDRARN.phl[159]";
+connectAttr "nurbsCircle25_visibility.o" "HYDRARN.phl[160]";
+connectAttr "nurbsCircle35_rotateX.o" "HYDRARN.phl[161]";
+connectAttr "nurbsCircle35_rotateY.o" "HYDRARN.phl[162]";
+connectAttr "nurbsCircle35_rotateZ.o" "HYDRARN.phl[163]";
+connectAttr "nurbsCircle35_visibility.o" "HYDRARN.phl[164]";
 connectAttr "nurbsCircle19_rotateX3.o" "HYDRARN.phl[165]";
-connectAttr "nurbsCircle19_rotateY3.o" "HYDRARN.phl[166]";
-connectAttr "nurbsCircle19_rotateZ3.o" "HYDRARN.phl[167]";
-connectAttr "nurbsCircle19_visibility3.o" "HYDRARN.phl[168]";
-connectAttr "nurbsCircle20_rotateX2.o" "HYDRARN.phl[169]";
-connectAttr "nurbsCircle20_rotateY2.o" "HYDRARN.phl[170]";
-connectAttr "nurbsCircle20_rotateZ2.o" "HYDRARN.phl[171]";
-connectAttr "nurbsCircle20_visibility2.o" "HYDRARN.phl[172]";
-connectAttr "nurbsCircle12_rotateX.o" "HYDRARN.phl[173]";
-connectAttr "nurbsCircle12_rotateY.o" "HYDRARN.phl[174]";
-connectAttr "nurbsCircle12_rotateZ.o" "HYDRARN.phl[175]";
-connectAttr "nurbsCircle12_visibility.o" "HYDRARN.phl[176]";
-connectAttr "nurbsCircle4_rotateX.o" "HYDRARN.phl[177]";
-connectAttr "nurbsCircle4_rotateY.o" "HYDRARN.phl[178]";
-connectAttr "nurbsCircle4_rotateZ.o" "HYDRARN.phl[179]";
-connectAttr "nurbsCircle4_visibility.o" "HYDRARN.phl[180]";
-connectAttr "nurbsCircle5_visibility.o" "HYDRARN.phl[181]";
-connectAttr "nurbsCircle5_rotateX.o" "HYDRARN.phl[182]";
-connectAttr "nurbsCircle5_rotateY.o" "HYDRARN.phl[183]";
-connectAttr "nurbsCircle5_rotateZ.o" "HYDRARN.phl[184]";
-connectAttr "nurbsCircle6_rotateY.o" "HYDRARN.phl[185]";
-connectAttr "nurbsCircle6_rotateX.o" "HYDRARN.phl[186]";
-connectAttr "nurbsCircle6_rotateZ.o" "HYDRARN.phl[187]";
-connectAttr "nurbsCircle6_visibility.o" "HYDRARN.phl[188]";
-connectAttr "nurbsCircle7_rotateY.o" "HYDRARN.phl[189]";
-connectAttr "nurbsCircle7_rotateX.o" "HYDRARN.phl[190]";
-connectAttr "nurbsCircle7_rotateZ.o" "HYDRARN.phl[191]";
-connectAttr "nurbsCircle7_visibility.o" "HYDRARN.phl[192]";
-connectAttr "nurbsCircle36_rotateX.o" "HYDRARN.phl[193]";
-connectAttr "nurbsCircle36_rotateY.o" "HYDRARN.phl[194]";
-connectAttr "nurbsCircle36_rotateZ.o" "HYDRARN.phl[195]";
-connectAttr "nurbsCircle36_visibility.o" "HYDRARN.phl[196]";
-connectAttr "nurbsCircle5_rotateX1.o" "HYDRARN.phl[197]";
-connectAttr "nurbsCircle5_rotateY1.o" "HYDRARN.phl[198]";
-connectAttr "nurbsCircle5_rotateZ1.o" "HYDRARN.phl[199]";
-connectAttr "nurbsCircle5_visibility1.o" "HYDRARN.phl[200]";
-connectAttr "nurbsCircle6_rotateX1.o" "HYDRARN.phl[201]";
-connectAttr "nurbsCircle6_rotateY1.o" "HYDRARN.phl[202]";
-connectAttr "nurbsCircle6_rotateZ1.o" "HYDRARN.phl[203]";
-connectAttr "nurbsCircle6_visibility1.o" "HYDRARN.phl[204]";
-connectAttr "nurbsCircle7_rotateX1.o" "HYDRARN.phl[205]";
-connectAttr "nurbsCircle7_rotateY1.o" "HYDRARN.phl[206]";
-connectAttr "nurbsCircle7_rotateZ1.o" "HYDRARN.phl[207]";
-connectAttr "nurbsCircle7_visibility1.o" "HYDRARN.phl[208]";
-connectAttr "nurbsCircle11_rotateX.o" "HYDRARN.phl[209]";
-connectAttr "nurbsCircle11_rotateY.o" "HYDRARN.phl[210]";
-connectAttr "nurbsCircle11_rotateZ.o" "HYDRARN.phl[211]";
-connectAttr "nurbsCircle11_visibility.o" "HYDRARN.phl[212]";
-connectAttr "nurbsCircle10_rotateX.o" "HYDRARN.phl[213]";
-connectAttr "nurbsCircle10_rotateY.o" "HYDRARN.phl[214]";
-connectAttr "nurbsCircle10_rotateZ.o" "HYDRARN.phl[215]";
-connectAttr "nurbsCircle10_visibility.o" "HYDRARN.phl[216]";
-connectAttr "nurbsCircle9_rotateX.o" "HYDRARN.phl[217]";
-connectAttr "nurbsCircle9_rotateY.o" "HYDRARN.phl[218]";
-connectAttr "nurbsCircle9_rotateZ.o" "HYDRARN.phl[219]";
-connectAttr "nurbsCircle9_visibility.o" "HYDRARN.phl[220]";
-connectAttr "nurbsCircle8_rotateX.o" "HYDRARN.phl[221]";
-connectAttr "nurbsCircle8_rotateY.o" "HYDRARN.phl[222]";
-connectAttr "nurbsCircle8_rotateZ.o" "HYDRARN.phl[223]";
-connectAttr "nurbsCircle8_visibility.o" "HYDRARN.phl[224]";
-connectAttr "nurbsCircle26_translateX.o" "HYDRARN.phl[225]";
-connectAttr "nurbsCircle26_translateY.o" "HYDRARN.phl[226]";
-connectAttr "nurbsCircle26_translateZ.o" "HYDRARN.phl[227]";
-connectAttr "nurbsCircle26_rotateX.o" "HYDRARN.phl[228]";
-connectAttr "nurbsCircle26_rotateY.o" "HYDRARN.phl[229]";
-connectAttr "nurbsCircle26_rotateZ.o" "HYDRARN.phl[230]";
-connectAttr "nurbsCircle26_visibility.o" "HYDRARN.phl[231]";
-connectAttr "locator2_translateX.o" "HYDRARN.phl[232]";
-connectAttr "locator2_translateY.o" "HYDRARN.phl[233]";
-connectAttr "locator2_translateZ.o" "HYDRARN.phl[234]";
-connectAttr "locator2_visibility.o" "HYDRARN.phl[235]";
-connectAttr "nurbsCircle33_rotateX.o" "HYDRARN.phl[236]";
-connectAttr "nurbsCircle33_rotateY.o" "HYDRARN.phl[237]";
-connectAttr "nurbsCircle33_rotateZ.o" "HYDRARN.phl[238]";
-connectAttr "nurbsCircle33_visibility.o" "HYDRARN.phl[239]";
-connectAttr "nurbsCircle31_rotateX.o" "HYDRARN.phl[240]";
-connectAttr "nurbsCircle31_rotateY.o" "HYDRARN.phl[241]";
-connectAttr "nurbsCircle31_rotateZ.o" "HYDRARN.phl[242]";
-connectAttr "nurbsCircle31_visibility.o" "HYDRARN.phl[243]";
-connectAttr "nurbsCircle30_rotateX.o" "HYDRARN.phl[244]";
-connectAttr "nurbsCircle30_rotateY.o" "HYDRARN.phl[245]";
-connectAttr "nurbsCircle30_rotateZ.o" "HYDRARN.phl[246]";
-connectAttr "nurbsCircle30_visibility.o" "HYDRARN.phl[247]";
-connectAttr "nurbsCircle29_rotateX.o" "HYDRARN.phl[248]";
-connectAttr "nurbsCircle29_rotateY.o" "HYDRARN.phl[249]";
-connectAttr "nurbsCircle29_rotateZ.o" "HYDRARN.phl[250]";
-connectAttr "nurbsCircle29_visibility.o" "HYDRARN.phl[251]";
-connectAttr "nurbsCircle2_translateX.o" "HYDRARN.phl[252]";
-connectAttr "nurbsCircle2_translateY.o" "HYDRARN.phl[253]";
-connectAttr "nurbsCircle2_translateZ.o" "HYDRARN.phl[254]";
-connectAttr "nurbsCircle2_rotateX.o" "HYDRARN.phl[255]";
-connectAttr "nurbsCircle2_rotateY.o" "HYDRARN.phl[256]";
-connectAttr "nurbsCircle2_rotateZ.o" "HYDRARN.phl[257]";
-connectAttr "nurbsCircle2_visibility.o" "HYDRARN.phl[258]";
-connectAttr "locator1_translateX.o" "HYDRARN.phl[259]";
-connectAttr "locator1_translateY.o" "HYDRARN.phl[260]";
-connectAttr "locator1_translateZ.o" "HYDRARN.phl[261]";
-connectAttr "locator1_visibility.o" "HYDRARN.phl[262]";
-connectAttr "nurbsCircle27_rotateX.o" "HYDRARN.phl[263]";
-connectAttr "nurbsCircle27_rotateY.o" "HYDRARN.phl[264]";
-connectAttr "nurbsCircle27_rotateZ.o" "HYDRARN.phl[265]";
-connectAttr "nurbsCircle27_visibility.o" "HYDRARN.phl[266]";
-connectAttr "nurbsCircle28_rotateX.o" "HYDRARN.phl[267]";
-connectAttr "nurbsCircle28_rotateY.o" "HYDRARN.phl[268]";
-connectAttr "nurbsCircle28_rotateZ.o" "HYDRARN.phl[269]";
-connectAttr "nurbsCircle28_visibility.o" "HYDRARN.phl[270]";
-connectAttr "nurbsCircle3_rotateX.o" "HYDRARN.phl[271]";
-connectAttr "nurbsCircle3_rotateY.o" "HYDRARN.phl[272]";
-connectAttr "nurbsCircle3_rotateZ.o" "HYDRARN.phl[273]";
-connectAttr "nurbsCircle3_visibility.o" "HYDRARN.phl[274]";
-connectAttr "nurbsCircle32_rotateX.o" "HYDRARN.phl[275]";
-connectAttr "nurbsCircle32_rotateY.o" "HYDRARN.phl[276]";
-connectAttr "nurbsCircle32_rotateZ.o" "HYDRARN.phl[277]";
-connectAttr "nurbsCircle32_visibility.o" "HYDRARN.phl[278]";
+connectAttr "nurbsCircle20_rotateX2.o" "HYDRARN.phl[166]";
+connectAttr "nurbsCircle12_rotateX.o" "HYDRARN.phl[167]";
+connectAttr "nurbsCircle12_rotateY.o" "HYDRARN.phl[168]";
+connectAttr "nurbsCircle12_rotateZ.o" "HYDRARN.phl[169]";
+connectAttr "nurbsCircle12_visibility.o" "HYDRARN.phl[170]";
+connectAttr "nurbsCircle4_rotateX.o" "HYDRARN.phl[171]";
+connectAttr "nurbsCircle4_rotateY.o" "HYDRARN.phl[172]";
+connectAttr "nurbsCircle4_rotateZ.o" "HYDRARN.phl[173]";
+connectAttr "nurbsCircle4_visibility.o" "HYDRARN.phl[174]";
+connectAttr "nurbsCircle5_visibility.o" "HYDRARN.phl[175]";
+connectAttr "nurbsCircle5_rotateX.o" "HYDRARN.phl[176]";
+connectAttr "nurbsCircle5_rotateY.o" "HYDRARN.phl[177]";
+connectAttr "nurbsCircle5_rotateZ.o" "HYDRARN.phl[178]";
+connectAttr "nurbsCircle6_rotateY.o" "HYDRARN.phl[179]";
+connectAttr "nurbsCircle6_rotateX.o" "HYDRARN.phl[180]";
+connectAttr "nurbsCircle6_rotateZ.o" "HYDRARN.phl[181]";
+connectAttr "nurbsCircle6_visibility.o" "HYDRARN.phl[182]";
+connectAttr "nurbsCircle7_rotateY.o" "HYDRARN.phl[183]";
+connectAttr "nurbsCircle7_rotateX.o" "HYDRARN.phl[184]";
+connectAttr "nurbsCircle7_rotateZ.o" "HYDRARN.phl[185]";
+connectAttr "nurbsCircle7_visibility.o" "HYDRARN.phl[186]";
+connectAttr "nurbsCircle36_rotateX.o" "HYDRARN.phl[187]";
+connectAttr "nurbsCircle36_rotateY.o" "HYDRARN.phl[188]";
+connectAttr "nurbsCircle36_rotateZ.o" "HYDRARN.phl[189]";
+connectAttr "nurbsCircle36_visibility.o" "HYDRARN.phl[190]";
+connectAttr "nurbsCircle5_rotateX1.o" "HYDRARN.phl[191]";
+connectAttr "nurbsCircle5_rotateY1.o" "HYDRARN.phl[192]";
+connectAttr "nurbsCircle5_rotateZ1.o" "HYDRARN.phl[193]";
+connectAttr "nurbsCircle5_visibility1.o" "HYDRARN.phl[194]";
+connectAttr "nurbsCircle6_rotateX1.o" "HYDRARN.phl[195]";
+connectAttr "nurbsCircle6_rotateY1.o" "HYDRARN.phl[196]";
+connectAttr "nurbsCircle6_rotateZ1.o" "HYDRARN.phl[197]";
+connectAttr "nurbsCircle6_visibility1.o" "HYDRARN.phl[198]";
+connectAttr "nurbsCircle7_rotateX1.o" "HYDRARN.phl[199]";
+connectAttr "nurbsCircle7_rotateY1.o" "HYDRARN.phl[200]";
+connectAttr "nurbsCircle7_rotateZ1.o" "HYDRARN.phl[201]";
+connectAttr "nurbsCircle7_visibility1.o" "HYDRARN.phl[202]";
+connectAttr "nurbsCircle11_rotateX.o" "HYDRARN.phl[203]";
+connectAttr "nurbsCircle11_rotateY.o" "HYDRARN.phl[204]";
+connectAttr "nurbsCircle11_rotateZ.o" "HYDRARN.phl[205]";
+connectAttr "nurbsCircle11_visibility.o" "HYDRARN.phl[206]";
+connectAttr "nurbsCircle10_rotateX.o" "HYDRARN.phl[207]";
+connectAttr "nurbsCircle10_rotateY.o" "HYDRARN.phl[208]";
+connectAttr "nurbsCircle10_rotateZ.o" "HYDRARN.phl[209]";
+connectAttr "nurbsCircle10_visibility.o" "HYDRARN.phl[210]";
+connectAttr "nurbsCircle9_rotateX.o" "HYDRARN.phl[211]";
+connectAttr "nurbsCircle9_rotateY.o" "HYDRARN.phl[212]";
+connectAttr "nurbsCircle9_rotateZ.o" "HYDRARN.phl[213]";
+connectAttr "nurbsCircle9_visibility.o" "HYDRARN.phl[214]";
+connectAttr "nurbsCircle8_rotateX.o" "HYDRARN.phl[215]";
+connectAttr "nurbsCircle8_rotateY.o" "HYDRARN.phl[216]";
+connectAttr "nurbsCircle8_rotateZ.o" "HYDRARN.phl[217]";
+connectAttr "nurbsCircle8_visibility.o" "HYDRARN.phl[218]";
+connectAttr "nurbsCircle26_translateX.o" "HYDRARN.phl[219]";
+connectAttr "nurbsCircle26_translateY.o" "HYDRARN.phl[220]";
+connectAttr "nurbsCircle26_translateZ.o" "HYDRARN.phl[221]";
+connectAttr "nurbsCircle26_rotateX.o" "HYDRARN.phl[222]";
+connectAttr "nurbsCircle26_rotateY.o" "HYDRARN.phl[223]";
+connectAttr "nurbsCircle26_rotateZ.o" "HYDRARN.phl[224]";
+connectAttr "nurbsCircle26_visibility.o" "HYDRARN.phl[225]";
+connectAttr "locator2_translateX.o" "HYDRARN.phl[226]";
+connectAttr "locator2_translateY.o" "HYDRARN.phl[227]";
+connectAttr "locator2_translateZ.o" "HYDRARN.phl[228]";
+connectAttr "locator2_visibility.o" "HYDRARN.phl[229]";
+connectAttr "nurbsCircle33_rotateX.o" "HYDRARN.phl[230]";
+connectAttr "nurbsCircle33_rotateY.o" "HYDRARN.phl[231]";
+connectAttr "nurbsCircle33_rotateZ.o" "HYDRARN.phl[232]";
+connectAttr "nurbsCircle33_visibility.o" "HYDRARN.phl[233]";
+connectAttr "nurbsCircle31_rotateX.o" "HYDRARN.phl[234]";
+connectAttr "nurbsCircle31_rotateY.o" "HYDRARN.phl[235]";
+connectAttr "nurbsCircle31_rotateZ.o" "HYDRARN.phl[236]";
+connectAttr "nurbsCircle31_visibility.o" "HYDRARN.phl[237]";
+connectAttr "nurbsCircle30_rotateX.o" "HYDRARN.phl[238]";
+connectAttr "nurbsCircle30_rotateY.o" "HYDRARN.phl[239]";
+connectAttr "nurbsCircle30_rotateZ.o" "HYDRARN.phl[240]";
+connectAttr "nurbsCircle30_visibility.o" "HYDRARN.phl[241]";
+connectAttr "nurbsCircle29_rotateX.o" "HYDRARN.phl[242]";
+connectAttr "nurbsCircle29_rotateY.o" "HYDRARN.phl[243]";
+connectAttr "nurbsCircle29_rotateZ.o" "HYDRARN.phl[244]";
+connectAttr "nurbsCircle29_visibility.o" "HYDRARN.phl[245]";
+connectAttr "nurbsCircle2_translateX.o" "HYDRARN.phl[246]";
+connectAttr "nurbsCircle2_translateY.o" "HYDRARN.phl[247]";
+connectAttr "nurbsCircle2_translateZ.o" "HYDRARN.phl[248]";
+connectAttr "nurbsCircle2_rotateX.o" "HYDRARN.phl[249]";
+connectAttr "nurbsCircle2_rotateY.o" "HYDRARN.phl[250]";
+connectAttr "nurbsCircle2_rotateZ.o" "HYDRARN.phl[251]";
+connectAttr "nurbsCircle2_visibility.o" "HYDRARN.phl[252]";
+connectAttr "locator1_translateX.o" "HYDRARN.phl[253]";
+connectAttr "locator1_translateY.o" "HYDRARN.phl[254]";
+connectAttr "locator1_translateZ.o" "HYDRARN.phl[255]";
+connectAttr "locator1_visibility.o" "HYDRARN.phl[256]";
+connectAttr "nurbsCircle27_rotateX.o" "HYDRARN.phl[257]";
+connectAttr "nurbsCircle27_rotateY.o" "HYDRARN.phl[258]";
+connectAttr "nurbsCircle27_rotateZ.o" "HYDRARN.phl[259]";
+connectAttr "nurbsCircle27_visibility.o" "HYDRARN.phl[260]";
+connectAttr "nurbsCircle28_rotateX.o" "HYDRARN.phl[261]";
+connectAttr "nurbsCircle28_rotateY.o" "HYDRARN.phl[262]";
+connectAttr "nurbsCircle28_rotateZ.o" "HYDRARN.phl[263]";
+connectAttr "nurbsCircle28_visibility.o" "HYDRARN.phl[264]";
+connectAttr "nurbsCircle3_rotateX.o" "HYDRARN.phl[265]";
+connectAttr "nurbsCircle3_rotateY.o" "HYDRARN.phl[266]";
+connectAttr "nurbsCircle3_rotateZ.o" "HYDRARN.phl[267]";
+connectAttr "nurbsCircle3_visibility.o" "HYDRARN.phl[268]";
+connectAttr "nurbsCircle32_rotateX.o" "HYDRARN.phl[269]";
+connectAttr "nurbsCircle32_rotateY.o" "HYDRARN.phl[270]";
+connectAttr "nurbsCircle32_rotateZ.o" "HYDRARN.phl[271]";
+connectAttr "nurbsCircle32_visibility.o" "HYDRARN.phl[272]";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
@@ -2399,4 +2347,4 @@ connectAttr "nurbsCircle34_rotateY1.o" "HYDRARN.phl[95]";
 connectAttr "nurbsCircle34_rotateZ1.o" "HYDRARN.phl[96]";
 connectAttr "nurbsCircle34_visibility1.o" "HYDRARN.phl[97]";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-// End of HYDRA_Spit_Attack_Left_Head.ma
+// End of HYDRA_Spit_Attack_Right_Head.ma
