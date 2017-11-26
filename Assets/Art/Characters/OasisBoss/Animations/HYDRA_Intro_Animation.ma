@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
 //Name: HYDRA_Intro_Animation.ma
-//Last modified: Thu, Nov 16, 2017 09:52:41 AM
+//Last modified: Wed, Nov 22, 2017 11:00:41 PM
 //Codeset: 1252
 file -rdi 1 -ns ":" -rfn "HYDRARN" -op "VERS|2016|UVER|undef|MADE|undef|CHNG|Fri, Nov 10, 2017 11:22:59 AM|ICON|undef|INFO|undef|OBJN|1061|INCL|D:/ProjectBossFight/Assets/Art/Characters/OasisBoss/Rig/HydraMovement.mb(|LUNI|ft|TUNI|film|AUNI|deg|"
 		 -typ "mayaBinary" "C:/Users/kudza/Documents/GitHub/ProjectBossFight/Assets/Art/Characters/OasisBoss/Rig/HYDRA.mb";
@@ -23,13 +23,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "4DCE72D2-4844-806F-7119-1DAC071B723E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1195.76174827313 679.21190313309887 281.95057172195897 ;
-	setAttr ".r" -type "double3" -17.138352729455598 1836.9999999988324 0 ;
+	setAttr ".t" -type "double3" 1210.2847400849757 374.85616692809242 1549.4501362682588 ;
+	setAttr ".r" -type "double3" -6.3383527294557194 1832.599999998828 2.359595251851159e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7F272BC6-4991-4D5F-487B-EE94E91B8407";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 1888.6664499996177;
+	setAttr ".coi" 2385.8926595267521;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -99,15 +99,15 @@ createNode camera -n "leftShape" -p "left";
 	setAttr ".hc" -type "string" "viewSet -ls %camera";
 	setAttr ".o" yes;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "62C56FBC-4501-E57C-212D-A1B4B7028481";
+	rename -uid "E3D13912-42DD-071E-EFD9-328C234E1E41";
 	setAttr -s 6 ".lnk";
 	setAttr -s 6 ".slnk";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "F3E2A86F-42A4-E98E-B511-21BD2A9483D9";
+	rename -uid "65F8768A-49B4-95A7-3E07-FFAC0C919415";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "0B998399-4406-BF95-BA07-7EAD3C03E478";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "B6732BC9-4BC1-A104-7E49-E2BB57B02863";
+	rename -uid "91D13F5E-43A9-0830-05E0-62A2E9CAAC62";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "1D54FD25-4625-FDFD-CC12-18808B5662BF";
 	setAttr ".g" yes;
@@ -409,8 +409,7 @@ createNode reference -n "HYDRARN";
 		"HydraMovementRN" 0
 		"HYDRARN" 475
 		2 "|nurbsCircle1" "visibility" " -av 1"
-		2 "|nurbsCircle1" "translate" " -type \"double3\" 0 0 -1300.6166252458097"
-		
+		2 "|nurbsCircle1" "translate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1" "translateX" " -av"
 		2 "|nurbsCircle1" "translateY" " -av"
 		2 "|nurbsCircle1" "translateZ" " -av"
@@ -419,12 +418,12 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1" "rotateY" " -av"
 		2 "|nurbsCircle1" "rotateZ" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "visibility" " -av 1"
-		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "translate" " -type \"double3\" 0 -21.661531923377172 0"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "translate" " -type \"double3\" 0 0 0"
 		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "translateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "translateY" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "translateZ" " -av"
-		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "rotate" " -type \"double3\" -3.2516310628506058 0 0"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "rotate" " -type \"double3\" 0 0 0"
 		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1" "rotateY" " -av"
@@ -440,7 +439,7 @@ createNode reference -n "HYDRARN";
 		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13" "visibility" 
 		" -av 1"
-		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13" "rotate" " -type \"double3\" 20.57851331486323 0 0"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13" "rotate" " -type \"double3\" 0 0 0"
 		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13" "rotateX" 
 		" -av"
@@ -451,7 +450,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14" 
-		"rotate" " -type \"double3\" 15.918709041676792 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14" 
@@ -461,8 +460,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15" 
-		"rotate" " -type \"double3\" 10.249291867686477 7.3970508784942748 2.638230645554084"
-		
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15" 
@@ -472,7 +470,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16" 
-		"rotate" " -type \"double3\" -32.499909559811051 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16" 
@@ -482,7 +480,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17" 
-		"rotate" " -type \"double3\" -32.499909559811051 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17" 
@@ -492,7 +490,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18" 
-		"rotate" " -type \"double3\" -35.194182435044837 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18" 
@@ -502,7 +500,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19" 
-		"rotate" " -type \"double3\" 1.570196592820327 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19" 
@@ -512,7 +510,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19|nurbsCircle20" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19|nurbsCircle20" 
-		"rotate" " -type \"double3\" 26.288434277433826 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19|nurbsCircle20" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group8|nurbsCircle16|group9|nurbsCircle17|group10|nurbsCircle18|group11|nurbsCircle19|nurbsCircle20" 
@@ -532,7 +530,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21" 
-		"rotate" " -type \"double3\" -34.999939031671509 0 0"
+		"rotate" " -type \"double3\" 0.19538796012605558 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21" 
@@ -542,7 +540,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22" 
-		"rotate" " -type \"double3\" -34.999939031671509 0 0"
+		"rotate" " -type \"double3\" 0.19538796012605558 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22" 
@@ -552,7 +550,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23" 
-		"rotate" " -type \"double3\" -34.999939031671509 0 0"
+		"rotate" " -type \"double3\" 0.19538796012605558 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23" 
@@ -562,7 +560,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24" 
-		"rotate" " -type \"double3\" -8.1704100682957801 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24" 
@@ -572,7 +570,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25" 
-		"rotate" " -type \"double3\" 26.288434277433826 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group12|nurbsCircle21|group13|nurbsCircle22|group14|nurbsCircle23|group15|nurbsCircle24|nurbsCircle25" 
@@ -582,7 +580,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35" 
-		"rotate" " -type \"double3\" -34.38588960053626 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35" 
@@ -592,7 +590,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17" 
-		"rotate" " -type \"double3\" -34.38588960053626 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17" 
@@ -602,7 +600,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18" 
-		"rotate" " -type \"double3\" -34.38588960053626 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18" 
@@ -612,7 +610,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19" 
-		"rotate" " -type \"double3\" -1.0285105930725975 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19" 
@@ -622,7 +620,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20" 
-		"rotate" " -type \"double3\" 26.288434277433826 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle13|nurbsCircle14|nurbsCircle15|group16|nurbsCircle35|group17|nurbsCircle17|group18|nurbsCircle18|group19|nurbsCircle19|nurbsCircle20" 
@@ -641,7 +639,7 @@ createNode reference -n "HYDRARN";
 		"rotateZ" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12" "visibility" 
 		" -av 1"
-		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12" "rotate" " -type \"double3\" -1.1370582473207249 0 0"
+		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12" "rotate" " -type \"double3\" 0 0 0"
 		
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12" "rotateX" 
 		" -av"
@@ -738,7 +736,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11" 
-		"rotate" " -type \"double3\" 23.791895776638857 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11" 
@@ -748,7 +746,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10" 
-		"rotate" " -type \"double3\" 0.52309624213361694 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10" 
@@ -758,7 +756,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9" 
-		"rotate" " -type \"double3\" 12.353948100063677 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9" 
@@ -768,7 +766,7 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8" 
 		"visibility" " -av 1"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8" 
-		"rotate" " -type \"double3\" 13.273284187406338 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8" 
 		"rotateX" " -av"
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8" 
@@ -776,13 +774,11 @@ createNode reference -n "HYDRARN";
 		2 "|nurbsCircle1|leftnurbsSquare1attachedCurve1|nurbsCircle12|group5|nurbsCircle11|group6|nurbsCircle10|group7|nurbsCircle9|group4|nurbsCircle8" 
 		"rotateZ" " -av"
 		2 "|group3|nurbsCircle26" "visibility" " -av 1"
-		2 "|group3|nurbsCircle26" "translate" " -type \"double3\" -23.398082729891993 -37.987895124774774 -13.417106739554661"
-		
+		2 "|group3|nurbsCircle26" "translate" " -type \"double3\" 0 0 0"
 		2 "|group3|nurbsCircle26" "translateX" " -av"
 		2 "|group3|nurbsCircle26" "translateY" " -av"
 		2 "|group3|nurbsCircle26" "translateZ" " -av"
-		2 "|group3|nurbsCircle26" "rotate" " -type \"double3\" 41.367312493408257 0 0"
-		
+		2 "|group3|nurbsCircle26" "rotate" " -type \"double3\" 0 0 0"
 		2 "|group3|nurbsCircle26" "rotateX" " -av"
 		2 "|group3|nurbsCircle26" "rotateY" " -av"
 		2 "|group3|nurbsCircle26" "rotateZ" " -av"
@@ -791,7 +787,7 @@ createNode reference -n "HYDRARN";
 		2 "|group3|nurbsCircle26" "scalePivot" " -type \"double3\" -60.456826679619084 0 95.186665388137939"
 		
 		2 "|group3|nurbsCircle26|locator2" "visibility" " -av 1"
-		2 "|group3|nurbsCircle26|locator2" "translate" " -type \"double3\" -96.13862601926192 1.1321534628773264 -70.342592119121548"
+		2 "|group3|nurbsCircle26|locator2" "translate" " -type \"double3\" -35.988382099703273 -54.482428604091197 1.0438522316721548"
 		
 		2 "|group3|nurbsCircle26|locator2" "translateX" " -av"
 		2 "|group3|nurbsCircle26|locator2" "translateY" " -av"
@@ -827,13 +823,11 @@ createNode reference -n "HYDRARN";
 		2 "|group3|nurbsCircle26|nurbsCircle29" "rotateY" " -av"
 		2 "|group3|nurbsCircle26|nurbsCircle29" "rotateZ" " -av"
 		2 "|group3|nurbsCircle2" "visibility" " -av 1"
-		2 "|group3|nurbsCircle2" "translate" " -type \"double3\" 24.356375904242825 -18.53339529504035 -36.366733263682519"
-		
+		2 "|group3|nurbsCircle2" "translate" " -type \"double3\" 0 0 0"
 		2 "|group3|nurbsCircle2" "translateX" " -av"
 		2 "|group3|nurbsCircle2" "translateY" " -av"
 		2 "|group3|nurbsCircle2" "translateZ" " -av"
-		2 "|group3|nurbsCircle2" "rotate" " -type \"double3\" 40.684203464729656 0 0"
-		
+		2 "|group3|nurbsCircle2" "rotate" " -type \"double3\" 0 0 0"
 		2 "|group3|nurbsCircle2" "rotateX" " -av"
 		2 "|group3|nurbsCircle2" "rotateY" " -av"
 		2 "|group3|nurbsCircle2" "rotateZ" " -av"
@@ -842,7 +836,7 @@ createNode reference -n "HYDRARN";
 		2 "|group3|nurbsCircle2" "scalePivot" " -type \"double3\" 60.456775199999996 0 95.186607424285484"
 		
 		2 "|group3|nurbsCircle2|locator1" "visibility" " -av 1"
-		2 "|group3|nurbsCircle2|locator1" "translate" " -type \"double3\" 70.230175037838009 -51.761268015909302 -38.503042581169645"
+		2 "|group3|nurbsCircle2|locator1" "translate" " -type \"double3\" 67.040764590506299 -84.234123126939139 -74.874508040980857"
 		
 		2 "|group3|nurbsCircle2|locator1" "translateX" " -av"
 		2 "|group3|nurbsCircle2|locator1" "translateY" " -av"
@@ -878,7 +872,7 @@ createNode reference -n "HYDRARN";
 		2 "|group3|nurbsCircle2|nurbsCircle32" "rotateY" " -av"
 		2 "|group3|nurbsCircle2|nurbsCircle32" "rotateZ" " -av"
 		2 "Bones" "visibility" " 0"
-		2 "Controls" "visibility" " 1"
+		2 "Controls" "visibility" " 0"
 		2 "DONTOUCH" "visibility" " 0"
 		5 4 "HYDRARN" "|nurbsCircle1.translateX" "HYDRARN.placeHolderList[98]" 
 		""
@@ -1308,10 +1302,10 @@ createNode script -n "uiConfigurationScriptNode1";
 		+ "\t\t\t$editorName = $panelName;\n            modelEditor -e \n                -camera \"front\" \n                -useInteractiveMode 0\n                -displayLights \"default\" \n                -displayAppearance \"smoothShaded\" \n                -activeOnly 0\n                -ignorePanZoom 0\n                -wireframeOnShaded 0\n                -headsUpDisplay 1\n                -holdOuts 1\n                -selectionHiliteDisplay 1\n                -useDefaultMaterial 0\n                -bufferMode \"double\" \n                -twoSidedLighting 0\n                -backfaceCulling 0\n                -xray 0\n                -jointXray 0\n                -activeComponentsXray 0\n                -displayTextures 0\n                -smoothWireframe 0\n                -lineWidth 1\n                -textureAnisotropic 0\n                -textureHilight 1\n                -textureSampling 2\n                -textureDisplay \"modulate\" \n                -textureMaxSize 16384\n                -fogging 0\n                -fogSource \"fragment\" \n                -fogMode \"linear\" \n"
 		+ "                -fogStart 0\n                -fogEnd 100\n                -fogDensity 0.1\n                -fogColor 0.5 0.5 0.5 1 \n                -depthOfFieldPreview 1\n                -maxConstantTransparency 1\n                -rendererName \"vp2Renderer\" \n                -objectFilterShowInHUD 1\n                -isFiltered 0\n                -colorResolution 256 256 \n                -bumpResolution 512 512 \n                -textureCompression 0\n                -transparencyAlgorithm \"frontAndBackCull\" \n                -transpInShadows 0\n                -cullingOverride \"none\" \n                -lowQualityLighting 0\n                -maximumNumHardwareLights 1\n                -occlusionCulling 0\n                -shadingModel 0\n                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -nurbsCurves 1\n"
 		+ "                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 0\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n"
-		+ "                -width 810\n                -height 334\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n            modelEditor -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"front\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n"
+		+ "                -width 0\n                -height 713\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n            modelEditor -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"front\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n"
 		+ "            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n"
 		+ "            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 0\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n"
-		+ "            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 810\n            -height 334\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `modelPanel -unParent -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            modelEditor -e \n                -camera \"persp\" \n                -useInteractiveMode 0\n                -displayLights \"default\" \n                -displayAppearance \"smoothShaded\" \n                -activeOnly 0\n                -ignorePanZoom 0\n                -wireframeOnShaded 0\n                -headsUpDisplay 1\n"
+		+ "            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 0\n            -height 713\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `modelPanel -unParent -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            modelEditor -e \n                -camera \"persp\" \n                -useInteractiveMode 0\n                -displayLights \"default\" \n                -displayAppearance \"smoothShaded\" \n                -activeOnly 0\n                -ignorePanZoom 0\n                -wireframeOnShaded 0\n                -headsUpDisplay 1\n"
 		+ "                -holdOuts 1\n                -selectionHiliteDisplay 1\n                -useDefaultMaterial 0\n                -bufferMode \"double\" \n                -twoSidedLighting 0\n                -backfaceCulling 0\n                -xray 0\n                -jointXray 0\n                -activeComponentsXray 0\n                -displayTextures 0\n                -smoothWireframe 0\n                -lineWidth 1\n                -textureAnisotropic 0\n                -textureHilight 1\n                -textureSampling 2\n                -textureDisplay \"modulate\" \n                -textureMaxSize 16384\n                -fogging 0\n                -fogSource \"fragment\" \n                -fogMode \"linear\" \n                -fogStart 0\n                -fogEnd 100\n                -fogDensity 0.1\n                -fogColor 0.5 0.5 0.5 1 \n                -depthOfFieldPreview 1\n                -maxConstantTransparency 1\n                -rendererName \"vp2Renderer\" \n                -objectFilterShowInHUD 1\n                -isFiltered 0\n"
 		+ "                -colorResolution 256 256 \n                -bumpResolution 512 512 \n                -textureCompression 0\n                -transparencyAlgorithm \"frontAndBackCull\" \n                -transpInShadows 0\n                -cullingOverride \"none\" \n                -lowQualityLighting 0\n                -maximumNumHardwareLights 1\n                -occlusionCulling 0\n                -shadingModel 0\n                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n"
 		+ "                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 1626\n                -height 713\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n            modelEditor -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName;\n\t\t}\n\t} else {\n"
@@ -3011,8 +3005,8 @@ select -ne :time1;
 	setAttr -cb on ".ihi";
 	setAttr -av -k on ".nds";
 	setAttr -cb on ".bnm";
-	setAttr -k on ".o" 24;
-	setAttr -av ".unw" 24;
+	setAttr -k on ".o" 201;
+	setAttr -av ".unw" 201;
 	setAttr -k on ".etw";
 	setAttr -k on ".tps";
 	setAttr -k on ".tms";
@@ -3101,6 +3095,8 @@ select -ne :initialParticleSE;
 	setAttr -cb on ".mica";
 	setAttr -av -cb on ".micw";
 	setAttr -cb on ".mirw";
+select -ne :defaultRenderGlobals;
+	setAttr ".mcfr" 30;
 select -ne :defaultResolution;
 	setAttr -av -k on ".cch";
 	setAttr -k on ".ihi";
@@ -3148,7 +3144,7 @@ select -ne :hardwareRenderGlobals;
 	setAttr -k on ".hwcc";
 	setAttr -k on ".hwdp";
 	setAttr -k on ".hwql";
-	setAttr -k on ".hwfr";
+	setAttr -k on ".hwfr" 30;
 	setAttr -k on ".soll";
 	setAttr -k on ".sosl";
 	setAttr -k on ".bswa";
